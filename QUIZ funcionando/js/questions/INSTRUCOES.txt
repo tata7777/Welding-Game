@@ -1,0 +1,39 @@
+1 - Para cada arquivo de questões, faça uma copia desse arquivo
+
+2 - Nomeie o arquivo com um en no final. Por ex, questions1.js vira questions1en.js
+
+3 - Dentro do arquivo, na primeira linha você vai encontrar algo como 
+
+    const quizQuestions1 = [
+
+    Renomeie quizQuestions1 com um en no final, ficando:
+
+    const quizQuestions1en = [
+
+4 - Agora para cada frase você coloca a tradução dela
+
+5 - Além disso, vamos adicionar a disciplina (subject) de cada pergunta. 
+
+    Para isso, logo depois de correctAnswer: "0" coloque uma virgula e na linha 
+    de baixo coloque subject: "0" substituindo o 0 pela disciplina desejada.
+
+    Então, 
+
+    correctAnswer: "0"
+
+    vira:
+
+    correctAnswer: "0",
+    subject: "0"
+
+    Para separar as perguntas, definimos cada numero como sendo uma materia. Exemplo:
+
+    0 - Portugues
+    1 - Matematica
+    2 - Ciencias
+    3 - Geografia
+
+    Escolha essa definição de forma que faça sentido para o seu problema e use os mesmos numeros sempre.
+
+6 - Tenta fazer um arquivo e me manda pra dar uma olhada. É muito importante que a estrutura seja mantida.
+    Nessa fase é melhor que ainda não adicione novas perguntas...
