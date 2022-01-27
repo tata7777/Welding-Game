@@ -17,10 +17,10 @@
 }
 
 #folhaLouro {
-    width: 160px;
+    width: 173px;
     height: 95px;
     position: absolute;
-    left: 120px;
+    left: 187px;
     top: 510px;        
     background-image: url('../img/folha-de-louro.png');
     background-size: contain;
@@ -506,19 +506,30 @@
 
 #credits {
     width: 1100px;
-    height: 50px;
     top: 500px;
     position: relative;
     text-align: right;
-    font-size: 17px;
     margin: auto;
+    
 }
+
+  #location {
+    width: 1100px;
+    position: absolute;
+    top: 37px;
+    left: 75px;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
     #c-image1 {
         width: 150px;
         height: 35px;
         position: absolute;
-        left: -20px;
-        top: 20px;        
+        left: -23px;
+        top: 25px;        
         background-image: url('../img/ufu.png');
         background-size: contain;
         background-repeat: no-repeat;
@@ -527,18 +538,18 @@
         width: 150px;
         height: 36px;
         position: absolute;
-        left: 250px;
-        top: 20px;        
+        left: 240px;
+        top: 25px;        
         background-image: url('../img/femec.png');
         background-size: contain;
         background-repeat: no-repeat;
     }
     #c-image3 {
-        width: 360px;
+        width: 364px;
         height: 62px;
         position: absolute;
-        left: 490px;
-        top: 10px;
+        left: 485px;
+        top: 13px;
         background-image: url('../img/logoLaprosolsa.png');
         background-size: contain;
         background-repeat: no-repeat;
