@@ -1,85 +1,33 @@
+﻿
 
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Quiz Da Soldagem">
+    <meta name="keywords" content="">
+    <meta name="author" content="Kauê Drigo & Felipe Chagas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link href="style/style.css" rel="stylesheet" />
+  <!--<script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <title>Welding Game</title>
     
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .box{
-            position: absolute;
-            top: 80px; /*posição do login na pagina*/
-            left: 55px;
-            background-color: gray;
-            padding: 15px; /*distancia da borda pra fora*/
-            border-radius: 15px; /*arredonda a borda*/
-        }
-        fieldset{
-            border: 3px solid;
-        }
-        legend{
-            border:1px solid;
-            padding: 10px;
-            text-align: center;
-            background-color: white;
-            border-radius: 8px;
-        }
-        .inputBox{
-            position: relative;
-        }
-        .inputUser{
-            font-size: 15px;
-            width:98%;
-            letter-spacing:2px;
-            border-radius: 5px;
-        }
-        #country{
-            border-radius: 5px;
-            font-size: 15px;
-
-        }
-        .labelInput{
-            position: absolute;
-            top:-17px;
-        }
-        #enviar{
-            background-color: white;
-            padding: 10px;
-            width:100%;
-            border-radius: 10px;
-            font-size: 15px;
-            cursor:pointer;
-            
-        }
-        #enviar:hover{
-            background-color: beige;
-        }
-
-        .login{  
-            position: relative;
-            left: 30%;
-        }
-        a{
-            font-size: 15px;
-            text-decoration: none;
-            color: white;
-        }
-        a:hover{
-            color:beige
-        }
-    </style>
+    <link href="style/style.css" rel="stylesheet" />
 </head>
+
 <body>
+    <!-- Título da página ou cabeçalho -->
+    <div id="page-name">
+        <h1>Discover your knowledge of welding!</h1>
+    </div>
+
+    <!--Caixa do Login-->
+    <!--Tentar depois tirar a tag de style daqui e colocar no style.css-->
     <div class="box">
-        <form action="formulario.php" method = "POST">
+        <form action="testLogin.php" method="POST">
             <fieldset>
-                <legend><b>Register</b></legend>
+                <legend><b>Login</b></legend>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="name" id="name" class="inputUser" required>
@@ -90,13 +38,130 @@
                     <input type="password" name="password" id="password" class="inputUser" required>
                     <label for="password" class="labelInput"><strong>Password</strong></label>
                 </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="institution" name="institution" id="institution" class="inputUser" required>
-                    <label for="institution" class="labelInput"><strong>Institution</strong></label>
+                <br>
+                <button type="submit" name="submit" id=enviar>Submit</button>
+                <div class="sigup">
+                    <br><strong>Don't have an account? </strong> <a href="registro.php">Sign Up</a>
                 </div>
-                <br><br>
-                <div style="width:80%" class="inputBox">
+            </fieldset>
+        </form>
+
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .box{
+                position: absolute;
+                top: 17%; /*posição do login na pagina*/
+                left: 8%;
+                background-color: gray;
+                padding: 15px; /*distancia da borda pra fora*/
+                border-radius: 15px; /*arredonda a borda*/
+            }
+            fieldset{
+                border: 3px solid;
+            }
+            legend{
+                border:1px solid;
+                padding: 10px;
+                text-align: center;
+                background-color: white;
+                border-radius: 8px;
+            }
+            .inputBox{
+                position: relative;
+            }
+            .inputUser{
+                font-size: 15px;
+                width:98%;
+                letter-spacing:2px;
+                border-radius: 5px;
+            }
+            #country{
+                border-radius: 5px;
+                font-size: 15px;
+            }
+            .labelInput{
+                position: absolute;
+                top:-17px;
+            }
+            #enviar{
+                background-color: white;
+                padding: 10px;
+                width:100%;
+                border-radius: 10px;
+                font-size: 15px;
+                cursor:pointer;
+            }
+            #enviar:hover{
+                background-color: beige;
+            }
+            .signup{  
+                position: relative;
+            }
+            a{
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color:beige
+            }
+        </style>
+
+    </div>
+
+    <div id="folhaLouro">
+    </div>
+
+    <div id="firstImage">
+    </div>
+
+    <!-- Divisão que contém as imagens do quiz -->
+    <div id="story-image">
+
+        <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
+        <!--
+        <form id="optionForm" target="dummyframe">
+            <div id="option-box">
+                <div style="width:100%">
+                    <h3>Language</h3>
+                    <input type="radio" id="pt" name="language" checked />
+                    <label for="pt">Português</label>
+
+                    <input type="radio" id="en" name="language" />
+                    <label for="en">English</label>
+                </div>
+
+                <div style="width:100%">
+                    <h3>Subject</h3>
+                    <input type="checkbox" id="processos" name="subject" checked />
+                    <label for="processos">Processes</label>
+
+                    <input type="checkbox" id="materiais" name="subject" checked />
+                    <label for="materiais">Materials</label>
+
+                    <input type="checkbox" id="projeto" name="subject" checked />
+                    <label for="projeto">Project</label>
+
+                    <input type="checkbox" id="fabricacao" name="subject" checked />
+                    <label for="fabricacao">Fabrication</label>
+                </div>
+
+                <div style="width:100%">
+                    <h3>Name</h3>
+                    <p id="nameError" >Nome não pode ser vazio</p>
+                    <input style="width: 100%" type="text" id="studentName" name="studentName" />
+                </div>
+
+                <div style="width:100%">
+                    <h3>Institution</h3>
+                    <p id="universityError" >Instituição não pode ser vazio</p>
+                    <input style="width: 100%" type="text" id="university" name="university" />
+                </div>
+
+                <div style="width:100%">
+                    <h3>Country</h3>
                     <select id="country" name="country">
                         <option value="Brazil">Brazil</option>                        
                         <option value="Afghanistan">Afghanistan</option>
@@ -343,80 +408,209 @@
                         <option value="Zambia">Zambia</option>
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
-                    <label for="country" class="labelInput"><strong>Country</strong></label>
+                        
                 </div>
-                <br>
-                <button type="submit" id=enviar>Sign Up</button>
-                
-                <div class="login">
-                    <br><strong>Already have an account? </strong> <a href="index.html">Log In</a>
-                </div>
-                
-            </fieldset>
+            </div>
         </form>
-    </div>
+    -->
 
-    <div id="page-name">
-        <h1>Discover your knowledge of welding!</h1>
-    </div>
     
-    <div id="folhaLouro">
+        <!-- Botão para iniciar o quiz COM contador de tempo -->
+        <!--  
+          <button id="consumivel" onclick="startCons()">TIMER 60s (ER)</button>
+        <br /> -->
+        <!-- Botão para iniciar o quiz SEM contador de tempo -->
+        <!--  <button id="nao-consumivel" onclick="startNaoCons()">NO TIMER (TIG)</button>
+        <br />
+        -->
+
+        <!-- botao HELP -->
+        <div class="center">
+            <input type="checkbox" id="click">
+            <label for="click" class="click-me">Help</label>
+            <div class="content">
+              <div class="header">
+                <h2>Help</h2>
+                <label for="click" class="fas fa-times"></label>
+              </div>
+              <div class="text">
+             <!-- <label for="click" class="fas fa-check"></label> -->
+              <p>INSTRUCTIONS<br><br>The game contains questions about welding in different difficulty levels, accessed progressively
+                as the player gets the quiz questions right. There are a total of 20 questions, with 4 alternatives of
+                answer each, but only one of them is correct. Any wrong answer ends the game.<br><br>Choose an alternative, and press ENTER to confirm the answer.<br><br>TIME 60s (ER: COATED ELECTRODE): Player has 60 seconds to respond
+                each question. If the time runs out, the game is ended, characterizing the player's defeat.<br><br>
+                UNLIMITED TIME (TIG): The time available to answer each question is unlimited.
+                Ideal game mode for studying.</p>
+               </div>
+              <div class="line"></div>
+              <label for="click" class="close-btn">Close</label>
+            </div> 
+          </div>
+        
+        <!--Botão Feedback-->
+        <div class="center2">
+            <input type="checkbox" id="click2">
+            <label for="click2" class="click-me2">Feedback</label>
+            <div class="content2">
+              <div class="header2">
+                <h2>Feedback</h2>
+                <label for="click2" class="fas fa-times"></label>
+              </div>
+             <!-- <label for="click" class="fas fa-check"></label> -->
+             <div class="text-feed">
+                 <p>If you have any problem, question or sugestion, feel free to contact us in:<br><br>welding.game@gmail.com.</p>
+            </div>
+              <div class="line2"></div>
+              <label for="click2" class="close-btn2">Close</label>
+            </div> 
+          </div>
+        
+        
+
+
+        <!-- Instruções do jogo -->
+        <div id="help-text">
+            <h2>INSTRUÇÕES</h2>
+
+            <p>&nbsp &nbsp &nbsp &nbsp O jogo contém perguntas sobre soldagem em diversos níveis de dificuldade, acessados progressivamente
+            à medida que o jogador acerta as perguntas do quiz. No total são 20 perguntas, com 4 alternativas de
+            resposta cada, mas apenas uma delas está correta. Qualquer resposta errada finaliza o jogo.</p>
+
+            <p>&nbsp &nbsp &nbsp &nbsp Escolha uma alternativa, e pressione ENTER para confirmar a resposta.</p>
+            
+            <p>&nbsp &nbsp &nbsp &nbsp TEMPO 60s (ER: ELETRODO REVESTIDO): O jogador tem 60 segundos para responder
+            cada pergunta. Caso o tempo se esgote, o jogo é finalizado, caracterizando derrota do jogador.</p>
+            
+            <p>&nbsp &nbsp &nbsp &nbsp TEMPO ILIMITADO (TIG): O tempo disponível para responder cada pergunta é ilimitado.
+            Modo de jogo ideal para estudar.</p>            
+        </div>
+
+        <!-- Personagem soldador -->
+        <div id="welder">
+        </div>
+
+        <!-- Personagem Darth Vader -->
+        <div id="darth-vader">
+        </div>
+        
+        <!-- Tempo restante para responder a pergunta, se houver -->
+        <div id="time">
+        </div>
+
+        <!-- Animação do tempo restante para responder a pergunta -->
+        <div id="time-animation">
+        </div>
+
+        <!-- Animação na ponta da tocha/eletrodo -->
+        <div id="spark">
+        </div>
+
+        <!-- Nome dos níveis -->
+        <div id="levels">
+            <div id="level_1">
+            </div>
+
+            <div id="level_2">
+            </div>
+
+            <div id="level_3">
+                
+            </div>
+
+            <div id="level_4">
+            </div>
+        </div>
+
+        <!-- Balão de fala do Darth Vader -->
+        <div id="dv-speech">
+        </div>
+
+        <!-- Balão de fala do Soldador -->
+        <div id="welder-speech">
+        </div>
+
     </div>
 
-    <div id="firstImage">
-    </div>
+    <!-- Área de comando do jogador -->
+    <div id="quiz-container">
+        <!-- Região das perguntas -->
+        <div id="quiz-questions">
+        </div>
 
-     <!-- Créditos -->
-     <div id="credits">
+        <!-- Região das respostas -->
+        <div id="quiz-answers">
+        </div>
+
+        <div id="credits2">
+            Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
+        </div>
+    </div>
+     
+    <!-- Créditos -->
+    <div id="credits">
         <br />
         <br />
-        <b>Brazil, Uberlandia - MG</b>
+        <div id="location">
+            BRAZIL, UBERLANDIA - MG
+        </div>
         <div id="c-image1"></div>
         <div id="c-image2"></div>
         <div id="c-image3"></div>
     </div>
 
-    <!-- botao HELP -->
-    <div class="center">
-        <input type="checkbox" id="click">
-        <label for="click" class="click-me">Help</label>
-        <div class="content">
-          <div class="header">
-            <h2>Help</h2>
-            <label for="click" class="fas fa-times"></label>
-          </div>
-          <div class="text">
-         <!-- <label for="click" class="fas fa-check"></label> -->
-          <p>INSTRUCTIONS<br><br>The game contains questions about welding in different difficulty levels, accessed progressively
-            as the player gets the quiz questions right. There are a total of 20 questions, with 4 alternatives of
-            answer each, but only one of them is correct. Any wrong answer ends the game.<br><br>Choose an alternative, and press ENTER to confirm the answer.<br><br>TIME 60s (ER: COATED ELECTRODE): Player has 60 seconds to respond
-            each question. If the time runs out, the game is ended, characterizing the player's defeat.<br><br>
-            UNLIMITED TIME (TIG): The time available to answer each question is unlimited.
-            Ideal game mode for studying.</p>
-           </div>
-          <div class="line"></div>
-          <label for="click" class="close-btn">Close</label>
-        </div> 
-      </div>
-    
-    <!--Botão Feedback-->
-    <div class="center2">
-        <input type="checkbox" id="click2">
-        <label for="click2" class="click-me2">Feedback</label>
-        <div class="content2">
-          <div class="header2">
-            <h2>Feedback</h2>
-            <label for="click2" class="fas fa-times"></label>
-          </div>
-         <!-- <label for="click" class="fas fa-check"></label> -->
-         <div class="text-feed">
-             <p>If you have any problem, question or sugestion, feel free to contact us in:<br><br>welding.game@gmail.com.</p>
-        </div>
-          <div class="line2"></div>
-          <label for="click2" class="close-btn2">Close</label>
-        </div> 
-      </div>
 
 
+    <!-- CARREGAMENTO DOS SCRIPTS -->
+    <script src="js/script.js"></script>
+    <script src="js/time_move.js"></script>
+    <script src="js/question_random.js"></script>
+    <script src="js/question_current.js"></script>
+    <script src="js/move_characters.js"></script>
+    <script src="js/speeches.js"></script>
+    <script src="js/finish.js"></script>
+    <script src="js/level_name.js"></script>
+
+    <script src="js/level.js"></script>
+    <script src="js/questions/questions1.js"></script>
+    <script src="js/questions/questions1en.js"></script>
+    <script src="js/questions/questions2.js"></script>
+    <script src="js/questions/questions2en.js"></script>
+    <script src="js/questions/questions3.js"></script>
+    <script src="js/questions/questions3en.js"></script>
+    <script src="js/questions/questions4.js"></script>
+    <script src="js/questions/questions4en.js"></script>
+    <script src="js/questions/questions5.js"></script>
+    <script src="js/questions/questions5en.js"></script>
+    <script src="js/questions/questions6.js"></script>
+    <script src="js/questions/questions6en.js"></script>
+    <script src="js/questions/questions7.js"></script>
+    <script src="js/questions/questions7en.js"></script>
+    <script src="js/questions/questions8.js"></script>
+    <script src="js/questions/questions8en.js"></script>
+    <script src="js/questions/questions9.js"></script>
+    <script src="js/questions/questions9en.js"></script>
+    <script src="js/questions/questions10.js"></script>
+    <script src="js/questions/questions10en.js"></script>
+    <script src="js/questions/questions11.js"></script>
+    <script src="js/questions/questions11en.js"></script>
+    <script src="js/questions/questions12.js"></script>
+    <script src="js/questions/questions12en.js"></script>
+    <script src="js/questions/questions13.js"></script>
+    <script src="js/questions/questions13en.js"></script>
+    <script src="js/questions/questions14.js"></script>
+    <script src="js/questions/questions14en.js"></script>
+    <script src="js/questions/questions15.js"></script>
+    <script src="js/questions/questions15en.js"></script>
+    <script src="js/questions/questions16.js"></script>
+    <script src="js/questions/questions16en.js"></script>
+    <script src="js/questions/questions17.js"></script>
+    <script src="js/questions/questions17en.js"></script>
+    <script src="js/questions/questions18.js"></script>
+    <script src="js/questions/questions18en.js"></script>
+    <script src="js/questions/questions19.js"></script>
+    <script src="js/questions/questions19en.js"></script>
+    <script src="js/questions/questions20.js"></script>
+    <script src="js/questions/questions20en.js"></script>
 </body>
-</html>                                                                             
+
+</html>
