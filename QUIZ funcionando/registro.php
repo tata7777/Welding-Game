@@ -107,6 +107,12 @@
                     <input type="institution" name="institution" id="institution" class="inputUser" required>
                     <label for="institution" class="labelInput"><strong>Institution</strong></label>
                 </div>
+                <p><strong>Language</strong></p>
+                <input type="radio" id="english" name="language" value="english" required>
+                 <label for="english">English</label>
+                 <input type="radio" id="portuguese" name="language" value="portugues" required>
+                 <label for="portuguese">Portuguese</label>
+                <br>
                 <br><br>
                 <div style="width:80%" class="inputBox">
                     <select id="country" name="country">
