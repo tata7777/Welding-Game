@@ -22,7 +22,7 @@ function conectabd()
     $error = (file_exists('scores.sqlite')) ? "Impossible to open, check permissions" : "Impossible to create, check permissions";
     die($error);
   }
-  $db->query("CREATE TABLE IF NOT EXISTS scores (name varchar(80), university varchar(80), country varchar(80), score integer)"); //colocar language tambem
+  $db->query("CREATE TABLE IF NOT EXISTS scores (name varchar(80), university varchar(80), country varchar(80), score integer)"); //colocar language e data tambem e o score deve começar com 0
   return $db;
 }
 
