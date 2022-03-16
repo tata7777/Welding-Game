@@ -378,9 +378,6 @@
         <h1>Discover your knowledge of welding!</h1>
     </div>
     
-    <div id="folhaLouro">
-    </div>
-
     <div id="firstImage">
     </div>
 
