@@ -39,8 +39,8 @@
         }
 
         #secondImage {
-            width:1400px;
-            height: 510px;
+            width:1300px;
+            height: 473px;
             position: absolute;
             top:140px;
             left: 0px;
@@ -51,8 +51,8 @@
             }
         
         #baloes{
-            width: 735px;;
-            height:454px;
+            width: 683px;;
+            height:422px;
             top: 70px;
             position: absolute;
             left: 220px;
@@ -64,16 +64,16 @@
         #subject{
             width: 100%;
             font-size:15px;
-            top: 350px;
-            left: 200px;
+            top: 320px;
+            left: 80px;
             position: absolute;
             font-weight: bold;
         }
         #type{
             width: 100%;
             font-size:15px;
-            top: 505px;
-            left: 200px;
+            top: 470px;
+            left: 80px;
             position: absolute;
             font-weight: bold;
         }
@@ -81,7 +81,7 @@
             padding:5px;
             width:5%;
             margin-top: 10px;
-            margin-left: 1350px;
+            margin-left: 1150px;
             border-radius: 100px;
             font-size: 15px;
             cursor:pointer;
