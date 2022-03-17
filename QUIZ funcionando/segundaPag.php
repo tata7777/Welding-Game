@@ -119,13 +119,13 @@
         </div>
         <div id="type" >
             <h3>Timer option</h3>
-            <input type="radio" id="comtempo" name="tipo" checked />
-            <label for="pt">Timer 60s</label> <br>
+            <input type="radio" id="comtempo" name="type" checked />
+            <label for="pt">60s</label> <br>
 
-            <input type="radio" id="semtempo" name="tipo" />
-            <label for="en">No Timer (TIG)</label>
+            <input type="radio" id="semtempo" name="type" />
+            <label for="en">Unlimited</label>
         </div>
-        <button id="comeca" onclick="startCons()">Start</button>
+        <button id="comeca" onclick="start()">Start</button>
     </body>
 
 </html>

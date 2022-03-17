@@ -15,15 +15,27 @@
     }
 
     return success;
+}//verificar se as coisas estão preenchidas
+
+function start(){
+    if(!validateFields()) return; //verificar se todos os itens estão preenchidos
+
+    var tipo =  document.getElementsByName('type'); //pegar o tipo de jogo escolhido
+
+    if(tipo[0].checked)
+        startNaoCons();// nao sei se é assim que chama a função
+    else
+        startNaoCons();// nao sei se é assim que chama a função
+
 }
 
 // Eletrodo não-consumível
 function startNaoCons() {
-    if(!validateFields()) return;
+    if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
 
-    var lingua = document.getElementsByName('language');
+    var lingua = document.getElementsByName('language'); //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
 
-    var subject = document.getElementsByName('subject');
+    var subject = document.getElementsByName('subject'); //esse já está certo e aliado com a segunda pagina
 
     var subjectValue = [];
     if(subject[0].checked) subjectValue.push(0);
@@ -38,10 +50,11 @@ function startNaoCons() {
     else
         quizStart(false,"en", subjectValue);
    
-    document.getElementById("time-animation").style.backgroundImage = "url('img/tocha-tig.png')";
+    document.getElementById("time-animation").style.backgroundImage = "url('img/tocha-tig.png')";//forma de mostrar o tempo
     document.getElementById("time-animation").style.webkitBackgroundSize = "cover";
 }
 
+// mesmos cometários acima
 // Eletrodo consumível
 function startCons() {
     if(!validateFields()) return;
@@ -67,23 +80,6 @@ function startCons() {
 }
 
 // Informações sobre o quiz
-function help() {
-    // Ajusta a posição dos botões
-    document.getElementById("consumivel").style.left = "665px";
-    document.getElementById("consumivel").style.top = "94px";
-    document.getElementById("nao-consumivel").style.left = "688px";
-    document.getElementById("nao-consumivel").style.top = "185px";
-    document.getElementById("help").style.left = "700px";
-    document.getElementById("help").style.top = "280px";
-    document.getElementById("help").disabled = true;                        // Desativa o botão "help"
-
-    document.getElementById("option-box").style.left = "850px";
-    document.getElementById("option-box").style.top = "64px";
-
-    document.getElementById("story-image").style.backgroundImage = "none";  // Retira a imagem de fundo
-    document.getElementById("help-text").style.display = "block";           // Mostra o texto (instruções)
-}
-
 var t = 60,                                                                 // Tempo para responder a pergunta
     time;                                                                   // Variável auxiliar de contagem de tempo
 var questionNumber = 1;                                                     // Armazena o número do nível
