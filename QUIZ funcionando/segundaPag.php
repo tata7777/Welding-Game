@@ -16,7 +16,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="Quiz Da Soldagem">
         <meta name="keywords" content="">
-        <meta name="author" content="Kauê Drigo & Felipe Chagas">
+        <meta name="author" content="Kauê Drigo, Felipe Chagas, Ana Teresa Bachur, Tassio Farias">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>Welding Game</title>
@@ -65,7 +65,7 @@
             width: 100%;
             font-size:15px;
             top: 320px;
-            left: 80px;
+            left: 180px; /*antes era 80*/
             position: absolute;
             font-weight: bold;
         }
@@ -73,7 +73,7 @@
             width: 100%;
             font-size:15px;
             top: 470px;
-            left: 80px;
+            left: 180px; /*antes era 80*/
             position: absolute;
             font-weight: bold;
         }
