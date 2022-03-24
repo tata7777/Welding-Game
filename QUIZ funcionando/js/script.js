@@ -1,4 +1,4 @@
-﻿function validateFields() {
+﻿/*function validateFields() {
     const name = document.getElementById("studentName");
     const university = document.getElementById("university");
 
@@ -14,11 +14,11 @@
         success = false;
     }
 
-    return success;
-}//verificar se as coisas estão preenchidas
+    return success;}*/ 
+//verificar se as coisas estão preenchidas - acredito que nao será necessario mas fiquei com medo de apagar - ent comentei todas as vezes
 
 function start(){
-    if(!validateFields()) return; //verificar se todos os itens estão preenchidos
+    //if(!validateFields()) return; //verificar se todos os itens estão preenchidos
 
     var tipo =  document.getElementsByName('type'); //pegar o tipo de jogo escolhido
 
@@ -31,7 +31,7 @@ function start(){
 
 // Eletrodo não-consumível
 function startNaoCons() {
-    if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
+    //if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
 
     var lingua = document.getElementsByName('language'); //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
 
@@ -57,11 +57,11 @@ function startNaoCons() {
 // mesmos cometários acima
 // Eletrodo consumível
 function startCons() {
-    if(!validateFields()) return;
+    //if(!validateFields()) return;
 
-    var lingua = document.getElementsByName('language');
+    var lingua = document.getElementsByName('language');//linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
 
-    var subject = document.getElementsByName('subject');
+    var subject = document.getElementsByName('subject');//esse já está certo e aliado com a segunda pagina
 
     var subjectValue = [];
     if(subject[0].checked) subjectValue.push(0);
@@ -108,8 +108,8 @@ function quizStart(eletrodoRevestido, language, subjects) {
     var radio = [],
         label = [];
     
-    // Desaparece o nome do quiz, e apare a div das perguntas
-    document.getElementById("page-name").style.display = "none";
+    // Desaparece o nome do quiz, e apare a div das perguntas - não irá funcionar, pq o nosso é feito de outra forma
+   /* document.getElementById("page-name").style.display = "none";
     document.getElementById("credits").style.display = "none";
     document.getElementById("option-box").style.display = "none";
     document.getElementById("quiz-container").style.display = "block";
@@ -127,7 +127,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')";
     document.getElementById("story-image").style.webkitBackgroundSize = "100% 100%";   
     document.getElementById("welder").style.display = "block";
-    document.getElementById("darth-vader").style.display = "block";
+    document.getElementById("darth-vader").style.display = "block";*/
 
     // Animação dos nomes dos níveis
     document.getElementById("levels").style.display = "block";
@@ -163,7 +163,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
         tig();
     }
     
-    // Adiciona à tecla "enter" a verificação da resposta
+    // Adiciona à tecla "enter" a verificação da resposta - transformar em um botão para poder ser usado no celular
     var botao = function (e) {
         if (e.which == 13) {
             verifyAnswer();
@@ -309,7 +309,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     }
 }
 
-function insertScore() {
+function insertScore() { // necessario mudança já que ainda nao temos uma forma de inserção do score
     method = "post";
 
     var form = document.getElementById("optionForm");

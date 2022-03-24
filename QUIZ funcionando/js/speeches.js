@@ -19,11 +19,12 @@ function dvSpeech(victory) {
     vaderSpeech.style.backgroundImage = "url('img/speech-balloon.png')";
     vaderSpeech.style.webkitBackgroundSize = "100% 100%";
 
+    // deve depender da lingua
     if (victory == true) {              // Vitória do jogador
         vaderSpeech.innerHTML = "NOOOOOOOOOOOOOOOO- OOOOOOOOOOOOOOOO! <br> <i>I'LL BE BACK!</i>";
         moveVader(1);
     }
-    else {
+    else { // deve depender da lingua
         // Posição vertical do balão de fala do DV
         var speechtop = vadertop - 110;
         vaderSpeech.style.top = speechtop + "px";

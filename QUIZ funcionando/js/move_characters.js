@@ -31,7 +31,7 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
     else {
         speedW = 60;
     }
-
+// lembrar de tirar o dather welder
     var slowMotionW = setInterval(frameWelder, speedW);     // Tempo em milisegundos
 
     function frameWelder() {

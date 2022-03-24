@@ -1,4 +1,6 @@
-﻿// Eletrodo não-consumível
+﻿//pq é necessário um script backup
+
+// Eletrodo não-consumível
 function startNaoCons() {
     quizStart(questionRandom(), false);
 
