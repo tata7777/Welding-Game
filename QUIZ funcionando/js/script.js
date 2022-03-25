@@ -23,7 +23,7 @@ function start(){
     var tipo =  document.getElementsByName('type'); //pegar o tipo de jogo escolhido
 
     if(tipo[0].checked)
-        startNaoCons();// nao sei se é assim que chama a função
+        startCons();// nao sei se é assim que chama a função
     else
         startNaoCons();// nao sei se é assim que chama a função
 
@@ -33,7 +33,7 @@ function start(){
 function startNaoCons() {
     //if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
 
-    var lingua = document.getElementsByName('language'); //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
+   // var lingua = document.getElementsByName('language'); //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
 
     var subject = document.getElementsByName('subject'); //esse já está certo e aliado com a segunda pagina
 
@@ -44,11 +44,13 @@ function startNaoCons() {
     if(subject[3].checked) subjectValue.push(3);
 
     console.log(subjectValue);
-    
+    /*
     if(lingua[0].checked)
         quizStart(false,"pt", subjectValue);
     else
-        quizStart(false,"en", subjectValue);
+        quizStart(false,"en", subjectValue);*/ //descomentar depois
+    
+    quizStart(false,"pt", subjectValue);
    
     document.getElementById("time-animation").style.backgroundImage = "url('img/tocha-tig.png')";//forma de mostrar o tempo
     document.getElementById("time-animation").style.webkitBackgroundSize = "cover";
@@ -69,10 +71,14 @@ function startCons() {
     if(subject[2].checked) subjectValue.push(2);
     if(subject[3].checked) subjectValue.push(3);
     
+    /*
     if(lingua[0].checked)
-        quizStart(true,"pt", subjectValue);
+        quizStart(false,"pt", subjectValue);
     else
-        quizStart(true,"en", subjectValue);
+        quizStart(false,"en", subjectValue);*/ //descomentar depois
+    
+    quizStart(false,"pt", subjectValue);
+    
 
     document.getElementById("time-animation").style.backgroundImage = "url('img/eletrodo-revestido-time.png')";
     document.getElementById("time-animation").style.webkitBackgroundSize = "cover";
