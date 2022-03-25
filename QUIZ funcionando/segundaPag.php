@@ -126,6 +126,59 @@
             <label for="en">Unlimited</label>
         </div>
         <button id="comeca" onclick="start()">Start</button>
+    
+
+        <!-- CARREGAMENTO DOS SCRIPTS -->
+    <script src="js/script.js"></script>
+    <script src="js/time_move.js"></script>
+    <script src="js/question_random.js"></script>
+    <script src="js/question_current.js"></script>
+    <script src="js/move_characters.js"></script>
+    <script src="js/speeches.js"></script>
+    <script src="js/finish.js"></script>
+    <script src="js/level_name.js"></script>
+
+    <script src="js/level.js"></script>
+    <script src="js/questions/questions1.js"></script>
+    <script src="js/questions/questions1en.js"></script>
+    <script src="js/questions/questions2.js"></script>
+    <script src="js/questions/questions2en.js"></script>
+    <script src="js/questions/questions3.js"></script>
+    <script src="js/questions/questions3en.js"></script>
+    <script src="js/questions/questions4.js"></script>
+    <script src="js/questions/questions4en.js"></script>
+    <script src="js/questions/questions5.js"></script>
+    <script src="js/questions/questions5en.js"></script>
+    <script src="js/questions/questions6.js"></script>
+    <script src="js/questions/questions6en.js"></script>
+    <script src="js/questions/questions7.js"></script>
+    <script src="js/questions/questions7en.js"></script>
+    <script src="js/questions/questions8.js"></script>
+    <script src="js/questions/questions8en.js"></script>
+    <script src="js/questions/questions9.js"></script>
+    <script src="js/questions/questions9en.js"></script>
+    <script src="js/questions/questions10.js"></script>
+    <script src="js/questions/questions10en.js"></script>
+    <script src="js/questions/questions11.js"></script>
+    <script src="js/questions/questions11en.js"></script>
+    <script src="js/questions/questions12.js"></script>
+    <script src="js/questions/questions12en.js"></script>
+    <script src="js/questions/questions13.js"></script>
+    <script src="js/questions/questions13en.js"></script>
+    <script src="js/questions/questions14.js"></script>
+    <script src="js/questions/questions14en.js"></script>
+    <script src="js/questions/questions15.js"></script>
+    <script src="js/questions/questions15en.js"></script>
+    <script src="js/questions/questions16.js"></script>
+    <script src="js/questions/questions16en.js"></script>
+    <script src="js/questions/questions17.js"></script>
+    <script src="js/questions/questions17en.js"></script>
+    <script src="js/questions/questions18.js"></script>
+    <script src="js/questions/questions18en.js"></script>
+    <script src="js/questions/questions19.js"></script>
+    <script src="js/questions/questions19en.js"></script>
+    <script src="js/questions/questions20.js"></script>
+    <script src="js/questions/questions20en.js"></script>
     </body>
 
 </html>
