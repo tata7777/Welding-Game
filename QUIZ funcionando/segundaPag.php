@@ -1,12 +1,12 @@
 <?php
-    /*session_start();
+    session_start();
     //print_r($_SESSION);
     if((!isset($_SESSION['name']) == true) and (!isset($_SESSION['password']) == true)) {
         unset($_SESSION['name']);
         unset($_SESSION['password']);
         header('Location: index.php');
     }
-    $logado = $_SESSION['name'];*/
+    $logado = $_SESSION['name'];
 ?>
 
 <!DOCTYPE html>

@@ -30,13 +30,8 @@
         }
         .box{
             position: absolute;
-<<<<<<< HEAD
-            top: 80px; /posição do login na pagina/
-            left: 55px;
-=======
             top: 10%; /*posição do login na pagina*/
             left: 7%;
->>>>>>> 81348af228ec960be7b7b95df98905b95501a6ec
             background-color: gray;
             padding: 15px; /distancia da borda pra fora/
             border-radius: 15px; /arredonda a borda/
@@ -181,24 +176,6 @@
                     <input type="radio" id="english" name="language" value="english" required>
                     <label for="english">English</label>
                 </div>
-<<<<<<< HEAD
-                <br><br>
-                <div class="inputBox">
-                    <input type="password" name="password" id="password" class="inputUser" required>
-                    <label for="password" class="labelInput"><strong>Password</strong></label>
-                </div>
-                <br><br>
-                <div class="inputBox">
-                    <input type="institution" name="institution" id="institution" class="inputUser" required>
-                    <label for="institution" class="labelInput"><strong>Institution</strong></label>
-                </div>
-                <p><strong>Language</strong></p>
-                <input type="radio" id="portuguese" name="language" value="portugues" required>
-                 <label for="portuguese">Portuguese</label>
-                <input type="radio" id="english" name="language" value="english" required>
-                 <label for="english">English</label>
-=======
->>>>>>> 81348af228ec960be7b7b95df98905b95501a6ec
                 <br>
                 <div style="width:80%" class="inputBox">
                 <label for="country" class="labelInput"><strong>Country</strong></label> <br>
