@@ -7,9 +7,10 @@
     $name = $_POST['name'];
     $password = $_POST['password'];
     $institution = $_POST['institution'];
+    $language = $_POST['language'];
     $country = $_POST['country'];
 
-    $result = mysqli_query($conexao, "INSERT INTO usuarios(name_cadastro, password_cadastro, institution, country) VALUES ('$name','$password','$institution','$country')");
+    $result = mysqli_query($conexao, "INSERT INTO usuarios(name_cadastro, password_cadastro, institution, language, country) VALUES ('$name','$password','$institution','$language','$country')");
     }
 ?>
 
@@ -28,11 +29,11 @@
         }
         .box{
             position: absolute;
-            top: 80px; /*posição do login na pagina*/
+            top: 80px; /posição do login na pagina/
             left: 55px;
             background-color: gray;
-            padding: 15px; /*distancia da borda pra fora*/
-            border-radius: 15px; /*arredonda a borda*/
+            padding: 15px; /distancia da borda pra fora/
+            border-radius: 15px; /arredonda a borda/
         }
         fieldset{
             border: 3px solid;
@@ -108,10 +109,10 @@
                     <label for="institution" class="labelInput"><strong>Institution</strong></label>
                 </div>
                 <p><strong>Language</strong></p>
+                <input type="radio" id="portuguese" name="language" value="portugues" required>
+                 <label for="portuguese">Portuguese</label>
                 <input type="radio" id="english" name="language" value="english" required>
                  <label for="english">English</label>
-                 <input type="radio" id="portuguese" name="language" value="portugues" required>
-                 <label for="portuguese">Portuguese</label>
                 <br>
                 <br><br>
                 <div style="width:80%" class="inputBox">
@@ -379,18 +380,23 @@
     </div>
     
     <div id="firstImage">
+        <img src="../QUIZ funcionando/img/first-page.png" >
     </div>
 
      <!-- Créditos -->
      <div id="credits">
-        <br />
-        <br />
         <div id="location">
             BRAZIL, UBERLANDIA - MG
         </div>
-        <div id="c-image1"></div>
-        <div id="c-image2"></div>
-        <div id="c-image3"></div>
+        <div id="c-image1">
+            <img src = "../QUIZ funcionando/img/ufu.png" >
+        </div>
+        <div id="c-image2">
+            <img src = "img/femec.png" >
+        </div>
+        <div id="c-image3">
+            <img src = "img/logoLaprosolsa.png" >
+        </div>
     </div>
 
     <!-- botao HELP -->
@@ -436,4 +442,4 @@
 
 
 </body>
-</html>                                                                             
+</html>
