@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 
@@ -46,7 +44,6 @@
                 </div>
             </fieldset>
         </form>
-
     </div>
 
     <div id="folhaLouro">
@@ -106,10 +103,10 @@
         
         
 
-
+    
         <!-- Instruções do jogo -->
-        <!-- <div id="help-text">
-            <h2>INSTRUÇÕES</h2>
+        <div id="help-text">
+            <!--<h2>INSTRUÇÕES</h2>
 
             <p>&nbsp &nbsp &nbsp &nbsp O jogo contém perguntas sobre soldagem em diversos níveis de dificuldade, acessados progressivamente
             à medida que o jogador acerta as perguntas do quiz. No total são 20 perguntas, com 4 alternativas de
@@ -121,9 +118,9 @@
             cada pergunta. Caso o tempo se esgote, o jogo é finalizado, caracterizando derrota do jogador.</p>
             
             <p>&nbsp &nbsp &nbsp &nbsp TEMPO ILIMITADO (TIG): O tempo disponível para responder cada pergunta é ilimitado.
-            Modo de jogo ideal para estudar.</p>            
-        </div>-->
-
+            Modo de jogo ideal para estudar.</p>   -->         
+        </div>
+    
         <!-- Personagem soldador -->
         <div id="welder">
         </div>
