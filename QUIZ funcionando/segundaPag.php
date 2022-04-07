@@ -7,6 +7,7 @@
         header('Location: index.php');
     }
     $logado = $_SESSION['name'];
+    $language = $_SESSION['language']
 ?>
 
 <!DOCTYPE html>

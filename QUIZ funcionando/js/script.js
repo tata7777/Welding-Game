@@ -45,7 +45,7 @@ function startNaoCons() {
 
     console.log(subjectValue);
     
-    if(lingua == 'portuguese')
+    if(lingua == 'portugues')
         quizStart(false,"pt", subjectValue);
     else
         quizStart(false,"en", subjectValue);
@@ -109,7 +109,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
         label = [];
     
     // Desaparece o nome do quiz, e apare a div das perguntas - não irá funcionar, pq o nosso é feito de outra forma
-   /* document.getElementById("page-name").style.display = "none";
+    document.getElementById("page-name").style.display = "none";
     document.getElementById("credits").style.display = "none";
     document.getElementById("option-box").style.display = "none";
     document.getElementById("quiz-container").style.display = "block";
@@ -127,7 +127,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')";
     document.getElementById("story-image").style.webkitBackgroundSize = "100% 100%";   
     document.getElementById("welder").style.display = "block";
-    document.getElementById("darth-vader").style.display = "block";*/
+    document.getElementById("darth-vader").style.display = "block";
 
     // Animação dos nomes dos níveis
     document.getElementById("levels").style.display = "block";

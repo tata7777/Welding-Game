@@ -7,6 +7,7 @@
         header('Location: index.php');
     }
     $logado = $_SESSION['name'];
+    $language = $_SESSION['language'];
 ?>
 
 <!DOCTYPE html>
@@ -115,6 +116,7 @@
             <input type="radio" id="semtempo" name="type" />
             <label for="en">Unlimited</label>
         </div>
+        
 
         <button id="comeca" onclick="start()">Start</button>
     
