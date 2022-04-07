@@ -33,8 +33,8 @@
             top: 10%; /*posição do login na pagina*/
             left: 7%;
             background-color: gray;
-            padding: 15px; /distancia da borda pra fora/
-            border-radius: 15px; /arredonda a borda/
+            padding: 15px; /*distancia da borda pra fora*/
+            border-radius: 15px; /*arredonda a borda*/
         }
         fieldset{
             border: 3px solid;
