@@ -12,6 +12,7 @@
     <title>Welding Game</title>
     
     <link href="style/style.css" rel="stylesheet" />
+ 
 </head>
 
 <body>
@@ -52,6 +53,7 @@
     <div id="firstImage">
         <img src="../QUIZ funcionando/img/first-page.png" >
     </div>
+
 
     <!-- Divisão que contém as imagens do quiz -->
     <div id="story-image">
@@ -195,6 +197,7 @@
             <img src = "img/logoLaprosolsa.png" >
         </div>
     </div>
+
 
 
 

@@ -1,12 +1,12 @@
 <?php
-    session_start();
+    /*session_start();
     //print_r($_SESSION);
     if((!isset($_SESSION['name']) == true) and (!isset($_SESSION['password']) == true)) {
         unset($_SESSION['name']);
         unset($_SESSION['password']);
         header('Location: index.php');
     }
-    $logado = $_SESSION['name'];
+    $logado = $_SESSION['name'];*/
 ?>
 
 <!DOCTYPE html>
@@ -108,12 +108,12 @@
         </div>
 
         <div id="type" >
-            <h3>Opção de tempo</h3>
+            <h3>Limite de Tempo:</h3>
             <input type="radio" id="comtempo" name="tipo" checked />
-            <label for="pt">Tempo 60s</label> <br>
+            <label for="pt">60s</label> <br>
 
             <input type="radio" id="semtempo" name="tipo" />
-            <label for="en">Sem tempo</label>
+            <label for="en">Ilimitado</label>
         </div>
         <button id="comeca" onclick="startCons()">INICIAR</button>
     </body>

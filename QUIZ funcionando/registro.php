@@ -26,11 +26,17 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            font-size: max(13px, 1vw);
         }
         .box{
             position: absolute;
+<<<<<<< HEAD
             top: 80px; /posição do login na pagina/
             left: 55px;
+=======
+            top: 10%; /*posição do login na pagina*/
+            left: 7%;
+>>>>>>> 81348af228ec960be7b7b95df98905b95501a6ec
             background-color: gray;
             padding: 15px; /distancia da borda pra fora/
             border-radius: 15px; /arredonda a borda/
@@ -44,48 +50,103 @@
             text-align: center;
             background-color: white;
             border-radius: 8px;
+            font-size: max(12px, 1vw);
         }
         .inputBox{
             position: relative;
+            font-size: max(12px, 1vw);
         }
         .inputUser{
             font-size: 15px;
             width:98%;
             letter-spacing:2px;
             border-radius: 5px;
+            font-size: max(12px, 1vw);
         }
         #country{
             border-radius: 5px;
-            font-size: 15px;
+            font-size: max(12px, 1vw);
 
         }
         .labelInput{
-            position: absolute;
-            top:-17px;
+            position:absolute;
+            left: 1%;
+            font-size: max(12px, 1vw);
         }
         #enviar{
             background-color: white;
             padding: 10px;
             width:100%;
             border-radius: 10px;
-            font-size: 15px;
+            font-size: max(12px, 1vw);
             cursor:pointer;
+
         }
         #enviar:hover{
             background-color: beige;
         }
         .login{  
             position: relative;
-            left: 30%;
+            left:32%;
+            font-size: max(12px, 1vw);
         }
         a{
-            font-size: 15px;
+            font-size: max(12px, 1vw);
             text-decoration: none;
             color: white;
         }
         a:hover{
             color:beige
         }
+        @media(max-width:600px){
+             #firstImage {
+                      display: none;
+  }
+            .box{
+                top: 15%; 
+                left: 50%;
+                transform: translate(-50%,-15%);
+            
+}
+            .click-me{
+                display: block;
+                width: 80px;
+                height: 40px;
+                border: 1px solid #26a65b;
+                background-color: rosybrown;
+                color: white;
+                text-align: center;
+                font-size: max(12px, 1vw);
+                line-height: 300%;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: .5s;
+                border-radius: 50%;
+                position: absolute;
+                left: 55%;
+                top: 70%;
+                z-index: -1; /*essa merdinha aqui foi o q deu trabalho*/
+            }
+            .click-me2{
+                display: block;
+                width: 80px;
+                height: 40px;
+                border: 1px solid #26a65b;
+                background-color: rosybrown;
+                color: white;
+                text-align: center;
+                font-size: max(12px, 1vw);
+                line-height: 300%;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: .5s;
+                border-radius: 50%;
+                position: absolute;
+                left: 25%;
+                top: 70%;
+                z-index: -1; /*essa merdinha aqui foi o q deu trabalho*/
+            }
+}*/
     </style>
 </head>
 <body>
@@ -95,9 +156,32 @@
                 <legend><b>Register</b></legend>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="name" id="name" class="inputUser" required>
                     <label for="name" class="labelInput"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" name="name" id="name" class="inputUser" required>
+                    
                 </div>
+                <br>
+                <div class="inputBox">
+                    <label for="password" class="labelInput"><strong>Password</strong></label>
+                    <br>
+                    <input type="password" name="password" id="password" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="institution" class="labelInput"><strong>Institution</strong></label>
+                    <br>
+                    <input type="institution" name="institution" id="institution" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="name" class="labelInput"><strong>Language</strong></label> <br>
+                    <input type="radio" id="portuguese" name="language" value="portugues" required>
+                    <label for="portuguese">Portuguese</label>
+                    <input type="radio" id="english" name="language" value="english" required>
+                    <label for="english">English</label>
+                </div>
+<<<<<<< HEAD
                 <br><br>
                 <div class="inputBox">
                     <input type="password" name="password" id="password" class="inputUser" required>
@@ -113,9 +197,11 @@
                  <label for="portuguese">Portuguese</label>
                 <input type="radio" id="english" name="language" value="english" required>
                  <label for="english">English</label>
+=======
+>>>>>>> 81348af228ec960be7b7b95df98905b95501a6ec
                 <br>
-                <br><br>
                 <div style="width:80%" class="inputBox">
+                <label for="country" class="labelInput"><strong>Country</strong></label> <br>
                     <select id="country" name="country">
                         <option value="Brazil">Brazil</option>                        
                         <option value="Afghanistan">Afghanistan</option>
@@ -362,7 +448,7 @@
                         <option value="Zambia">Zambia</option>
                         <option value="Zimbabwe">Zimbabwe</option>
                     </select>
-                    <label for="country" class="labelInput"><strong>Country</strong></label>
+                    
                 </div>
                 <br>
                 <button type="submit" name="submit" id=enviar>Sign Up</button>
