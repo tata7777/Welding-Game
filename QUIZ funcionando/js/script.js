@@ -33,7 +33,7 @@ function start(){
 function startNaoCons() {
     //if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
 
-    var lingua = document.getElementsByName('language'); //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
+    var lingua = $language; //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
 
     var subject = document.getElementsByName('subject'); //esse já está certo e aliado com a segunda pagina
 
@@ -45,7 +45,7 @@ function startNaoCons() {
 
     console.log(subjectValue);
     
-    if(lingua[0].checked)
+    if(lingua == 'portuguese')
         quizStart(false,"pt", subjectValue);
     else
         quizStart(false,"en", subjectValue);
@@ -69,7 +69,7 @@ function startCons() {
     if(subject[2].checked) subjectValue.push(2);
     if(subject[3].checked) subjectValue.push(3);
     
-    if(lingua[0].checked)
+    if(lingua == 'portuguese')
         quizStart(false,"pt", subjectValue);
     else
         quizStart(false,"en", subjectValue);
