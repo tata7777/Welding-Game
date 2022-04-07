@@ -14,6 +14,7 @@
     <title>Welding Game</title>
     
     <link href="style/style.css" rel="stylesheet" />
+ 
 </head>
 
 <body>
@@ -24,19 +25,19 @@
 
     <!--Caixa do Login-->
     <!--Tentar depois tirar a tag de style daqui e colocar no style.css-->
-    <div class="box">
+    <div class="box" id="box">
         <form action="testLogin.php" method="POST">
             <fieldset>
                 <legend><b>Login</b></legend>
+                
+                <div class="inputBox">
+                    <label for="name" class="labelInput"><strong>Name</strong></label> <br>
+                    <input type="text" name="name" id="name" class="inputUser" required>
+                </div>
                 <br>
                 <div class="inputBox">
-                    <input type="text" name="name" id="name" class="inputUser" required>
-                    <label for="name" class="labelInput"><strong>Name</strong></label>
-                </div>
-                <br><br>
-                <div class="inputBox">
+                    <label for="password" class="labelInput"><strong>Password</strong></label><br>
                     <input type="password" name="password" id="password" class="inputUser" required>
-                    <label for="password" class="labelInput"><strong>Password</strong></label>
                 </div>
                 <br>
                 <button type="submit" name="submit" id=enviar>Submit</button>
@@ -46,76 +47,16 @@
             </fieldset>
         </form>
 
-        <style>
-            body{
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            .box{
-                position: absolute;
-                top: 17%; /*posição do login na pagina*/
-                left: 8%;
-                background-color: gray;
-                padding: 15px; /*distancia da borda pra fora*/
-                border-radius: 15px; /*arredonda a borda*/
-            }
-            fieldset{
-                border: 3px solid;
-            }
-            legend{
-                border:1px solid;
-                padding: 10px;
-                text-align: center;
-                background-color: white;
-                border-radius: 8px;
-            }
-            .inputBox{
-                position: relative;
-            }
-            .inputUser{
-                font-size: 15px;
-                width:98%;
-                letter-spacing:2px;
-                border-radius: 5px;
-            }
-            #country{
-                border-radius: 5px;
-                font-size: 15px;
-            }
-            .labelInput{
-                position: absolute;
-                top:-17px;
-            }
-            #enviar{
-                background-color: white;
-                padding: 10px;
-                width:100%;
-                border-radius: 10px;
-                font-size: 15px;
-                cursor:pointer;
-            }
-            #enviar:hover{
-                background-color: beige;
-            }
-            .signup{  
-                position: relative;
-            }
-            a{
-                font-size: 15px;
-                text-decoration: none;
-                color: white;
-            }
-            a:hover{
-                color:beige
-            }
-        </style>
-
     </div>
 
     <div id="folhaLouro">
+        <img src="../QUIZ funcionando/img/folha-de-louro.png" >
     </div>
 
     <div id="firstImage">
+        <img src="../QUIZ funcionando/img/first-page.png" >
     </div>
+
 
     <!-- Divisão que contém as imagens do quiz -->
     <div id="story-image">
@@ -167,7 +108,7 @@
 
 
         <!-- Instruções do jogo -->
-        <div id="help-text">
+        <!-- <div id="help-text">
             <h2>INSTRUÇÕES</h2>
 
             <p>&nbsp &nbsp &nbsp &nbsp O jogo contém perguntas sobre soldagem em diversos níveis de dificuldade, acessados progressivamente
@@ -181,7 +122,7 @@
             
             <p>&nbsp &nbsp &nbsp &nbsp TEMPO ILIMITADO (TIG): O tempo disponível para responder cada pergunta é ilimitado.
             Modo de jogo ideal para estudar.</p>            
-        </div>
+        </div>-->
 
         <!-- Personagem soldador -->
         <div id="welder">
@@ -246,15 +187,20 @@
      
     <!-- Créditos -->
     <div id="credits">
-        <br />
-        <br />
         <div id="location">
             BRAZIL, UBERLANDIA - MG
         </div>
-        <div id="c-image1"></div>
-        <div id="c-image2"></div>
-        <div id="c-image3"></div>
+        <div id="c-image1">
+            <img src = "../QUIZ funcionando/img/ufu.png" >
+        </div>
+        <div id="c-image2">
+            <img src = "img/femec.png" >
+        </div>
+        <div id="c-image3">
+            <img src = "img/logoLaprosolsa.png" >
+        </div>
     </div>
+
 
 
 

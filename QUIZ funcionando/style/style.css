@@ -1,97 +1,104 @@
-﻿body {
+﻿/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
     /*zinc: https://uigradients.com/#Zinc */
     background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#page-name{
-    width: 1100px;
-    text-align: center;
-    font-size: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    font-family: 'Rouge Script', cursive;
-    color: rgb(228, 85, 85);
-    text-shadow: 0.1em 0.1em #333
+/*caixa de login*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: max(13px, 1vw);
+}
+.box{
+  position: absolute;
+  top: 15%; /*posição do login na pagina*/
+  left: 8%;
+  background-color: gray;
+  padding: 15px; /*distancia da borda pra fora*/
+  border-radius: 7% /*arredonda a borda*/
+}
+fieldset{
+  border: 2px solid;
+}
+legend{
+  border:1px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 18%;
+  font-size: max(12px, 1vw);
+}
+.inputBox{
+  position: relative;
+}
+.inputUser{
+  font-size: max(15px, 1vw);
+  width:98%;
+  letter-spacing:2px;
+  border-radius: 5px;
+}
+#country{
+  border-radius: 5px;
+  font-size: 15px;
+}
+.labelInput{
+  position: absolute;
+  font-size: max(12px, 1vw);
+  left: 1%;
+}
+#enviar{
+  background-color: white;
+  padding: 10px;
+  width:100%;
+  border-radius: 10px;
+  font-size: max(12px, 1vw);
+  cursor:pointer;
+}
+#enviar:hover{
+  background-color: beige;
+}
+.signup{  
+  position: relative;
+}
+a{
+  font-size: max(12px, 1vw);
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color:beige
+}
+/*fim da caixa de login*/
+
+#page-name {
+  font-size: max(10px, 1vw);
+  text-align: center;
+  font-family: 'Rouge Script', cursive;
+  color: rgb(228, 85, 85);
+  text-shadow: 0.1em 0.1em #333
 }
 
-#folhaLouro {
-    width: 173px;
-    height: 95px;
+#folhaLouro img {
+  width: 11%;
+  position: absolute;
+  left: 7%;
+  top: 65%;
+}
+
+#firstImage img{
+    width: 30%;
     position: absolute;
-    left: 187px;
-    top: 510px;        
-    background-image: url('../img/folha-de-louro.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    left: 35%;
+    top: 10%;
 }
 
-#firstImage {
-    width: 430px;
-    height: 342px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    margin: auto;
-    background-image: url('../img/first-page.png');
-    background-size: cover;
-}
-
-/*
-#story-image {
-    width: 400px;
-    height: 320px;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('../img/first-page.png');
-    background-size: cover;
-}
-*/
-
-/*
-    #consumivel {
-        width: 70px;
-        height: 70px;
-        position: absolute;
-        left: 375px;
-        top: 25px;
-        font-weight: bold;
-        font-family: Calibri;
-        border-radius: 50%;
-        background-color: LemonChiffon;
-    }
-
-    #nao-consumivel {
-        width: 70px;
-        height: 70px;
-        position: absolute;
-        left: 475px;
-        top: 25px;
-        font-weight: bold;
-        font-family: Calibri;
-        border-radius: 50%;
-        background-color: LemonChiffon;
-    }
-*/
-
-/*#help {
-    width: 65px;
-    height: 65px;
-    position: absolute;
-    left: 52%;
-    top: 510px;
-    font-weight: bold;
-    font-family: Calibri;
-    border-radius: 50%;
-    background-color: rosybrown;
-}*/
-
-
-    
 /*separação entre style do help e feedback (help primeiro)*/
     .content{
         position: absolute;
@@ -204,9 +211,6 @@
         color: white;
         transition: .5s;
       } 
-
-
-
 
       /*botao feedback*/
       .content2{
@@ -335,14 +339,14 @@
         background-color: rosybrown;
     }  */
 
-    #help-text {
+    /*#help-text {
         width: 634px;
         height: 300px;
         position: relative;
         left: 10px;
         top: 10px;
         display: none;
-    }
+    }*/
 
     #darth-vader {
         width: 45px;
@@ -504,57 +508,43 @@
         margin-right: 10px;
     }
 
-#credits {
+/*#credits {
     width: 1100px;
     top: 500px;
     position: relative;
     text-align: right;
     margin: auto;
     
+}*/
+
+#location {
+  position: absolute;
+  right: 5%;
+  top: 92%;
+  font-size: 1.3vw;
+  color: blue;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-  #location {
-    width: 1100px;
-    position: absolute;
-    top: 37px;
-    left: 75px;
-    font-size: 20px;
-    color: blue;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif;
+  #c-image1 img {
+      width: 8%;
+      position: absolute;
+      top: 91%;
+      right: 33%;
   }
-
-    #c-image1 {
-        width: 150px;
-        height: 35px;
-        position: absolute;
-        left: -23px;
-        top: 25px;        
-        background-image: url('../img/ufu.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #c-image2 {
-        width: 150px;
-        height: 36px;
-        position: absolute;
-        left: 240px;
-        top: 25px;        
-        background-image: url('../img/femec.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    #c-image3 {
-        width: 364px;
-        height: 62px;
-        position: absolute;
-        left: 485px;
-        top: 13px;
-        background-image: url('../img/logoLaprosolsa.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
+  #c-image2 img {
+      width: 7%;
+      position: absolute;
+      top: 91%;
+      left: 36%;
+  }
+  #c-image3 img {
+      width: 20%;
+      position: absolute;
+      top: 90%;
+      left: 5%;
+  }
 
 #option-box {
     position:absolute;
@@ -615,4 +605,83 @@
 .tabelalistagens th, td {
     text-align: center;
     padding: auto;
+} 
+
+
+@media(max-width:500px){
+  #firstImage {
+    width: 100%;
+    position: absolute;
+    top: 65%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+       
+ }
+
+ #folhaLouro img {
+      display: none;
+}
+
+ .box{
+   top: 15%; 
+   left: 50%;
+   transform: translate(-50%,-15%);
+}
+   .click-me{
+     display: block;
+     width: 80px;
+     height: 40px;
+     border: 1px solid #26a65b;
+     background-color: rosybrown;
+     color: white;
+     text-align: center;
+     font-size: max(12px, 1vw);
+     line-height: 300%;
+     border-radius: 3px;
+     cursor: pointer;
+     transition: .5s;
+     border-radius: 50%;
+     position: absolute;
+     left: 55%;
+     top: 50%;
+     z-index: -1; /*essa merdinha aqui foi o q deu trabalho*/
+   }
+   .content{
+    width: 300px; /*aqui muda o tamanho do pop up*/
+    height: 525px;
+    
+  }
+  .text p{
+    font-size: max(15px,1vw);
+
+  } 
+
+  
+ .click-me2{
+   display: block;
+   width: 80px;
+   height: 40px;
+   border: 1px solid #26a65b;
+   background-color: rosybrown;
+   color: white;
+   text-align: center;
+   font-size: max(12px, 1vw);
+   line-height: 300%;
+   border-radius: 3px;
+   cursor: pointer;
+   transition: .5s;
+   border-radius: 50%;
+   position: absolute;
+   left: 25%;
+   top: 50%;
+   z-index: -1; /*essa merdinha aqui foi o q deu trabalho*/
+}
+.content2{
+  width: 250px; /*aqui muda o tamanho do pop up*/
+  height: 250px;
+}
+#location {
+  right: 5%;
+  top: 91%;
+}
 } 
