@@ -348,126 +348,126 @@ a:hover{
         display: none;
     }*/
 
-    #darth-vader {
-        width: 45px;
-        height: 77px;
-        position: absolute;
-        left: 808px;
-        top: 330px;
-        transform: rotate(180deg);
-        background-image: url(../img/darth-vader.png);
-        background-size: cover;
-        display: none;
-    }
+#darth-vader {
+    width: 45px;
+    height: 77px;
+    position: absolute;
+    left: 808px;
+    top: 330px;
+    transform: rotate(180deg);
+    background-image: url(../img/darth-vader.png);
+    background-size: cover;
+    display: none;
+}
 
-    #dv-speech {
-        width: 220px;
-        height: 80px;
-        position: absolute;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: bolder;
-        text-align: center;
-        padding-left: 20px;
-        padding-top: 32px;
-        padding-right: 15px;
-        display: none;
-    }
+#dv-speech {
+    width: 220px;
+    height: 80px;
+    position: absolute;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 32px;
+    padding-right: 15px;
+    display: none;
+}
 
-    #welder {
-        width: 48px;
-        height: 73px;
-        position: absolute;
-        left: 840px;
-        top: 326px;
-        background-image: url(../img/welder.png);
-        background-size: cover;
-        display: none;
-    }
+#welder {
+    width: 48px;
+    height: 73px;
+    position: absolute;
+    left: 840px;
+    top: 326px;
+    background-image: url(../img/welder.png);
+    background-size: cover;
+    display: none;
+}
 
-    #welder-speech {
-        width: 120px;
-        height: 70px;
-        position: absolute;
-        left: 950px;
-        top: 330px;
-        font-size: 16px;
-        font-style: italic;
-        font-weight: bolder;
-        text-align: center;
-        padding-top: 5px;
-        padding-right: 25px;
-    }
+#welder-speech {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    left: 950px;
+    top: 330px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 25px;
+}
 
-    #time-animation {               /* Posição para tempo ilimitado */
-        width: 95px;
-        height: 116px;
-        position: absolute;
-        top: 185px;
-        left: 133px;
-    }
+#time-animation {               /* Posição para tempo ilimitado */
+    width: 95px;
+    height: 116px;
+    position: absolute;
+    top: 185px;
+    left: 133px;
+}
 
-    #time {
-        position: absolute;
-        top: 285px;
-        left: 185px;
-        color: black;
-        font-style: italic;
-        font-weight: bolder;
-        font-size: 22px;
-    }
+#time {
+    position: absolute;
+    top: 285px;
+    left: 185px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 22px;
+}
 
-    #spark {
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        top: 200px;
-        left: 122px;
-        background-image: url('../img/spark.gif');
-        display: none;
-    }
+#spark {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 200px;
+    left: 122px;
+    background-image: url('../img/spark.gif');
+    display: none;
+}
 
-    #levels {
-        width: 342px;
-        height: 111px;
-        position: absolute;
-        top: 31px;
-        left: 695px;
-        background-image: url(../img/cassino-background.png);
-        background-size: 100% 100%;
-        display: none;
-        font-family: Calibri;
-        font-size: 18px;
-        font-weight: 900;
-        font-style: italic;
-        text-align: center;
-        text-indent: 64px;
-        overflow: hidden;
+#levels {
+    width: 342px;
+    height: 111px;
+    position: absolute;
+    top: 31px;
+    left: 695px;
+    background-image: url(../img/cassino-background.png);
+    background-size: 100% 100%;
+    display: none;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    text-indent: 64px;
+    overflow: hidden;
+}
+    #level_1{
+    width: inherit;
+    height: 22px;
+    position: relative;
+    top: 8px;
     }
-        #level_1{
-        width: inherit;
-        height: 22px;
-        position: relative;
-        top: 8px;
-        }
-        #level_2{
-        width: inherit;
-        height: 22px;
-        position: relative;
-        top: 21px;              /* 37px(altura retângulo) - 22px(altura div) - 2px(1 borda) + 8px(alinhamento vertical) */
-        }
-        #level_3{
-        width: inherit;
-        height: 22px;
-        position: relative;
-        top: 34px;              /* 2*37px(altura retângulo) - 2*22px(altura div) - 4px(2 bordas) + 8px(alinhamento vertical) */
-        }
-        #level_4{
-        width: inherit;
-        height: 22px;
-        position: relative;
-        bottom: 93px;           /* 4*22px(altura div) + 7px(37px - 22px - 8px) - 2px(1 borda) */
-        }
+    #level_2{
+    width: inherit;
+    height: 22px;
+    position: relative;
+    top: 21px;              /* 37px(altura retângulo) - 22px(altura div) - 2px(1 borda) + 8px(alinhamento vertical) */
+    }
+    #level_3{
+    width: inherit;
+    height: 22px;
+    position: relative;
+    top: 34px;              /* 2*37px(altura retângulo) - 2*22px(altura div) - 4px(2 bordas) + 8px(alinhamento vertical) */
+    }
+    #level_4{
+    width: inherit;
+    height: 22px;
+    position: relative;
+    bottom: 93px;           /* 4*22px(altura div) + 7px(37px - 22px - 8px) - 2px(1 borda) */
+    }
 
 #quiz-container {
     width: 1095px;
