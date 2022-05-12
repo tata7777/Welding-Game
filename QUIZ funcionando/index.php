@@ -102,60 +102,13 @@
           </div>
         
         
-
-    
-        <!-- Instruções do jogo -->
-        <div id="help-text">
-            <!--<h2>INSTRUÇÕES</h2>
-
-            <p>&nbsp &nbsp &nbsp &nbsp O jogo contém perguntas sobre soldagem em diversos níveis de dificuldade, acessados progressivamente
-            à medida que o jogador acerta as perguntas do quiz. No total são 20 perguntas, com 4 alternativas de
-            resposta cada, mas apenas uma delas está correta. Qualquer resposta errada finaliza o jogo.</p>
-
-            <p>&nbsp &nbsp &nbsp &nbsp Escolha uma alternativa, e pressione ENTER para confirmar a resposta.</p>
-            
-            <p>&nbsp &nbsp &nbsp &nbsp TEMPO 60s (ER: ELETRODO REVESTIDO): O jogador tem 60 segundos para responder
-            cada pergunta. Caso o tempo se esgote, o jogo é finalizado, caracterizando derrota do jogador.</p>
-            
-            <p>&nbsp &nbsp &nbsp &nbsp TEMPO ILIMITADO (TIG): O tempo disponível para responder cada pergunta é ilimitado.
-            Modo de jogo ideal para estudar.</p>   -->         
-        </div>
-    
-        <!-- Personagem soldador -->
-        <div id="welder">
-        </div>
-
-        <!-- Personagem Darth Vader -->
-        <div id="darth-vader">
-        </div>
-        
         <!-- Tempo restante para responder a pergunta, se houver -->
         <div id="time">
         </div>
 
-        <!-- Animação do tempo restante para responder a pergunta -->
-        <div id="time-animation">
-        </div>
+        <!-- aqui tinha a div "time-animation e eu movi para as segundas páginas-->
 
-        <!-- Animação na ponta da tocha/eletrodo -->
-        <div id="spark">
-        </div>
-
-        <!-- Nome dos níveis -->
-        <div id="levels">
-            <div id="level_1">
-            </div>
-
-            <div id="level_2">
-            </div>
-
-            <div id="level_3">
-                
-            </div>
-
-            <div id="level_4">
-            </div>
-        </div>
+        <!-- aqui tinha a div spark e eu movi para as segundas páginas -->
 
         <!-- Balão de fala do Darth Vader -->
         <div id="dv-speech">
@@ -167,20 +120,7 @@
 
     </div>
 
-    <!-- Área de comando do jogador -->
-    <div id="quiz-container">
-        <!-- Região das perguntas -->
-        <div id="quiz-questions">
-        </div>
-
-        <!-- Região das respostas -->
-        <div id="quiz-answers">
-        </div>
-
-        <div id="credits2">
-            Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
-        </div>
-    </div>
+    <!-- movi o id quiz container para as segundas paginas -->
      
     <!-- Créditos -->
     <div id="credits">
@@ -199,59 +139,6 @@
     </div>
 
 
-
-
-    <!-- CARREGAMENTO DOS SCRIPTS -->
-    <script src="js/script.js"></script>
-    <script src="js/time_move.js"></script>
-    <script src="js/question_random.js"></script>
-    <script src="js/question_current.js"></script>
-    <script src="js/move_characters.js"></script>
-    <script src="js/speeches.js"></script>
-    <script src="js/finish.js"></script>
-    <script src="js/level_name.js"></script>
-
-    <script src="js/level.js"></script>
-    <script src="js/questions/questions1.js"></script>
-    <script src="js/questions/questions1en.js"></script>
-    <script src="js/questions/questions2.js"></script>
-    <script src="js/questions/questions2en.js"></script>
-    <script src="js/questions/questions3.js"></script>
-    <script src="js/questions/questions3en.js"></script>
-    <script src="js/questions/questions4.js"></script>
-    <script src="js/questions/questions4en.js"></script>
-    <script src="js/questions/questions5.js"></script>
-    <script src="js/questions/questions5en.js"></script>
-    <script src="js/questions/questions6.js"></script>
-    <script src="js/questions/questions6en.js"></script>
-    <script src="js/questions/questions7.js"></script>
-    <script src="js/questions/questions7en.js"></script>
-    <script src="js/questions/questions8.js"></script>
-    <script src="js/questions/questions8en.js"></script>
-    <script src="js/questions/questions9.js"></script>
-    <script src="js/questions/questions9en.js"></script>
-    <script src="js/questions/questions10.js"></script>
-    <script src="js/questions/questions10en.js"></script>
-    <script src="js/questions/questions11.js"></script>
-    <script src="js/questions/questions11en.js"></script>
-    <script src="js/questions/questions12.js"></script>
-    <script src="js/questions/questions12en.js"></script>
-    <script src="js/questions/questions13.js"></script>
-    <script src="js/questions/questions13en.js"></script>
-    <script src="js/questions/questions14.js"></script>
-    <script src="js/questions/questions14en.js"></script>
-    <script src="js/questions/questions15.js"></script>
-    <script src="js/questions/questions15en.js"></script>
-    <script src="js/questions/questions16.js"></script>
-    <script src="js/questions/questions16en.js"></script>
-    <script src="js/questions/questions17.js"></script>
-    <script src="js/questions/questions17en.js"></script>
-    <script src="js/questions/questions18.js"></script>
-    <script src="js/questions/questions18en.js"></script>
-    <script src="js/questions/questions19.js"></script>
-    <script src="js/questions/questions19en.js"></script>
-    <script src="js/questions/questions20.js"></script>
-    <script src="js/questions/questions20en.js"></script>
 </body>
 
 </html>

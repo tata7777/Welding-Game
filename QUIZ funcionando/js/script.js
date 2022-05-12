@@ -1,41 +1,18 @@
-﻿/*function validateFields() {
-    const name = document.getElementById("studentName");
-    const university = document.getElementById("university");
-
-    var success = true;
-
-    if(name.value == "") {
-        document.getElementById("nameError").style.display = "block";
-        success = false;
-    }
-
-    if(university.value == "") {
-        document.getElementById("universityError").style.display = "block";
-        success = false;
-    }
-
-    return success;}*/ 
-//verificar se as coisas estão preenchidas - acredito que nao será necessario mas fiquei com medo de apagar - ent comentei todas as vezes
-
-function start(){
-    //if(!validateFields()) return; //verificar se todos os itens estão preenchidos
-
-    var tipo =  document.getElementsByName('type'); //pegar o tipo de jogo escolhido
+﻿function start(){
+    var tipo =  document.getElementsByName('type'); //jogo com ou sem limite de tempo
 
     if(tipo[0].checked)
-        startCons();// nao sei se é assim que chama a função
-    else
-        startNaoCons();// nao sei se é assim que chama a função
-
+       startCons();
+    else 
+       startNaoCons();
 }
 
 // Eletrodo não-consumível
 function startNaoCons() {
-    //if(!validateFields()) return; //acredito que isso seja se as coisas não tiverem preenchidas
+    var lingua = document.getElementsByName('language');
+    console.log(lingua);
 
-    var lingua = $language; //linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
-
-    var subject = document.getElementsByName('subject'); //esse já está certo e aliado com a segunda pagina
+    var subject = document.getElementsByName('subject');
 
     var subjectValue = [];
     if(subject[0].checked) subjectValue.push(0);
@@ -45,41 +22,40 @@ function startNaoCons() {
 
     console.log(subjectValue);
     
-    if(lingua == 'portugues')
+    if(lingua[0].checked)
         quizStart(false,"pt", subjectValue);
     else
         quizStart(false,"en", subjectValue);
-    
-    document.getElementById("time-animation").style.backgroundImage = "url('img/tocha-tig.png')";//forma de mostrar o tempo
-    document.getElementById("time-animation").style.webkitBackgroundSize = "cover";
+   
+    document.getElementById("time-animation").style.backgroundImage = "url('img/tocha-tig.png')";  
+    document.getElementById("time-animation").style.backgroundSize = "cover";
 }
 
-// mesmos cometários acima
 // Eletrodo consumível
 function startCons() {
-    //if(!validateFields()) return;
+    var lingua = document.getElementsByName('language');
+    console.log(lingua);
 
-    var lingua = document.getElementsByName('language');//linguagem deve ser tirada do banco de dados - apos a conecxão está feita colocar em uma variavel como o name de language
-
-    var subject = document.getElementsByName('subject');//esse já está certo e aliado com a segunda pagina
+    var subject = document.getElementsByName('subject');
 
     var subjectValue = [];
     if(subject[0].checked) subjectValue.push(0);
     if(subject[1].checked) subjectValue.push(1);
     if(subject[2].checked) subjectValue.push(2);
     if(subject[3].checked) subjectValue.push(3);
+
+    console.log(subjectValue);
     
-    if(lingua == 'portuguese')
-        quizStart(false,"pt", subjectValue);
+    if(lingua[0].checked)
+        quizStart(true,"pt", subjectValue);
     else
-        quizStart(false,"en", subjectValue);
-    
+        quizStart(true,"en", subjectValue);
+
     document.getElementById("time-animation").style.backgroundImage = "url('img/eletrodo-revestido-time.png')";
-    document.getElementById("time-animation").style.webkitBackgroundSize = "cover";
+    document.getElementById("time-animation").style.backgroundSize = "cover";    //retirei o webkit pois estava marcando como preterido
     document.getElementById("time-animation").style.transform = "rotate(180deg)";
 }
 
-// Informações sobre o quiz
 var t = 60,                                                                 // Tempo para responder a pergunta
     time;                                                                   // Variável auxiliar de contagem de tempo
 var questionNumber = 1;                                                     // Armazena o número do nível
@@ -92,7 +68,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     var i;                                                                            // Variável auxiliar
     var questionLevel = questionCurrent(questionNumber, language);                    // array de perguntas
     var aux = questionRandom(questionLevel);                                         // indice da pergunta
-    console.log("Entrei com subject " + questionLevel[aux].subject);
+    console.log("Entrei com subject " + questionLevel[aux].subject);   
     var trials = 0;
     while(!subjects.includes(parseInt(questionLevel[aux].subject)) && trials < 1000) {
         
@@ -108,24 +84,17 @@ function quizStart(eletrodoRevestido, language, subjects) {
     var radio = [],
         label = [];
     
-    // Desaparece o nome do quiz, e apare a div das perguntas - não irá funcionar, pq o nosso é feito de outra forma
-    document.getElementById("page-name").style.display = "none";
-    document.getElementById("credits").style.display = "none";
-    document.getElementById("option-box").style.display = "none";
+    // Desaparece todos os elementos gráficos da segunda página e apare a div das perguntas
+    document.getElementById("elements").style.display = "none";
     document.getElementById("quiz-container").style.display = "block";
-
-    // Desaparecimento dos botões de escolha de tempo e do help
-    document.getElementById("consumivel").style.display = "none";
-    document.getElementById("nao-consumivel").style.display = "none";
-    document.getElementById("help").style.display = "none";
-    document.getElementById("help-text").style.display = "none";
 
     // Aparecimento da animação de tempo
     document.getElementById("spark").style.display = "block";
 
     // Alteração da imagem de fundo
-    document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')";
-    document.getElementById("story-image").style.webkitBackgroundSize = "100% 100%";   
+    document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')"; //story-image com problemas - escada n aparece
+    document.getElementById("story-image").style.backgroundSize = "cover";  
+    document.getElementById("story-image").style.display = "block";
     document.getElementById("welder").style.display = "block";
     document.getElementById("darth-vader").style.display = "block";
 
@@ -133,28 +102,28 @@ function quizStart(eletrodoRevestido, language, subjects) {
     document.getElementById("levels").style.display = "block";
     document.getElementById("level_4").innerHTML = achiev[questionNumber + 1].name;
     document.getElementById("level_1").innerHTML = achiev[questionNumber].name;
-    document.getElementById("level_2").innerHTML = achiev[questionNumber - 1].name;    
-
+    document.getElementById("level_2").innerHTML = achiev[questionNumber - 1].name; 
+    
     // Criação da pergunta
     auxquestions.innerHTML = questionNumber + ". " + questionLevel[aux].question;
 
     // Loop para a criação das alternativas de reposta
     for (i = 0; i < 4; i++) {
-	// Criação do radio button e atribuição do name
-        radio[i] = document.createElement("INPUT");
-        radio[i].setAttribute("type", "radio");
-        radio[i].setAttribute("name", "answers");
-        // Anexação do radio button à divisão "quiz-answers"
-        auxanswers.appendChild(radio[i]);
-
-        // Criação da label
-        label[i] = document.createElement("LABEL");
-        // Preenchimento da label com as alternativas
-        label[i].innerHTML = " " + questionLevel[aux].answers[i] + "<br />";
-        // Anexação da label à divisão "quiz-answers"
-        auxanswers.appendChild(label[i]);
-    }
-
+        // Criação do radio button e atribuição do name
+            radio[i] = document.createElement("INPUT");
+            radio[i].setAttribute("type", "radio");
+            radio[i].setAttribute("name", "answers");
+            // Anexação do radio button à divisão "quiz-answers"
+            auxanswers.appendChild(radio[i]);
+    
+            // Criação da label
+            label[i] = document.createElement("LABEL");
+            // Preenchimento da label com as alternativas
+            label[i].innerHTML = " " + questionLevel[aux].answers[i] + "<br />";
+            // Anexação da label à divisão "quiz-answers"
+            auxanswers.appendChild(label[i]);
+        }
+    
     // Início da contagem de tempo
     if (eletrodoRevestido == true) {
         timeLeft();
@@ -163,7 +132,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
         tig();
     }
     
-    // Adiciona à tecla "enter" a verificação da resposta - transformar em um botão para poder ser usado no celular
+    // Adiciona à tecla "enter" a verificação da resposta
     var botao = function (e) {
         if (e.which == 13) {
             verifyAnswer();
@@ -171,9 +140,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     };
 
     document.addEventListener("keypress", botao, false);
-
-
-
+    
 
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -237,7 +204,6 @@ function quizStart(eletrodoRevestido, language, subjects) {
 
 
 
-
     /////////////////////
     // FUNÇÃO DE TEMPO //
     /////////////////////
@@ -296,9 +262,6 @@ function quizStart(eletrodoRevestido, language, subjects) {
     }
 
 
-
-
-
     /////////////////////////////////
     // Desabilita os radio buttons //
     /////////////////////////////////
@@ -309,19 +272,4 @@ function quizStart(eletrodoRevestido, language, subjects) {
     }
 }
 
-function insertScore() { // necessario mudança já que ainda nao temos uma forma de inserção do score
-    method = "post";
-
-    var form = document.getElementById("optionForm");
-    form.setAttribute("method", method);
-    form.setAttribute("action", "insertScore.php");
-
-    var hiddenField = document.createElement("input");
-    hiddenField.setAttribute("type", "hidden");
-    hiddenField.setAttribute("name", "score");
-    hiddenField.setAttribute("value", questionNumber);
-
-    form.appendChild(hiddenField);
-
-    form.submit();
-}
+  

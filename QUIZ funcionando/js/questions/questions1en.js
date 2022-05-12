@@ -1,119 +1,219 @@
 ﻿const quizQuestions1en = [
+
     {
-        question: "EN - O eletrodo na soldagem por eletrodo revestido é:",
-        answers: [
-            "Um eletrodo consumível",
-            "Um eletrodo não-consumível",
-            "Utilizado apenas para iniciar o arco elétrico",
-            "Todas as respostas estão erradas"
-        ],
-        correctAnswer: "0",
-        subject: "0"
+    question:"The electrode in MMA welding (SMAW) is:", 
+    answers: ["a consumable coated electrode;",
+    "a non-consumable electrode;",
+    "a continuous electrode;",
+    "a bare electrode."],
+    correctAnswer : "0",
+    subject:"0"
     },
     {
-        question: "EN - Se o soldador não tiver sido informado, qual tipo de corrente e polaridade devem ser utilizados"
-                    + "para soldar com um eletrodo básico recém comprado? ",
-        answers: [
-            "Corrente contínua, eletrodo conectado no pólo negativo, pois é o padrão para estes tipos de eletrodos",
-            "Corrente contínua, eletrodo conectado no pólo positivo, pois é o padrão para estes tipos de eletrodos",
-            "Corrente alternada, pois é o padrão para estes tipos de eletrodos",
-            "Como indicado pelo fabricante na caixa/pacote contendo os eletrodos"
-        ],
-        correctAnswer: "3",
-        subject: "0"
+    question:"What type of current and polarity should be used to weld with a recently purchased basic electrode?", 
+    answers: ["Direct current, electrode connected to the negative pole, as it is a usual connection configuration for these types of electrodes.",
+    "Direct current, electrode connected to the positive pole, as it is a usual connection configuration for these types of electrodes.",
+    "Alternating current as it is a usual current type for these sort of electrodes.",
+    "As indicated by the manufacturer on the box/package containing the electrodes."],
+    correctAnswer : "3",
+    subject:"0"
     },
     {
-        question: "EN - A união de chapas pode ser feita por:",
-        answers: [
-            "Rebite, parafusos e fundição",
-            "Parafusos, soldagem e endireitamento",
-            "Rebite, parafuso e soldagem",
-            "Soldagem, colagem e traçagem"
-        ],
-        correctAnswer: "2",
-        subject: "0"
+    question:"The joining of plates can be done by:", 
+    answers: ["rivets, screws and casting;",
+    "screws, welding and straightening;",
+    "rivets, screws and welding;",
+    "welding, gluing and tracing."],
+    correctAnswer : "2",
+    subject:"0"
     },
     {
-        question: "EN - Você tem que executar uma solda de 1,5 metros de comprimento. Quantos eletrodos revestidos"
-                    + " você vai precisar se cada eletrodo dá para executar uma solda de 0, 3 m? ",
-        answers: [
-            "2",
-            "4",
-            "7",
-            "5"
-        ],
-        correctAnswer: "3",
-        subject: "3"
+    question:"What is the heat source used for welding with coated electrodes?", 
+    answers: ["Electrical resistance.",
+    "Electric arc.",
+    "Oxyacetylene Flame.",
+    "Electric flame."],
+    correctAnswer : "1",
+    subject:"0"
     },
     {
-        question: "EN - Uma chapa de 87,5 mm foi desbastada em 12,4 mm. Qual a espessura final da chapa?",
-        answers: [
-            "75,1 mm",
-            "71,5 mm",
-            "57,1 mm",
-            "85,1 mm"
-        ],
-        correctAnswer: "0",
-        subject: "0"
+    question:"What is the heat source used for oxy-acetylene welding?", 
+    answers: ["Electrical resistance.",
+    "Electric arc.",
+    "Oxyacetylene Flame.",
+    "Electric flame."],
+    correctAnswer : "2",
+    subject:"0"
     },
     {
-        question: "EN - Você tem que executar três cordões de solda de 72 cm, 31 cm e 89 cm. Qual será o" 
-                    + " comprimento somatório dos cordões? ",
-        answers: [
-            "1 m e 92 cm",
-            "182 cm",
-            "0,192 m",
-            "1 m e 82 cm"
-        ],
-        correctAnswer: "0",
-        subject: "0"
+    question:"This is an advantage of welding:", 
+    answers: ["No specialized labor is needed (anyone can weld);",
+    "It is the fastest method of joining metal parts;",
+    "The welded joint is not permanent and can be easily disassembled;",
+    "Normally, welded joints are free from defects."],
+    correctAnswer : "1",
+    subject:"0"
     },
     {
-        question: "EN - Você precisa executar cordões de solda com comprimentos diferentes, começando com o mais curto"
-                    + " e terminando com o mais comprido. Qual a sequência correta em ordem crescente dos comprimentos"
-                    + " de cordões? ",
-        answers: [
-            "0,45 m; 20 cm; 7 cm; 1,05 m; 56 mm",
-            "56 mm; 7 cm; 200 mm; 0,45 m; 1,05 m",
-            "2 cm; 7 cm; 56 mm; 0,45 m; 1,05 m",
-            "0,45 m; 0,2 cm; 7 cm; 56 mm; 1,05 m"
-        ],
-        correctAnswer: "1",
-        subject: "0"
+    question:"This is an advantage of welding:", 
+    answers: ["No specialized labor is needed (anyone can weld);",
+    "Less joint weight compared to other joining methods;",
+    "The welded joint is not permanent and can be easily disassembled;",
+    "Normally, welded joints are free from defects."],
+    correctAnswer : "1",
+    subject:"0"
     },
     {
-        question: "EN - O soldador de MIG/MAG soldou por 14 minutos sem parar, a uma velocidade de soldagem 8 cm/min."
-                    + " Qual é comprimento do cordão depositado?",
-        answers: [
-            "112 m",
-            "1,12 m",
-            "6,72 m",
-            "2 m e 12 cm"
-        ],
-        correctAnswer: "1",
-        subject: "0"
+    question:"This is an advantage of welding:", 
+    answers: ["No specialized labor is needed (anyone can weld);",
+    "It is the most suitable joining method for the most used metal, namely carbon steel;",
+    "The welded joint is not permanent and can be easily disassembled;",
+    "Normally, welded joints are free from defects."],
+    correctAnswer : "1",
+    subject:"0"
     },
     {
-        question: "EN - Qual dos materiais abaixo tem maior condutividade elétrica (conduz melhor eletricidade)?",
-        answers: [
-            "Água",
-            "Cobre",
-            "Aço",
-            "Baquelite"
-        ],
-        correctAnswer: "1",
-        subject: "0"
+    question:"This is a limitation of welding:", 
+    answers: ["The welded joint remains very hot for a long time;",
+    "It is difficult to protect against arc light, which is very intense;",
+    "Sometimes you need to use PPE;",
+    "If the welder makes a mistake, it is difficult to repair a defective welded joint."],
+    correctAnswer : "3",
+    subject:"0"
     },
     {
-        question: "EN - Deve-se tomar cuidado com os raios ultravioleta provenientes do arco de soldagem, pois os mesmos"
-                    + " podem causar:",
-        answers: [
-            "Queimadura na pele e nos olhos",
-            "Choque elétrico",
-            "Intoxicação",
-            "Pneumonia"
-        ],
-        correctAnswer: "0",
-        subject: "0"
-    }
+    question:"\"This is a \"\"disadvantage\"\" of welding with coated electrodes (for the success of weekend works):\"", 
+    answers: ["The welded joint remains very hot for a long time;",
+    "It is difficult to protect against arc light, which is very intense;",
+    "Sometimes you need to use PPE;",
+    "If working at the customer's home, the coated electrodes will usually run out before the service is finished."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"This is a limitation of welding:", 
+    answers: ["The welded joint remains very hot for a long time;",
+    "It is difficult to protect against arc light, which is very intense;",
+    "Sometimes you need to use PPE;",
+    "To ensure an adequate quality, laborious preparatory actions (cleaning, assembling, ...) are necessary."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"Which of the following gases is flammable?", 
+    answers: ["CO2.",
+    "CO.",
+    "Air.",
+    "Acetylene."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"In the case of coated electrode welding, if the electrode is sticking to the part, you shoold:", 
+    answers: ["replace the electrode with a thicker one;",
+    "change the welding power source;",
+    "increase the welding current;",
+    "increase the travel speed."],
+    correctAnswer : "2",
+    subject:"0"
+    },
+    {
+    question:"How do you find out that the power source, to be used for covered electrode welding, is one of the direct current type?", 
+    answers: ["Such a machine is usually larger in size than a welding transformer.",
+    "\"Such a machine has the markings \"\"+\"\" and \"\"-\"\" near terminals.\"",
+    "\"Such a machine is marked \"\"~\"\" near the terminal for the electrode holder connection.\"",
+    "Such a machine always has a fan for cooling the bridge rectifier."],
+    correctAnswer : "1",
+    subject:"0"
+    },
+    {
+    question:"Some coated electrodes have the core tips marked in different colors. What is the purpose of such color electrode identification?", 
+    answers: ["There is a Standard that prescribes this identification of electrodes in color for the welder to avoid possible mistakes when choosing an electrode of the particular type that is out of its packaging.",
+    "This color identification of electrodes does not mean anything for the welder, as it refers to the internal control when electrodes are produced.",
+    "\"This type of marking has nothing to do with the type of electrode, but it helps the welder to differentiate between new and used electrodes (the latters have a darker color, that is, they do be \"\"burned\"\").\"",
+    "In this way, the electrode manufacturer helps the welder to avoid possible mistakes when choosing a particular electrode that is out of its packaging."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"In the case of coated electrode welding, if you do not use PPE, the risk of suffering an electric shock would be higher:", 
+    answers: ["during welding, ie during the open arc period (as the welding current is normally high, above 100 A).",
+    "when the power source is already on, but the arc is not yet open (as the open circuit voltage of the power source can be rather high).",
+    "at the moment of stricking the arc, because the current grows a lot at this moment.",
+    "when the electrode is very hot, because at this moment its coating loses its insulating properties."],
+    correctAnswer : "1",
+    subject:"0"
+    },
+    {
+    question:"If, in the case of welding with coated electrode, your weld was far to be perfect, the most likely cause of this was:", 
+    answers: ["the electrode;",
+    "the power sourse;",
+    "the base metal;",
+    "myself."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"The welding ...", 
+    answers: ["is a process of joining materials;",
+    "is a process of joining, as well as cutting, materials;",
+    "is a process of heat treatment of materials;",
+    "is a manufacturing process that can join, cut and heat-treat materials."],
+    correctAnswer : "0",
+    subject:"0"
+    },
+    {
+    question:"A welded joint ... ", 
+    answers: ["can be disassembled (just heat it up again until the melting point of the joint metal);",
+    "can be disassembled (but only before the joint metal solidifies);",
+    "is permanent (to disassemble it, a cutting process should be applied);",
+    "is permanent (if a welder makes mistakes, the welded part will have to be discarded, there is no way to recover it);"],
+    correctAnswer : "2",
+    subject:"0"
+    },
+    {
+    question:"\"Welding with coated electrodes is the most used by \"\"weekend welders\"\", because ...\"", 
+    answers: ["it is much easier to master compared to other welding processes, for example, MIG/MAG (GMAW);",
+    "even without a proper preparation of the welder, the weld always comes out with quality, which depends only on the coated electrode used;",
+    "just choose a quality coated electrode and the weld will always come out with quality as well;",
+    "there is a good availability of MMA/SMAW power sources and coated electrodes in tool shops and the investment is low."],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"\"If one of your friends asks you to weld/repair a metal joint in his house, before accepting the \"\"service\"\", one of your questions will be ...\"", 
+    answers: ["whether water will be available to cool the joint after it has been welded?",
+    "whether will there be a gas stove to dry the electrodes?",
+    "what is the chemical composition of the material to be welded?",
+    "whether there will be the availability of electricity?"],
+    correctAnswer : "3",
+    subject:"0"
+    },
+    {
+    question:"What is the unit of measurement of electrical voltage?", 
+    answers: ["Volt",
+    "Ampere",
+    "Ohm",
+    "Hertz"],
+    correctAnswer : "0",
+    subject:"0"
+    },
+    {
+    question:"What is the unit of measurement of electrical resistance?", 
+    answers: ["Volt",
+    "Ampere",
+    "Ohm",
+    "Hertz"],
+    correctAnswer : "2",
+    subject:"0"
+    },
+    {
+    question:"What is the unit of measurement of the electric current?", 
+    answers: ["Volt",
+    "Ampere",
+    "Ohm",
+    "Hertz"],
+    correctAnswer : "1",
+    subject:"0"}
+        
 ];
