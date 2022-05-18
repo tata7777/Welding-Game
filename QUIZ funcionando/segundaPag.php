@@ -101,12 +101,6 @@
     </style>
 
     <body>
-<<<<<<< HEAD
-        <div id="title">
-            <?php
-                echo "<h1>Bem-vindo $logado!</h1>";
-            ?>
-=======
         <div id="elements">
             <div id="title">
                 <?php
@@ -172,43 +166,12 @@
 
         <!-- Tempo restante para responder a pergunta, se houver -->
         <div id="time">
->>>>>>> 0cffccd48831982dede82e2622f14ee8362745c0
         </div>
 
         <div id="secondImage">
             <img src = "img/escada nova portugues.png" >
         </div>
 
-<<<<<<< HEAD
-        <div id="baloes">
-            <img src = "img/baloes-teste.png" >
-        </div>
-
-        <div id="subject">
-            <h3>Temas</h3>
-            <input type="checkbox" id="processos" name="subject" checked/>
-            <label for="processos">Processos</label><br>
-
-            <input type="checkbox" id="materiais" name="subject" checked/>
-            <label for="materiais" id="materials">Materiais</label><br>
-
-            <input type="checkbox" id="projeto" name="subject" checked/>
-            <label for="projeto">Projeto</label><br>
-
-            <input type="checkbox" id="fabricacao" name="subject" checked/>
-            <label for="fabricacao">Fabricação</label><br>
-        </div>
-
-        <div id="type" >
-            <h3>Limite de Tempo:</h3>
-            <input type="radio" id="comtempo" name="tipo" checked />
-            <label for="pt">60s</label> <br>
-
-            <input type="radio" id="semtempo" name="tipo" />
-            <label for="en">Ilimitado</label>
-        </div>
-        <button id="comeca" onclick="startCons()">INICIAR</button>
-=======
         <!-- Animação na ponta da tocha/eletrodo -->
         <div id="spark">
         </div>
@@ -320,7 +283,6 @@
         <script src="js/questions/questions19en.js"></script>
         <script src="js/questions/questions20.js"></script>
         <script src="js/questions/questions20en.js"></script>
->>>>>>> 0cffccd48831982dede82e2622f14ee8362745c0
     </body>
 
 </html>
