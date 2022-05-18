@@ -76,6 +76,29 @@
         #language{
             display: none;
         }
+        @media(max-width:600px){
+            #secondImage img {
+                display: none;}
+            #baloes img{
+                display: none;}
+            #subject{
+                top: 15%;
+                left: 20%;
+
+            }
+            #type{
+                top: 30%;
+                left: 20%;
+            }
+            #comeca{
+                padding:10px;
+                width: 20%;
+                top: 23%;
+                left: 60%;
+                border-radius: 60%;
+            }
+                    
+    }
 
     </style>
 
