@@ -360,6 +360,18 @@ a:hover{
     display: none;
 }
 
+#stair {
+    width: 1100px;
+    height: 440px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-image: url('../img/stairway.png');
+    background-size: cover;
+    display: none;
+}
+
 #dv-speech {
     width: 220px;
     height: 80px;

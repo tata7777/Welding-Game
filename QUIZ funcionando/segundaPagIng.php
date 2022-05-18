@@ -110,7 +110,7 @@
                 ?>
             </div>
 
-            <div id="story-image">
+            <!--<div id="story-image">-->
 
                 <div id="secondImage">
                     <img src="../QUIZ funcionando/img/escada nova ingles.png" >
@@ -155,7 +155,10 @@
 
                 <button id="comeca" onclick="start()">START</button>
 
-            </div>
+            
+        </div>
+
+        <div id="stair">
         </div>
 
         <!-- Animação do tempo restante para responder a pergunta -->
