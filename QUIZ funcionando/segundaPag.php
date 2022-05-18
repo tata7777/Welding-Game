@@ -88,7 +88,7 @@
                 ?>
             </div>
 
-            <div id="story-image">
+            <!--<div id="story-image">-->
 
                 <div id="secondImage">
                     <img src = "img/escada nova portugues.png" >
@@ -132,38 +132,28 @@
                 </div>
 
                 <button id="comeca" onclick="start()">INICIAR</button>
-            </div>
+            
+        </div>
+
+        <div id="stair">   
+        </div>
+
+        <!-- Personagem soldador -->
+        <div id="welder">
+        
+        <!-- Personagem Darth Vader -->
+        <div id="darth-vader">
+
+        <!-- Tempo restante para responder a pergunta, se houver -->
+        <div id="time">
         </div>
 
         <!-- Animação do tempo restante para responder a pergunta -->
         <div id="time-animation">
         </div>
 
-        <!-- Área de comando do jogador -->
-        <div id="quiz-container">
-            <!-- Região das perguntas -->
-            <div id="quiz-questions">
-            </div>
-
-            <!-- Região das respostas -->
-            <div id="quiz-answers">
-            </div>
-
-            <div id="credits2">
-                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
-            </div>
-        </div>
-
         <!-- Animação na ponta da tocha/eletrodo -->
         <div id="spark">
-        </div>
-
-        <!-- Personagem soldador -->
-        <div id="welder">
-        </div>
-
-        <!-- Personagem Darth Vader -->
-        <div id="darth-vader">
         </div>
 
         <!-- Nome dos níveis -->
@@ -182,12 +172,47 @@
             </div>
         </div>
 
-        <!-- Tempo restante para responder a pergunta, se houver -->
-        <div id="time">
+        <!-- Balão de fala do Darth Vader -->
+        <div id="dv-speech">
         </div>
 
+        <!-- Balão de fala do Soldador -->
+        <div id="welder-speech">
+        </div>
 
-            <!-- CARREGAMENTO DOS SCRIPTS -->
+        <!-- Área de comando do jogador -->
+        <div id="quiz-container">
+            <!-- Região das perguntas -->
+            <div id="quiz-questions">
+            </div>
+
+            <!-- Região das respostas -->
+            <div id="quiz-answers">
+            </div>
+
+            <div id="credits2">
+                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
+            </div>
+        </div>
+
+        <!-- Nome dos níveis -->
+        <div id="levels">
+            <div id="level_1">
+            </div>
+
+            <div id="level_2">
+            </div>
+
+            <div id="level_3">
+                
+            </div>
+
+            <div id="level_4">
+            </div>
+        </div>
+
+        
+        <!-- CARREGAMENTO DOS SCRIPTS -->
         <script src="js/script.js"></script>
         <script src="js/time_move.js"></script>
         <script src="js/question_random.js"></script>

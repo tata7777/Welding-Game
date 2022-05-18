@@ -92,9 +92,12 @@ function quizStart(eletrodoRevestido, language, subjects) {
     document.getElementById("spark").style.display = "block";
 
     // Alteração da imagem de fundo
-    document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')"; //story-image com problemas - escada n aparece
-    document.getElementById("story-image").style.backgroundSize = "cover";  
-    document.getElementById("story-image").style.display = "block";
+    //substituir a div story image por outra div com nome diferente e colocar o css do 
+    // story image da ic original
+    //document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')"; //story-image com problemas - escada n aparece
+    //document.getElementById("story-image").style.backgroundSize = "cover"; 
+    document.getElementById("stair").style.display = "block";
+    //document.getElementById("stair").style.backgroundSize = "100% 100%";
     document.getElementById("welder").style.display = "block";
     document.getElementById("darth-vader").style.display = "block";
 
@@ -203,7 +206,6 @@ function quizStart(eletrodoRevestido, language, subjects) {
 
 
 
-
     /////////////////////
     // FUNÇÃO DE TEMPO //
     /////////////////////
@@ -272,4 +274,4 @@ function quizStart(eletrodoRevestido, language, subjects) {
     }
 }
 
-  
+  //questionNumber armazena o nível da pergunta
