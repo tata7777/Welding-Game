@@ -4,6 +4,8 @@
     {
     include_once('config.php');
 
+    //include_once('configteresa.php');
+
     $name = $_POST['name'];
     $password = $_POST['password'];
     $institution = $_POST['institution'];
@@ -141,7 +143,7 @@
                 top: 70%;
                 z-index: -1; /*essa merdinha aqui foi o q deu trabalho*/
             }
-}*/
+}
     </style>
 </head>
 <body>
@@ -442,6 +444,10 @@
         <h1>Discover your knowledge of welding!</h1>
     </div>
     
+    <div id="todosjuntos">
+        <img src="../QUIZ funcionando/img/todos-juntos.png" >
+    </div>
+
     <div id="firstImage">
         <img src="../QUIZ funcionando/img/first-page.png" >
     </div>

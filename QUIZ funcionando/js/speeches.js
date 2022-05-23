@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////////////
 // FUNÇÃO QUE CONTROLA DA FALA DO DARTH VADER NO FIM DO QUIZ //
 ///////////////////////////////////////////////////////////////
-function dvSpeech(victory) {
+/*function dvSpeech(victory) {
     var vaderSpeech = document.getElementById("dv-speech");
 
     // Posição horizontal do balão de fala do DV
@@ -36,4 +36,4 @@ function dvSpeech(victory) {
             vaderSpeech.innerHTML = "Seu \"eletrodo revestido\" acabou. Estude mais para ser um " + achiev[questionNumber].name + "!";
         }
     }
-}
+}*/

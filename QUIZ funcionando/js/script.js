@@ -98,8 +98,8 @@ function quizStart(eletrodoRevestido, language, subjects) {
     //document.getElementById("story-image").style.backgroundSize = "cover"; 
     document.getElementById("stair").style.display = "block";
     //document.getElementById("stair").style.backgroundSize = "100% 100%";
-    document.getElementById("welder").style.display = "block";
-    document.getElementById("darth-vader").style.display = "block";
+    document.getElementById("welder").style.display = "none";
+    document.getElementById("darth-vader").style.display = "none";
 
     // Animação dos nomes dos níveis
     document.getElementById("levels").style.display = "block";

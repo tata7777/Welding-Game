@@ -49,6 +49,11 @@
     <div id="folhaLouro">
         <img src="../QUIZ funcionando/img/folha-de-louro.png" >
     </div>
+    
+
+    <div id="todosjuntos">
+        <img src="../QUIZ funcionando/img/todos-juntos.png" >
+    </div>
 
     <div id="firstImage">
         <img src="../QUIZ funcionando/img/first-page.png" >

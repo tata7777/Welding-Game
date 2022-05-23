@@ -70,9 +70,9 @@
             position: absolute;
             background-color: rgb(238, 87, 87);
             }
-                    #comeca:hover{
-                background-color: beige;
-            }
+        #comeca:hover{
+            background-color: beige;
+        }
         #language{
             display: none;
         }
@@ -84,7 +84,6 @@
             #subject{
                 top: 15%;
                 left: 20%;
-
             }
             #type{
                 top: 30%;

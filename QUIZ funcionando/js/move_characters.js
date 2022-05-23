@@ -6,10 +6,10 @@
 
 var weldertop = 326,                                        // Posicionamento vertical do soldador
     welderleft = 840,                                       // Posicionamento horizontal do soldador
-    welderwidth = 45,                                       // Largura do soldador (na saída)
-    vadertop = 330,                                         // Posicionamento vertical do Darth Vader
+    welderwidth = 45;                                       // Largura do soldador (na saída)
+    /*vadertop = 330,                                         // Posicionamento vertical do Darth Vader
     vaderleft = 808,                                        // Posicionamento horizontal do Darth Vader
-    vaderheight = 77;                                       // Altura do Darth Vader
+    vaderheight = 77; */                                      // Altura do Darth Vader
 
 //////////////////////////////
 // MOVIMENTAÇÃO DO SOLDADOR //

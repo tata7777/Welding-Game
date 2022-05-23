@@ -52,7 +52,7 @@
             left: 20%;
             position: absolute;
             font-weight: bold;
-        }
+            }
         #type{
             font-size: max(10px, 1.1vw);
             top: 68%;
@@ -74,6 +74,9 @@
          #comeca:hover{
                 background-color: beige;
             }
+        #language{
+            display: none;
+        }
         @media(max-width:600px){
             #secondImage img {
                 display: none;}
@@ -82,7 +85,6 @@
             #subject{
                 top: 15%;
                 left: 20%;
-
             }
             #type{
                 top: 30%;
@@ -111,7 +113,7 @@
             <!--<div id="story-image">-->
 
                 <div id="secondImage">
-                    <img src = "img/escada nova portugues.png" >
+                    <img src = "../QUIZ funcionando/img/escada nova portugues.png" >
                 </div>
 
                 <div id="baloes">
@@ -155,49 +157,11 @@
             
         </div>
 
-        <div id="stair">   
+        <div id="stair">
         </div>
 
-        <!-- Personagem soldador -->
-        <div id="welder">
-        
-        <!-- Personagem Darth Vader -->
-        <div id="darth-vader">
-
-        <!-- Tempo restante para responder a pergunta, se houver -->
-        <div id="time">
-        </div>
-
-        <div id="secondImage">
-            <img src = "img/escada nova portugues.png" >
-        </div>
-
-        <!-- Animação na ponta da tocha/eletrodo -->
-        <div id="spark">
-        </div>
-
-        <!-- Nome dos níveis -->
-        <div id="levels">
-            <div id="level_1">
-            </div>
-
-            <div id="level_2">
-            </div>
-
-            <div id="level_3">
-                
-            </div>
-
-            <div id="level_4">
-            </div>
-        </div>
-
-        <!-- Balão de fala do Darth Vader -->
-        <div id="dv-speech">
-        </div>
-
-        <!-- Balão de fala do Soldador -->
-        <div id="welder-speech">
+        <!-- Animação do tempo restante para responder a pergunta -->
+        <div id="time-animation">
         </div>
 
         <!-- Área de comando do jogador -->
@@ -215,6 +179,18 @@
             </div>
         </div>
 
+        <!-- Animação na ponta da tocha/eletrodo -->
+        <div id="spark">
+        </div>
+
+        <!-- Personagem soldador -->
+        <div id="welder">
+        </div>
+
+        <!-- Personagem Darth Vader -->
+        <div id="darth-vader">
+        </div>
+
         <!-- Nome dos níveis -->
         <div id="levels">
             <div id="level_1">
@@ -229,6 +205,10 @@
 
             <div id="level_4">
             </div>
+        </div>
+
+        <!-- Tempo restante para responder a pergunta, se houver -->
+        <div id="time">
         </div>
 
         

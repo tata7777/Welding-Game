@@ -1,4 +1,5 @@
-﻿const achiev = [
+﻿// tem que ter a versão em ingles e em português
+const achiev = [
     {
         name: "Entusiasta em Soldagem"          // 0
     },

@@ -13,6 +13,7 @@ function quizFinish(victory, timeON) {
         clearTimeout(time);                 // Pausa a contagem de tempo
     }
 
+    /*
     if (victory == true) {                  // Vitória do jogador
         moveWelder(-1);                     // O soldador avança o último degrau
         dvSpeech(true);                     // Darth Vader sai de cena
@@ -20,7 +21,7 @@ function quizFinish(victory, timeON) {
     else {                                  // Derrota do jogador
         moveWelder(1);                      // O soldador desce a escada e sai de cena
         dvSpeech(false);                    // Darth Vader repreende o soldador
-    }   
+    } */  
 
     // Dá opção para reiciniar o quiz
     setTimeout(function () { restartQuiz(); }, questionNumber * 400 + 1600);
@@ -30,11 +31,12 @@ function quizFinish(victory, timeON) {
 // CRIA UM BOTÃO PARA REINICIAR O QUIZ //
 /////////////////////////////////////////
 function restartQuiz() {
+/*
     var Wspeech = document.getElementById("welder-speech");
 
     // Carrega o balão de fala
     Wspeech.style.backgroundImage = "url('img/speech-balloon-2.png')";
-    Wspeech.style.webkitBackgroundSize = "100% 100%";
+    Wspeech.style.webkitBackgroundSize = "100% 100%"; */
 
     // Insere um link para reiniciar o quiz
     var element = document.createElement("a");

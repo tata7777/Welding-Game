@@ -92,6 +92,13 @@ a:hover{
   top: 65%;
 }
 
+#todosjuntos img {
+  width: 30%;
+  position: absolute;
+  left: 68%;
+  top: 10%;
+}
+
 #firstImage img{
     width: 30%;
     position: absolute;
