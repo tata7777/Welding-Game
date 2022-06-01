@@ -274,4 +274,21 @@ function quizStart(eletrodoRevestido, language, subjects) {
     }
 }
 
+function insertScore() {
+    method = "post";
+
+    var form = document.getElementById("optionForm");
+    form.setAttribute("method", method);
+    form.setAttribute("action", "insertScore.php");
+
+    var hiddenField = document.createElement("input");
+    hiddenField.setAttribute("type", "hidden");
+    hiddenField.setAttribute("name", "score");
+    hiddenField.setAttribute("value", questionNumber);
+
+    form.appendChild(hiddenField);
+
+    form.submit();
+}
+
   //questionNumber armazena o nível da pergunta
