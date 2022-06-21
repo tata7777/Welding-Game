@@ -279,5 +279,227 @@
     ],
     correctAnswer:"1",
     subject:"0"}
+    ,{
+        question: "Which of these materials has the highest electrical conductivity (conducts electricity better)?",
+        answers : [ 
+        "Water.",
+        "Copper.",
+        "Steel.",
+        "Bakelite."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question: "Which of these materials has the lowest electrical conductivity (has high electrical resistance)?",
+        answers : [ 
+        "Water.",
+        "Copper.",
+        "Steel.",
+        "Bakelite."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "Which of these materials has the worst thermal conductivity (best thermal insulation)?",
+        answers : [ 
+        "Copper.",
+        "Aluminium.",
+        "Steel.",
+        "Bakelite."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "Which of these materials has the highest thermal conductivity (conducts heat better)?",
+        answers : [ 
+        "Stainless steel.",
+        "Aluminium.",
+        "Carbon steel.",
+        "Bakelite."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question: "Which of the following metals is non-ferrous?",
+        answers : [ 
+        "Steel.",
+        "Cast iron.",
+        "Copper.",
+        "Malleable Iron."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question: "The most common ferrous metals are:",
+        answers : [ 
+        "aluminium and magnesium;",
+        "copper and brass;",
+        "zinc and lead;",
+        "carbon steel and cast iron."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "How the material density is expressed?",
+        answers : [ 
+        "Mass per unit volume.",
+        "Mass per square centimeter.",
+        "Mass per square millimeter.",
+        "Mass per square meter."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "Which of the following materials has the highest mechanical strength?",
+        answers : [ 
+        "Copper.",
+        "Aluminium.",
+        "Steel.",
+        "Bakelite."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question: "Which of the materials below has the lowest mechanical strength?",
+        answers : [ 
+        "Copper.",
+        "Aluminium.",
+        "Steel.",
+        "Lead."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "Which of the materials below has the lowest mechanical strength?",
+        answers : [ 
+        "Copper.",
+        "Aluminium.",
+        "Steel.",
+        "Cast iron."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question: "What properties has copper compared to steel?",
+        answers : [ 
+        "Higher thermal conductivity.",
+        "Smaller density (lighter).",
+        "Higher melting point.",
+        "Lower electrical conductivity."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "What properties has copper compared to steel?",
+        answers : [ 
+        "Higher electrical conductivity.",
+        "Smaller density (lighter).",
+        "Higher melting point.",
+        "Lower thermal conductivity."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "Which material is made of a matrix and reinforcer that together have better properties than the individual materials?",
+        answers : [ 
+        "Super alloy.",
+        "Ceramic.",
+        "Polymer.",
+        "Composite."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "Which of these materials has the highest thermal conductivity (conducts heat better)?",
+        answers : [ 
+        "Stainless steel.",
+        "Aluminium.",
+        "Carbon steel.",
+        "Copper."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "Which material has lowest thermal conductivity (conducts heat worse)?",
+        answers : [ 
+        "Stainless steel.",
+        "Aluminium.",
+        "Carbon steel.",
+        "Copper."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "What tools shall be used when handling stainless steel?",
+        answers : [ 
+        "any tool can be used (maid of bronze, high strength steel, aluminium, ...) as long as it is new;",
+        "any tool can be used (maid of bronze, high strength steel, aluminium, ...) as long as it is clean;",
+        "any tool can be used (maid of bronze, high strength steel, aluminium, ...), provided it was always used for stainless steels only;",
+        "only stainless steel tools and reserved for stainless steel only."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "What type of brushes shall be used for cleaning of joint preparations in stainless steels?",
+        answers : [ 
+        "any type of wire brush as long as it is new;",
+        "any type of wire brush as long as it is clean;",
+        "any type of wire brush, provided it was always used for stainless steels only;",
+        "only stainless steel brushes, even used."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "What is the major element in carbon steel?",
+        answers : [ 
+        "Iron.",
+        "Nickel.",
+        "Carbon.",
+        "Chromium."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "A farmer needs to weld/repair some stainless steel parts on agricultural machinery. He knows how to weld with coated electrodes. Would you suggest to him:",
+        answers : [ 
+        "to buy new parts, as there is no way to weld stainless steel parts in the field;",
+        "to buy a TIG (GTAW) machine, as this process offers the best weld quality;",
+        "to buy a MIG/MAG (GMAW) machine, as this process offers the highest production (deposition rate);",
+        "to buy a MMA machine (SMAW) and covered electrodes for stainless steel."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question: "What do you think, is there covered electrodes for welding aluminium?",
+        answers : [ 
+        "Yes!",
+        "No!",
+        "No, but electrodes for stainless steels can be used for welding aluminium.",
+        "No, but electrodes with a white coating can also be used to weld aluminum."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question: "Mercury is:",
+        answers : [ 
+        "a non-metal;",
+        "a metal; ",
+        "a natural alloy;",
+        "a non-metal that is always in a liquid state."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question: "Which of the following metals remains in liquid form under normal conditions?",
+        answers : [ 
+        "Radium.",
+        "Zinc.",
+        "Mercury.",
+        "Uranium."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        
+        
 ];
     
