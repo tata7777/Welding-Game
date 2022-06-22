@@ -13,15 +13,20 @@ function quizFinish(victory, timeON) {
         clearTimeout(time);                 // Pausa a contagem de tempo
     }
 
-    /*
     if (victory == true) {                  // Vitória do jogador
         moveWelder(-1);                     // O soldador avança o último degrau
         dvSpeech(true);                     // Darth Vader sai de cena
+        document.getElementById("recomecar").style.display = "block"; //aparece o botão para voltar para a segunda página
+        document.getElementById("sair").style.display = "block"; //aparece o botão para voltar para a página inicial
     }
     else {                                  // Derrota do jogador
         moveWelder(1);                      // O soldador desce a escada e sai de cena
+        document.getElementById("welder").style.display = "block";
+        document.getElementById("recomecar").style.display = "block"; //aparece o botão para voltar para a segunda página
+        document.getElementById("sair").style.display = "block"; //aparece o botão para voltar para a página inicial
         dvSpeech(false);                    // Darth Vader repreende o soldador
-    } */  
+    } 
+    
 
     // Dá opção para reiciniar o quiz
     setTimeout(function () { restartQuiz(); }, questionNumber * 400 + 1600);
@@ -31,17 +36,17 @@ function quizFinish(victory, timeON) {
 // CRIA UM BOTÃO PARA REINICIAR O QUIZ //
 /////////////////////////////////////////
 function restartQuiz() {
-/*
+
     var Wspeech = document.getElementById("welder-speech");
 
     // Carrega o balão de fala
     Wspeech.style.backgroundImage = "url('img/speech-balloon-2.png')";
-    Wspeech.style.webkitBackgroundSize = "100% 100%"; */
+    Wspeech.style.webkitBackgroundSize = "100% 100%"; 
 
     // Insere um link para reiniciar o quiz
     var element = document.createElement("a");
-    element.setAttribute("href", "index.html");
-    //element.innerHTML = "='( <br /> Posso tentar novamente...?";
+    element.setAttribute("href", "index.php"); //retorna para essa pagina
+    element.innerHTML = "='( <br /> Posso tentar novamente...?";
     element.style.textDecoration = "none";
     element.style.color = "red";
     Wspeech.appendChild(element);

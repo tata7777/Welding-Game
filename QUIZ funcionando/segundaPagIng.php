@@ -76,6 +76,31 @@
         #language{
             display: none;
         }
+        #recomecar{
+            padding:5px;
+            width: 7%;
+            top: 35%;
+            left: 80%;
+            border-radius: 50%;
+            font-size: max(11px, 1vw);
+            cursor:pointer;
+            position: absolute;
+            background-color: rgb(238, 87, 87);
+        }
+        #sair{
+            padding:5px;
+            width: 7%;
+            top: 40%;
+            left: 80%;
+            border-radius: 50%;
+            font-size: max(11px, 1vw);
+            cursor:pointer;
+            position: absolute;
+            background-color: rgb(238, 87, 87);
+            }
+
+
+
         @media(max-width:600px){
             #secondImage img {
                 display: none;}
@@ -84,6 +109,7 @@
             #subject{
                 top: 15%;
                 left: 20%;
+
             }
             #type{
                 top: 30%;
@@ -155,28 +181,30 @@
                 <button id="comeca" onclick="start()">START</button>
 
             
+
+            
         </div>
 
-        <div id="stair">
+        <div id="stair"> 
+           <div id="welding-knowledge">
+                    <img src="../QUIZ funcionando/img/welding-knowledge.png" >
+                </div>
+        </div>
+
+    
+        <input id="recomecar" type="button" value="RESTART" onclick="recomecar()"/>
+
+        
+        <input id="sair" type="button" value="END" onclick="sair()"/>
+        
+
+        
+        <!-- Tempo restante para responder a pergunta, se houver -->
+        <div id="time">
         </div>
 
         <!-- Animação do tempo restante para responder a pergunta -->
         <div id="time-animation">
-        </div>
-
-        <!-- Área de comando do jogador -->
-        <div id="quiz-container">
-            <!-- Região das perguntas -->
-            <div id="quiz-questions">
-            </div>
-
-            <!-- Região das respostas -->
-            <div id="quiz-answers">
-            </div>
-
-            <div id="credits2">
-                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
-            </div>
         </div>
 
         <!-- Animação na ponta da tocha/eletrodo -->
@@ -190,6 +218,18 @@
         <!-- Personagem Darth Vader -->
         <div id="darth-vader">
         </div>
+
+        <div id="speechs">
+
+            <!-- Balão de fala do Soldador -->
+            <div id="welder-speech">
+            </div>
+
+            <!-- Balão de fala do Darth Vader -->
+            <div id="dv-speech">
+            </div>
+        <div>
+
 
         <!-- Nome dos níveis -->
         <div id="levels">
@@ -207,10 +247,22 @@
             </div>
         </div>
 
-        <!-- Tempo restante para responder a pergunta, se houver -->
-        <div id="time">
-        </div>
+        <!-- Área de comando do jogador -->
+            <div id="quiz-container">
+            <!-- Região das perguntas -->
+            <div id="quiz-questions">
+            </div>
 
+            <!-- Região das respostas -->
+            <div id="quiz-answers">
+            </div>
+
+            <div id="credits2">
+                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
+            </div>
+
+            
+        </div>
 
             <!-- CARREGAMENTO DOS SCRIPTS -->
         <script src="js/script.js"></script>
@@ -221,8 +273,9 @@
         <script src="js/speeches.js"></script>
         <script src="js/finish.js"></script>
         <script src="js/level_name.js"></script>
+        <script src="js/botoes-en.js"></script>
 
-        <script src="js/level.js"></script>
+        <script src="js/level_en.js"></script>
         <script src="js/questions/questions1.js"></script>
         <script src="js/questions/questions1en.js"></script>
         <script src="js/questions/questions2.js"></script>

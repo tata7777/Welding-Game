@@ -74,6 +74,28 @@
          #comeca:hover{
                 background-color: beige;
             }
+        #recomecar{
+            padding:5px;
+            width: 7%;
+            top: 35%;
+            left: 80%;
+            border-radius: 50%;
+            font-size: max(11px, 1vw);
+            cursor:pointer;
+            position: absolute;
+            background-color: rgb(238, 87, 87);
+        }
+        #sair{
+            padding:5px;
+            width: 7%;
+            top: 40%;
+            left: 80%;
+            border-radius: 50%;
+            font-size: max(11px, 1vw);
+            cursor:pointer;
+            position: absolute;
+            background-color: rgb(238, 87, 87);
+            }
         #language{
             display: none;
         }
@@ -157,7 +179,10 @@
             
         </div>
 
-        <div id="stair">
+        <div id="stair"> 
+           <div id="welding-knowledge">
+                    <img src="../QUIZ funcionando/img/welding-knowledge.png" >
+                </div>
         </div>
 
         <!-- Animação do tempo restante para responder a pergunta -->
@@ -191,6 +216,23 @@
         <div id="darth-vader">
         </div>
 
+        <div id="speechs">
+
+            <!-- Balão de fala do Soldador -->
+            <div id="welder-speech">
+            </div>
+
+            <!-- Balão de fala do Darth Vader -->
+            <div id="dv-speech">
+            </div>
+        <div>
+        
+        <input id="recomecar" type="button" value="RESTART" onclick="recomecar()"/>
+
+        
+        <input id="sair" type="button" value="END" onclick="sair()"/>
+
+
         <!-- Nome dos níveis -->
         <div id="levels">
             <div id="level_1">
@@ -221,6 +263,7 @@
         <script src="js/speeches.js"></script>
         <script src="js/finish.js"></script>
         <script src="js/level_name.js"></script>
+        <script src="js/botoes.js"></script>
 
         <script src="js/level.js"></script>
         <script src="js/questions/questions1.js"></script>

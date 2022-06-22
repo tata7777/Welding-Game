@@ -88,7 +88,7 @@ a:hover{
 #folhaLouro img {
   width: 11%;
   position: absolute;
-  left: 7%;
+  left: 8%;
   top: 65%;
 }
 
@@ -378,6 +378,11 @@ a:hover{
     background-size: cover;
     display: none;
 }
+#welding-knowledge {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
 
 #dv-speech {
     width: 220px;
@@ -445,14 +450,13 @@ a:hover{
     background-image: url('../img/spark.gif');
     display: none;
 }
-
 #levels {
     width: 342px;
     height: 111px;
     position: absolute;
     top: 31px;
-    left: 695px;
-    background-image: url(../img/cassino-background.png);
+    left: 750px;
+    background-image: url('../img/cassino-background-en.png');
     background-size: 100% 100%;
     display: none;
     font-family: Calibri;
@@ -463,6 +467,7 @@ a:hover{
     text-indent: 64px;
     overflow: hidden;
 }
+
     #level_1{
     width: inherit;
     height: 22px;

@@ -1,4 +1,9 @@
-﻿function start(){
+﻿//Bloqueia os botões de recomeçar e sair
+    document.getElementById("recomecar").style.display = "none";
+    document.getElementById("sair").style.display = "none";
+
+
+function start(){
     var tipo =  document.getElementsByName('type'); //jogo com ou sem limite de tempo
 
     if(tipo[0].checked)
@@ -6,6 +11,7 @@
     else 
        startNaoCons();
 }
+
 
 // Eletrodo não-consumível
 function startNaoCons() {
@@ -87,6 +93,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     // Desaparece todos os elementos gráficos da segunda página e apare a div das perguntas
     document.getElementById("elements").style.display = "none";
     document.getElementById("quiz-container").style.display = "block";
+    //document.getElementById("speechs").style.display = "block";
 
     // Aparecimento da animação de tempo
     document.getElementById("spark").style.display = "block";
@@ -95,8 +102,9 @@ function quizStart(eletrodoRevestido, language, subjects) {
     //substituir a div story image por outra div com nome diferente e colocar o css do 
     // story image da ic original
     //document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')"; //story-image com problemas - escada n aparece
-    //document.getElementById("story-image").style.backgroundSize = "cover"; 
+    //document.getElementById("story-image").style.backgroundSize = "cover";   
     document.getElementById("stair").style.display = "block";
+    document.getElementById("welding-knowledge").style.transform = "rotate(22deg)";
     //document.getElementById("stair").style.backgroundSize = "100% 100%";
     document.getElementById("welder").style.display = "none";
     document.getElementById("darth-vader").style.display = "none";
@@ -150,6 +158,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     // FUNÇÃO QUE VERIFICA SE A REPOSTA ESCOLHIDA É CORRETA OU NÃO, E EXECUTA AS AÇÕES CORRESPONDENTES //
     /////////////////////////////////////////////////////////////////////////////////////////////////////
     function verifyAnswer() {
+        
         // Verifica se a resposta escolhida é a correta, e não é a última pergunta
         if (radio[questionLevel[aux].correctAnswer].checked == true && questionNumber < 20) {
             // Desmarcar o radio button
@@ -187,16 +196,17 @@ function quizStart(eletrodoRevestido, language, subjects) {
         }
         // Verifica se a respota é incorreta
         else if (radio[questionLevel[aux].correctAnswer].checked == false) {
-            quizFinish(false, eletrodoRevestido);                   // Finaliza o quiz com derrota por resposta incorreta
             radioOFF();                                             // Desativa os radio buttons
-            document.removeEventListener("keypress", botao, false);
+            quizFinish(false, eletrodoRevestido);                   // Finaliza o quiz com derrota por resposta incorreta
+            document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
             insertScore();
-        }
+            
+        } // algo errado aqui
 
         // Caso em que a resposta é correta, e a pergunta é a última do quiz
         else {
-            quizFinish(true, eletrodoRevestido);                    // Finaliza o quiz com vitória
             radioOFF();                                             // Desativa os radio buttons
+            quizFinish(true, eletrodoRevestido);                    // Finaliza o quiz com vitória
             levelName();                                            // Animação do nome do nível
             questionNumber++;                                       // Atualização para indicar vitória (fins de código)
             document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
@@ -235,8 +245,8 @@ function quizStart(eletrodoRevestido, language, subjects) {
             // Verifica se o tempo esgotou
             if (t < 0) {
                 // Declara derrota
-                quizFinish(false, eletrodoRevestido);
                 radioOFF();
+                quizFinish(false, eletrodoRevestido);
                 document.removeEventListener("keypress", botao, false);
                 sparkdiv.style.display = "none";
                 insertScore();
@@ -267,7 +277,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     /////////////////////////////////
     // Desabilita os radio buttons //
     /////////////////////////////////
-    function radioOFF() {
+    function radioOFF() { // não tá funcionando, mas não acho que o problema seja nela
         for (i = 0; i < 4; i++) {
             radio[i].disabled = true;
         }
