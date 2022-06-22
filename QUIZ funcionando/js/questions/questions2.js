@@ -124,4 +124,226 @@
         correctAnswer: "3",
         subject: "2"
     }
+
+    ,{
+        question:"Qual destes materiais tem maior condutividade elétrica (conduz melhor eletricidade)?",
+        answers : [ 
+        "Água.",
+        "Cobre.",
+        "Aço.",
+        "Baquelite."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Qual destes materiais tem menor condutividade elétrica (tem alta resistência elétrica)?",
+        answers : [ 
+        "Água",
+        "Cobre",
+        "Aço",
+        "Baquelite"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Qual destes materiais tem pior condutividade térmica (melhor isolante térmico)?",
+        answers : [ 
+        "Cobre",
+        "Alumínio",
+        "Aço",
+        "Baquelite"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Qual destes materiais tem maior condutividade térmica (conduz melhor o calor)?",
+        answers : [ 
+        "Aço inoxidável.",
+        "Alumínio.",
+        "Aço ao carbono.",
+        "Baquelite."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Qual dos seguintes metais é não ferroso?",
+        answers : [ 
+        "Aço",
+        "Ferro Fundido",
+        "Cobre",
+        "Ferro Maleável "
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Os metais ferrosos mais comuns são:",
+        answers : [ 
+        "Alumínio e Magnésio",
+        "Cobre e Latão",
+        "Zinco e Chumbo",
+        "Aço Carbono e Ferro Fundido"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Como é expressada a densidade de um material?",
+        answers : [ 
+        "Massa por unidade de volume.",
+        "Massa por centímetro quadrado.",
+        "Massa por milímetro quadrado.",
+        "Massa por metro quadrado."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Qual dos materiais abaixo tem maior resistência mecânica?",
+        answers : [ 
+        "Cobre",
+        "Alumínio",
+        "Aço",
+        "Baquelite"
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Qual dos materiais abaixo tem menor resistência mecânica?",
+        answers : [ 
+        "Cobre",
+        "Alumínio",
+        "Aço",
+        "Chumbo"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Qual dos materiais abaixo tem menor resistência mecânica?",
+        answers : [ 
+        "Cobre",
+        "Alumínio",
+        "Aço",
+        "Ferro fundido"
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"O cobre tem, em comparação com o aço, a seguinte propriedade:",
+        answers : [ 
+        "condutividade térmica mais alta.",
+        "densidade menor (mais leve);",
+        "ponto de fusão mais alto;",
+        "condutividade elétrica mais baixa."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"O cobre tem, em comparação com o aço, a seguinte propriedade:",
+        answers : [ 
+        "condutividade elétrica mais alta.",
+        "densidade menor (mais leve);",
+        "ponto de fusão mais alto;",
+        "condutividade térmica mais baixa."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Qual material é feito de matriz e de reforço que, juntos, têm melhores propriedades do que os materiais individuais?",
+        answers : [ 
+        "Super liga.",
+        "Cerâmica.",
+        "Polímero.",
+        "Compósito."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Qual destes materiais tem a condutividade térmica mais alta (conduz melhor o calor)?",
+        answers : [ 
+        "Aço inoxidável.",
+        "Alumínio.",
+        "Aço ao carbono.",
+        "Cobre."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Qual material tem a condutividade térmica mais baixa (conduz pior o calor)?",
+        answers : [ 
+        "Aço inoxidável.",
+        "Alumínio.",
+        "Aço ao carbono.",
+        "Cobre."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Que ferramentas devem ser utilizadas ao manusear aços inoxidáveis?",
+        answers : [ 
+        "qualquer ferramenta pode ser usada (feita de bronze, aço de alta resistência, alumínio, ...) desde que seja nova;",
+        "qualquer ferramenta pode ser usada (feita de bronze, aço de alta resistência, alumínio, ...) desde que seja limpa;",
+        "qualquer ferramenta pode ser usada (feita de bronze, aço de alta resistência, alumínio, ...), desde que ela sempre foi utilizada apenas para aços inoxidáveis;",
+        "apenas ferramentas de aço inoxidável podem ser usadas."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Que tipo de escova deve ser utilizada para limpeza de preparações de juntas em aços inoxidáveis?",
+        answers : [ 
+        "qualquer tipo de escova de aço desde que seja nova; ",
+        "qualquer tipo de escova de aço desde que seja limpa; ",
+        "qualquer tipo de escova de aço, desde que ela sempre foi utilizada apenas para aços inoxidáveis;",
+        "apenas escovas de aço inoxidável, mesmo usadas."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"O teor de qual elemento é maior no aço ao carbono?",
+        answers : [ 
+        "Ferro.",
+        "Níquel.",
+        "Carbono.",
+        "Cromo."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Um fazendeiro precisa soldar/consertar algumas peças de aço inoxidável em máquinas agriculturais. Ele sabe soldar com eletrodos revestidos. Você lhe sugeria:",
+        answers : [ 
+        "comprar peças novas, pois não tem como soldar peças de aço inoxidável no campo; ",
+        "comprar uma máquina TIG (GTAW), pois este processo oferece a melhor qualidade da solda;",
+        "comprar uma máquina MIG/MAG (GMAW), pois este processo oferece a maior produção (taxa de deposição);",
+        "comprar uma máquina MMA (SMAW) e eletrodos revestidos para o aço inoxidável. "
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"O que você acha, existem eletrodos revestidos para soldar alumínio?",
+        answers : [ 
+        "Sim!",
+        "Não!",
+        "Não, mas eletrodos para aços inoxidáveis podem ser usados para soldar alumínio.",
+        "Não, mas eletrodos com o revestimento de cor branca também podem ser usados para soldar alumínio."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"O mercúrio é:",
+        answers : [ 
+        "um não metal;",
+        "um metal; ",
+        "uma liga natural; ",
+        "um não metal que fica sempre no estado líquido."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Qual dos seguintes metais permanece na forma líquida em condições normais?",
+        answers : [ 
+        "Rádio.",
+        "Zinco.",
+        "Mercúrio.",
+        "Urânio."
+        ],
+        correctAnswer:"2",
+        subject:"1"}
+                
 ];

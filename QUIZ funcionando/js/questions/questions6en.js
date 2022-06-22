@@ -1,117 +1,484 @@
 const quizQuestions6en = [
     {
-        question: "EN-Qual cabo você utilizaria se precisar soldar a distância de 60 m da fonte de soldagem?",
-        answers: [
-            "O mais fino, pois é mais barato",
-            "O mais grosso, pois embora não se conheça a corrente de soldagem, se estaria trabalhando em favor da segurança",
-            "O mais grosso no porta-eletrodo, pois a corrente flui para lá e o mais fino no cabo terra, pois a corrente é"
-                + " somente de retorno",
-            "Tanto faz"
+        question:"What can cause weld cracks in arc welding?",
+        answers : [ 
+        "A highly restrained joint assembly.",
+        "A too short arc.",
+        "Too slow cooling.",
+        "Incorrect handling of the electrode."
         ],
-        correctAnswer: "1"
-    },
-    {
-        question: "EN-O que você faria para evitar que fosse utilizado o eletrodo incorreto?",
-        answers: [
-            "Escolhia o mesmo eletrodo que já usarei para uma solda similar",
-            "Escolhia o eletrodo indicado pelo um soldador experiente",
-            "Verificaria se a designação do eletrodo a ser usado está em conformidade com a especificação do procedimento"
-                + " de soldagem",
-            "Verificaria se o comprimento do eletrodo está em conformidade com a especificação do procedimento de soldagem"
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"What can cause weld cracks in arc welding?",
+        answers : [ 
+        "Dirty joint borders.",
+        "A too short arc.",
+        "Too slow cooling.",
+        "Incorrect handling of the electrode."
         ],
-        correctAnswer: "2"
-    },
-    {
-        question: "EN-Você escolheria o diâmetro do eletrodo revestido a ser utilizado em uma determinada junta com base:",
-        answers: [
-            "No fabricante do eletrodo",
-            "Na espessura do metal de base",
-            "No comprimento do ponteamento",
-            "No tempo que os eletrodos podem ficar fora do forno"
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"What can cause weld cracks in arc welding?",
+        answers : [ 
+        "Very fast cooling.",
+        "A too short arc.",
+        "Too slow cooling.",
+        "Incorrect handling of the electrode."
         ],
-        correctAnswer: "1"
-    },
-    {
-        question: "EN-O correto comprimento do arco quando se solda com eletrodo revestido básico é:",
-        answers: [
-            "No mínimo o dobro do diâmetro da alma",
-            "Igual à 5 mm",
-            "O menor possível",
-            "O maior possível"
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"What is the fused zone?",
+        answers : [ 
+        "Region of the welded joint where, during welding, the metal was in a liquid state.",
+        "Region in which the weld bead is widest.",
+        "Region on the axis of the welded joint.",
+        "Region of the welded joint that is in the liquid state."
         ],
-        correctAnswer: "2"
-    },
-    {
-        question: "EN-Que tipo de revestimento de eletrodo é mais utilizado para a posição vertical descendente?",
-        answers: [
-            "Rutílico (por ex., E6013)",
-            "Básico (por ex., E7018)",
-            "Acido (por ex., E7020)",
-            "Celulósico (por ex., E6010)"
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"What kind of defect can possibly occur due to a high hydrogen content in the coating of covered electrodes when welding low-alloy steels?",
+        answers : [ 
+        "Hot cracking in the weld metal.",
+        "Cold cracking in the heat affected zone.",
+        "Porosity in the weld metal.",
+        "Development of martensite in the HAZ."
         ],
-        correctAnswer: "3"
-    },
-    {
-        question: "EN-Para se soldar um remendo de 120 x 250 mm em um tanque de água de 2 mm de espessura que está vazando,"
-                    + " você utilizaria qual combinação de parâmetros?",
-        answers: [
-            "Eletrodo celulósico com alta amperagem para aumentar a produtividade",
-            "Eletrodo básico com 4 mm de diâmetro para garantir boa tenacidade do reparo",
-            "Eletrodo ácido, para combinar com a basicidade da água",
-            "Eletrodo E-6013 (rutílico) com pequeno diâmetro (de 1,6 a 2,4 mm)"
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which are the main alloying elements in X2CrNi18-10 steel (as per EN code)?",
+        answers : [ 
+        "18 % nickel and 10 % chromium.",
+        "18 % chromium and 10 % nickel.",
+        "18 % chromium and 10 % iron.",
+        "1,8% chromium and 1 % nickel."
         ],
-        correctAnswer: "3"
-    },
-    {
-        question: "EN-NÃO é(são) característica(s) da soldagem MIG/MAG por curto-circuito",
-        answers: [
-            "respingos",
-            "cordão liso, sem escamas",
-            "soldagem em todas as posições",
-            "baixa corrente"
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"\"Which of the following describes \"\"Buttering\"\"?\"",
+        answers : [ 
+        "Lining the side of a prepared joint with weld.",
+        "Weaving back and forth across a prepared joint.",
+        "The cover pass of a prepared joint.",
+        "The fill pass of a prepared joint."
         ],
-        correctAnswer: "1"
-    },
-    {
-        question: "EN-Qual fator abaixo determina o tamanho do maçarico para se cortar chapas de aço carbono com processo"
-                    + "oxi-acetileno?",
-        answers: [
-            "O comprimento das mangueiras",
-            "A posição de corte",
-            "O comprimento a ser cortado",
-            "A espessura da chapa"
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Which of the following shielding gases will result in increased penetration when TIG welding copper?",
+        answers : [ 
+        "Ar.",
+        "Ar + 25%He. ",
+        "Ar + 75%He.",
+        "Ar + 2%CO2."
         ],
-        correctAnswer: "3"
-    },
-    {
-        question: "EN-Qual processo abaixo é o mais recomendado para goivagem de um passe de raiz?",
-        answers: [
-            "Eletrodo revestido com revestimento básico",
-            "Goivagem a arco",
-            "Eletrodo revestido com revestimento celulósico",
-            "Eletrodo de tungstênio"
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Assuming that the plate thickness and the other chemical elements of their composition are equal, which of the following four steels has good weldability?",
+        answers : [ 
+        "C = 0,40% and Mn = 1,20%.",
+        "C = 0,45% and Mn = 0,90%.",
+        "C = 0,45% and Mn = 1,20%.",
+        "C = 0,08% and Mn = 0,90%."
         ],
-        correctAnswer: "1"
-    },
-    {
-        question: "EN-Se a regulagem da tensão da fonte for modificada para maiores valores em uma soldagem MAG convencional:",
-        answers: [
-            "O comprimento do arco irá aumentar",
-            "A velocidade de alimentação diminuirá",
-            "A corrente irá aumentar",
-            "A largura da solda irá diminuir"
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Assuming that the plate thickness and the other chemical elements of their composition are equal, which of the following four steels has good weldability?",
+        answers : [ 
+        "C = 0,40% and Mn = 1,20%.",
+        "C = 0,45% and Mn = 0,90%.",
+        "C = 0,45% and Mn = 1,20%.",
+        "C = 0,08% and Mn = 1,60%."
         ],
-        correctAnswer: "0"
-    },
-    {
-        question: "EN-Marque a alternativa correta.",
-        answers: [
-            "Aço é toda liga Ferro – Carbono com um teor de até 2,06% em peso de carbono",
-            "O aço é o principal produto do alto forno de interesse da indústria metal-mecânica",
-            "As matérias primas para a produção do ferro gusa são: minério de ferro, carvão, escória e ar",
-            "No alto forno é produzido o ferro gusa e no conversor é adicionado carbono para se obter o teor de carbono"
-                + " desejado do aço"
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which statement regarding welding of aluminum is correct?",
+        answers : [ 
+        "When welding thicker plates made of aluminium, pre-heating may be required due to the higher thermal conductivity of aluminium.",
+        "When welding aluminium, pre-heating is not recommended, as it can generate fragile microstructures in the ZAC.",
+        "High thermal conductivity of aluminum makes preheating unnecessary, as the heat from the weld pool spreads through the ZAC almost instantly.",
+        "When welding aluminium, pre-heating is not recommended, as it softens aluminum, which can cause defects such as excessive penetration."
         ],
-        correctAnswer: "0"
-    }
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"The back stepping technique:",
+        answers : [ 
+        "allows to increase penetration;",
+        "serves as a type of stress relieving and also reduces the distortion;",
+        "allows to avoid the lack of fusion;",
+        "allows to increase the deposition rate."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"One of the main objectives of heat treatment of the welded joint is:",
+        answers : [ 
+        "stress relieving;",
+        "reduction of the heat affected zone (HAZ) size;",
+        "elimination of excessive oxidation zones;",
+        "reduction of deformation."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Stainless steels can be welded by:",
+        answers : [ 
+        "Oxy-Fuel welding (OFW), MMA(SMAW) and TIG(GTAW);",
+        "Oxy-Fuel welding (OFW), MMA(SMAW) and MIG/MAG(GMAW);",
+        "MMA(SMAW), TIG(GTAW) and MIG/MAG(GMAW);",
+        "Oxy-Fuel welding (OFW), MMA(SMAW) and SAW."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Are there any special precautions to minimise distortion in welding of stainless steels?",
+        answers : [ 
+        "Yes, the distance between the tack welds shall be relatively long compared to non alloy steel.",
+        "No, you can proceed as for welding of non alloy steels.",
+        "No, because stainless steels are not sensitive to distortion (due to high ductility).",
+        "Yes, the tack welds shall be put at a shorter distance than for non alloy steel."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"The most common type of covered electrodes for welding of stainless steels are:",
+        answers : [ 
+        "acid type electrode;",
+        "basic type electrode;",
+        "cellulosic type electrode;",
+        "rutile type electrode."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which shielding gas is most suitable for MIG/MAG-welding (GMAW) of austenitic stainless steel?",
+        answers : [ 
+        "Pure argon.",
+        "Gas mixture argon + helium.",
+        "Gas mixture argon+2%CO2.",
+        "CO2."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Which backing gas should be used for TIG-welding of aluminium?",
+        answers : [ 
+        "Argon.",
+        "Gas mixture argon + oxygen.",
+        "Gas mixture nitrogen + hydrogen.",
+        "CO2."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Cleaning of joint preparations prior to welding of aluminium:",
+        answers : [ 
+        "shall be done within 48 hours prior to welding;",
+        "shall be done at least 24 hours prior to welding;",
+        "shall be done immediately before welding;",
+        "Depends on welding process to be used."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"When the heat input decreases, then the need for preheating:",
+        answers : [ 
+        "increases to compensate the reduction of the heat income;",
+        "decreases to sintonize with the reduction of the heat income;",
+        "increases or decreases depending on the workpiece thickness;",
+        "stays as it is because the heat input does not affect the need for preheating."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"The heat affected zone (HAZ) is:",
+        answers : [ 
+        "the part of the parent metal, which has been melted during welding;",
+        "the part of the parent metal, on which the welding has caused changes in the microstructure;",
+        "the part of the parent metal, on which the welding has caused changes in the macrostructure;",
+        "the part of the parent metal which suffered heating during welding."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which backing gas should be used for TIG-welding of austenitic stainless steel pipes?",
+        answers : [ 
+        "Argon + CO2.",
+        "Pure argon or gas mixture nitrogen-hydrogen.",
+        "Gas mixture helium + hydrogen.",
+        "Gas mixture nitrogen + CO2."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which imperfections can cause corrosion in stainless steel welded joints?",
+        answers : [ 
+        "Tungsten inclusions.",
+        "Internal porosity.",
+        "Reinforcement.",
+        "Spatter."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which imperfections can cause corrosion in stainless steel welded joints?",
+        answers : [ 
+        "Tungsten inclusions.",
+        "Internal porosity.",
+        "Reinforcement.",
+        "Stray arc marks."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which imperfections can cause corrosion in stainless steel welded joints?",
+        answers : [ 
+        "Tungsten inclusions.",
+        "Internal porosity.",
+        "Reinforcement.",
+        "Grinding marks."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Why is it important to store aluminium filler materials in dry conditions before use?",
+        answers : [ 
+        "Because moisture can cause an excessive oxidation.",
+        "Because moisture can cause a corrosion.",
+        "Because moisture is taken in outer oxide-layer of the filler metal.",
+        "Because moisture can cause arc instabilities."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Why it is necessary to remove the thick oxide layer from the joint preparation (using a stainless-steel brush) prior to welding of aluminium?",
+        answers : [ 
+        "Due to the high heat required to weld through a thick oxide layer, there is a risk of a “burn through”.",
+        "The arc does not destroy the oxide layer.",
+        "A thick oxide layer reduce the deposition rate. ",
+        "A thick oxide layer can reflect the arc. "
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Why it is necessary to remove the thick oxide layer from the joint preparation (using a stainless-steel brush) prior to welding of aluminium?",
+        answers : [ 
+        "To avoid oxide inclusions in the weld metal.",
+        "The arc does not destroy the oxide layer.",
+        "A thick oxide layer reduce the deposition rate. ",
+        "A thick oxide layer can reflect the arc. "
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Why it is necessary to remove the thick oxide layer from the joint preparation (using a stainless-steel brush) prior to welding of aluminium?",
+        answers : [ 
+        "A thick oxide layer, which acts as an insulator, can cause arc start problems.",
+        "The arc does not destroy the oxide layer.",
+        "A thick oxide layer reduce the deposition rate. ",
+        "A thick oxide layer can reflect the arc. "
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"When the carbon equivalent increases, then the need for:",
+        answers : [ 
+        "preheating decreases;",
+        "preheating also increases;",
+        "post-heating decreases;",
+        "PWHT decreases."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which polarity do you choose for MIG/MAG welding of stainless steels?",
+        answers : [ 
+        "Unlike carbon steels, the positive electrode polarity.",
+        "Unlike carbon steels, the negative electrode polarity.",
+        "The same as in the case of carbon steels, the negative electrode polarity.",
+        "The same as in the case of carbon steels, the positive electrode polarity."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Compared to non alloy steels austenitic stainless steels have a higher:",
+        answers : [ 
+        "thermal conductivity;",
+        "thermal expansion;",
+        "electrical conductivity;",
+        "ferrite content."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Austenitic stainless steel shall be welded with a lower (than for non alloy steel) heat input:",
+        answers : [ 
+        "to reduce distortion;",
+        "to avoid possible burning out of the alloying elements;",
+        "to reduce possible losses of heat generated by the arc;",
+        "for better control of the weld pool."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Austenitic stainless steel shall be welded with a lower (than for non alloy steel) heat input:",
+        answers : [ 
+        "to minimize risk for corrosion;",
+        "to avoid possible burning out of the alloying elements;",
+        "to reduce possible losses of heat generated by the arc;",
+        "for better control of the weld pool."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Stainless steels have a good corrosion resistance in an oxidizing atmosphere due to:",
+        answers : [ 
+        "a low carbon content;",
+        "a chromium oxide protective layer;",
+        "a high nickel content;",
+        "a correct balance between nickel and ferrite."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"The recommended electrode inclination for TIG welding (GTAW) using a filler rod is:",
+        answers : [ 
+        "5 degrees to 20 degrees forehand (push);",
+        "5 degrees to 20 degrees backhand (drag);",
+        "25 degrees to 45 degrees forehand (push);",
+        "25 degrees to 45 degrees backhand (drag);"
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Most austenitic stainless steels:",
+        answers : [ 
+        "will normally require some type of preheat and post heat;",
+        "will normally require some type of interpass heat;",
+        "do not normally require any preheat or postheat;",
+        "do not have good weldability."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Acetylene is a good choice for gas welding and cutting because: ",
+        answers : [ 
+        "it produces the highest volume of heat;",
+        "it produces the highest temperature and concentrated heat;",
+        "it is cheap;",
+        "it is easy to be handled."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which of the following fuel gases would be the most efficient for preheat? ",
+        answers : [ 
+        "Acetylene.",
+        "Natural gas.",
+        "Propane.",
+        "LGP"
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"The gas welding of a thick aluminium plate requires a larger tip than for gas welding mild steel plate of the same thickness because aluminium has a:",
+        answers : [ 
+        "reflective surface;",
+        "thick heat resistant oxide film on its surface;",
+        "some kind of surface treatment such as anodising, which needs more heat to be remelted;",
+        "higher thermal conductivity."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which of the following is considered when determining the need for post heating of a weld? ",
+        answers : [ 
+        "Thickness of material.",
+        "Welding process used.",
+        "Welding position.",
+        "Arc voltage."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Which of the following is considered to determine post heating of a weld? ",
+        answers : [ 
+        "Carbon content.",
+        "Welding process used.",
+        "Welding position.",
+        "Arc voltage."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Which of the following is considered to determine post heating of a weld? ",
+        answers : [ 
+        "Prior heat treatment.",
+        "Welding process used.",
+        "Welding position.",
+        "Arc voltage."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"When welding mild steel with the MIG/MAG welding (GMAW) process, what shielding gas gives you the deepest penetration?",
+        answers : [ 
+        "Argon.",
+        "Helium.",
+        "Ar + CO2 mixture.",
+        "CO2."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Which of these factors does NOT affect the structure of a chosen point in the heat affected zone in arc welding?",
+        answers : [ 
+        "The maximum temperature to which the point is heated.",
+        "The chemical composition of the filler material.",
+        "The chemical composition of the parent metal.",
+        "The cooling rate."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"What may be one of the reasons for cold cracking in the HAZ of an unalloyed or fine-grained steel weldment?",
+        answers : [ 
+        "Presence of diffusible hydrogen.",
+        "Low-temperature operation.",
+        "Too high preheating.",
+        "An increased heat input."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Stainless steels are corrosion resistant:",
+        answers : [ 
+        "due to fine-grained austenitic structure;",
+        "due to insoluble chromium oxides present at the surface;",
+        "because these steels are not magnetic, therefore they cannot form galvanic cells;",
+        "because chromium does not form oxides."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"The use of the basic coating electrode is recommended for welding:",
+        answers : [ 
+        "small thicknesses;",
+        "assemblies with low level of the stiffness;",
+        "pipe circumferential welds;",
+        "steels of unknown chemical composition."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        
+        
 ];

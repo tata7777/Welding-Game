@@ -215,5 +215,227 @@
     "Hertz"],
     correctAnswer : "1",
     subject:"0"}
+    ,{
+        question:"Which of these materials is non-ferrous?",
+        answers : [ 
+        "Stainless steel.",
+        "Copper.",
+        "Carbon steel.",
+        "Cast iron."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Which of these materials is non-ferrous?",
+        answers : [ 
+        "Stainless steel.",
+        "Aluminium.",
+        "Carbon steel.",
+        "Cast iron."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"Aluminium is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "a very light steel grade."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Copper is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "an alloy of the bronze."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Copper is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "an alloy of the brass."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        {
+        question:"Carbon steel is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "an alloy of the cast iron."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Stainless steel is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "an alloy of the white cast iron."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Cast iron is:",
+        answers : [ 
+        "a ferrous metal;",
+        "a composite material;",
+        "a non ferrous metal;",
+        "a high hardness steel."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"Metals, unlike non-metals, ...",
+        answers : [ 
+        "are solid;",
+        "have a higher melting point;",
+        "are harder;",
+        "are good electrical conductors."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Metals, unlike non-metals, ...",
+        answers : [ 
+        "are solid;",
+        "have a higher melting point;",
+        "are harder;",
+        "are good thermal conductors."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Non-metals, unlike metals, ...",
+        answers : [ 
+        "are liquid;",
+        "have a lower melting point;",
+        "are less hard;",
+        "are good electrical insulators."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Non-metals, unlike metals, ...",
+        answers : [ 
+        "are liquid;",
+        "have a lower melting point;",
+        "are less hard;",
+        "are good thermal insulators."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"Metals, unlike non-metals, ...",
+        answers : [ 
+        "are solid;",
+        "have a higher melting point;",
+        "are harder;",
+        "have usually higher thermal expansion (eg compared to ceramics)."
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"What is the temperature measurement unit?",
+        answers : [ 
+        "Joule.",
+        "Degree.",
+        "Cal.",
+        "Watt."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"A material that returns to its original shape after deformation is:",
+        answers : [ 
+        "elastic.",
+        "plastic.",
+        "resistant.",
+        "tough."
+        ],
+        correctAnswer:"0",
+        subject:"1"},
+        {
+        question:"If you heat these materials with an oxy-acetylene torch, which one will be melted first?",
+        answers : [ 
+        "Copper.",
+        "Aluminium.",
+        "Carbon steel.",
+        "Cast iron."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"\"If one of your friends asks you to weld/repair a metal joint in his house, before accepting the \"\"service\"\" you will ask him ...\"",
+        answers : [ 
+        "whether water will be available to cool the joint after it has been welded?",
+        "whether there will be a gas stove to dry the electrodes?",
+        "what is the chemical composition of the material to be welded?",
+        "what kind of material to be welded?"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"\"If one of your friends asks you to weld/repair a metal joint in his house, before accepting the \"\"service\"\" you will ask him ...\"",
+        answers : [ 
+        "whether water will be available to cool the joint after it has been welded?",
+        "whether there will be a gas stove to dry the electrodes?",
+        "what is the chemical composition of the material to be welded?",
+        "how thick is the metal?"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"If one of your friends asks you to weld/repair a white colored metal joint at his house, you will think that this is more likely ...",
+        answers : [ 
+        "copper;",
+        "stainless steel;",
+        "white cast iron;",
+        "carbon steel."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"If one of your friends asks you to weld/repair a white colored metal joint at his house, you will think that this is more likely ...",
+        answers : [ 
+        "copper;",
+        "aluminium;",
+        "white cast iron;",
+        "carbon steel."
+        ],
+        correctAnswer:"1",
+        subject:"1"},
+        {
+        question:"If one of your friends (also a weekend welder) thinks about accepting the service of fixing an aluminium pan, your suggestion will be ...",
+        answers : [ 
+        "for him to look for electrodes with a white coating;",
+        "for him to look for electrodes for stainless steels that can also be used to weld aluminium;",
+        "for him to look for electrodes for non-ferrous, for example copper, which can also be used to weld aluminium;",
+        "although there are electrodes for welding aluminium, but he shouldn't even think to accept such a service!"
+        ],
+        correctAnswer:"3",
+        subject:"1"},
+        {
+        question:"The biggest problem during welding upon a painted surface is ...",
+        answers : [ 
+        "smoke;",
+        "bad smell;",
+        "porosity in the weld metal;",
+        "bad weld appearance."
+        ],
+        correctAnswer:"2",
+        subject:"1"},
+        
+        
         
 ];

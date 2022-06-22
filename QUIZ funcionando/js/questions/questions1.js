@@ -126,5 +126,227 @@
         ],
         correctAnswer: "3",
         subject: "1"
-    }
+    },
+
+    {
+    question:"Qual destes materiais é não-ferroso?",
+    answers : [ 
+    "Aço inoxidável.",
+    "Cobre.",
+    "Aço ao carbono.",
+    "Ferro fundido."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"Qual destes materiais é não-ferroso?",
+    answers : [ 
+    "Aço inoxidável.",
+    "Alumínio.",
+    "Aço ao carbono.",
+    "Ferro fundido."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"Alumínio é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "um tipo de aço muito leve."
+    ],
+    correctAnswer:"2",
+    subject:"1"},
+    {
+    question:"Cobre é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "uma liga de bronze."
+    ],
+    correctAnswer:"2",
+    subject:"1"},
+    {
+    question:"Cobre é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "uma liga de latão."
+    ],
+    correctAnswer:"2",
+    subject:"1"},
+    {
+    question:"Aço ao carbono é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "uma liga de ferro fundido."
+    ],
+    correctAnswer:"0",
+    subject:"1"},
+    {
+    question:"Aço inoxidável é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "uma liga de ferro fundido branco."
+    ],
+    correctAnswer:"0",
+    subject:"1"},
+    {
+    question:"Ferro fundido é:",
+    answers : [ 
+    "um metal ferroso;",
+    "um material compósito;",
+    "um metal não-ferroso;",
+    "um aço de alta dureza."
+    ],
+    correctAnswer:"0",
+    subject:"1"},
+    {
+    question:"Metais, diferentemente dos não metais, ...",
+    answers : [ 
+    "são sólidos;",
+    "têm ponto de fusão mais alto;",
+    "são mais duros;",
+    "são bons condutores elétricos."
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Metais, diferentemente dos não metais, ...",
+    answers : [ 
+    "são sólidos;",
+    "têm ponto de fusão mais alto;",
+    "são mais duros;",
+    "são bons condutores térmicos."
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Não metais, diferentemente dos metais, ...",
+    answers : [ 
+    "são líquidos;",
+    "têm ponto de fusão mais baixo;",
+    "são menos duros;",
+    "são bons isolantes elétricos."
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Não metais, diferentemente dos metais, ...",
+    answers : [ 
+    "são líquidos;",
+    "têm ponto de fusão mais baixo;",
+    "são menos duros;",
+    "são bons isolantes térmicos."
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Metais, diferentemente dos não metais, ...",
+    answers : [ 
+    "são sólidos;",
+    "têm ponto de fusão mais alto;",
+    "são mais duros;",
+    "têm usualmente maior expansão térmica (p.ex. comparados às cerâmicas)."
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Qual é a unidade de medida da temperatura?",
+    answers : [ 
+    "Joule.",
+    "Grau.",
+    "Cal.",
+    "Watt."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"O material que retorna à sua forma original após a deformação é:",
+    answers : [ 
+    "elástico;",
+    "plástico;",
+    "resistente;",
+    "tenaz."
+    ],
+    correctAnswer:"0",
+    subject:"1"},
+    {
+    question:"Se esquentar estes materiais com um maçarico oxi-acetileno, qual deles vai ser fundido o primeiro?",
+    answers : [ 
+    "Cobre.",
+    "Alumínio.",
+    "Aço.",
+    "Ferro fundido."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"\"Caso um dos seus amigos te pedir soldar/consertar uma junta metálica na casa dele, antes do aceitar o \"\"serviço\"\" você lhe perguntará ...\"",
+    answers : [ 
+    "se terá a água disponível para resfriar a junta após ser soldada?",
+    "se terá um fogão a gás para ressecar os eletrodos?",
+    "qual é a composição química do material a ser soldado?",
+    "que tipo do material a ser soldado?"
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"\"Caso um dos seus amigos te pedir soldar/consertar uma junta metálica na casa dele, antes do aceitar o \"\"serviço\"\", uma das suas perguntas será ...\"",
+    answers : [ 
+    "se terá a água disponível para resfriar a junta após ser soldada?",
+    "se terá um fogão a gás para ressecar os eletrodos?",
+    "qual é a composição química do material a ser soldado?",
+    "qual é a espessura do metal?"
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"Caso um dos seus amigos te pedir soldar/consertar uma junta de metal de cor branca na casa dele, você pensará que isso é mais provável ...",
+    answers : [ 
+    "cobre;",
+    "aço inoxidável;",
+    "ferro fundido branco;",
+    "aço ao carbono."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"Caso um dos seus amigos te pedir soldar/consertar uma junta de metal de cor branca na casa dele, você pensará que isso é mais provável ...",
+    answers : [ 
+    "cobre;",
+    "alumínio;",
+    "ferro fundido branco;",
+    "aço ao carbono."
+    ],
+    correctAnswer:"1",
+    subject:"1"},
+    {
+    question:"Caso um dos seus amigos (também um soldador de final de semana) pensa aceitar o serviço de consertar uma panela de alumínio, sua sugestão será ...",
+    answers : [ 
+    "para ele buscar por eletrodos com o revestimento de cor branca;",
+    "para ele buscar por eletrodos para aços inoxidáveis que também podem ser usados para soldar alumínio;",
+    "para ele buscar por eletrodos para não-ferrosos, por exemplo cobre, que também podem ser usados para soldar alumínio;",
+    "embora têm eletrodos para soldar alumínio, mas você sugeria nem pensar aceitar tal serviço!"
+    ],
+    correctAnswer:"3",
+    subject:"1"},
+    {
+    question:"O maior problema da soldagem sobre uma superfície pintada é ...",
+    answers : [ 
+    "fumaça;",
+    "cheiro ruim;",
+    "porosidade no metal de solda;",
+    "aspecto ruim de solda."
+    ],
+    correctAnswer:"2",
+    subject:"1"}
+        
 ];
