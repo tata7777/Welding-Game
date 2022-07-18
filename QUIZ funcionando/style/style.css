@@ -380,8 +380,8 @@ a:hover{
 }
 #welding-knowledge {
   position: absolute;
-  top: 40%;
-  left: 28%;
+  top: 33%;
+  left: 22%;
 }
 
 #dv-speech {
@@ -399,12 +399,12 @@ a:hover{
 }
 
 #welder {
-    width: 48px;
-    height: 73px;
+    width: 117px;
+    height: 126px;
     position: absolute;
-    left: 840px;
-    top: 326px;
-    background-image: url(../img/welder.png);
+    left: 930px;/*67%*/
+    top: 275px; /*44%*/
+    background-image: url(../img/nivel1.png);
     background-size: cover;
     display: none;
 }
@@ -428,13 +428,13 @@ a:hover{
     height: 116px;
     position: absolute;
     top: 185px;
-    left: 133px;
+    left: 20%;
 }
 
 #time {
     position: absolute;
     top: 285px;
-    left: 185px;
+    left: 20%;
     color: black;
     font-style: italic;
     font-weight: bolder;
@@ -446,7 +446,7 @@ a:hover{
     height: 20px;
     position: absolute;
     top: 200px;
-    left: 122px;
+    left: 19%;
     background-image: url('../img/spark.gif');
     display: none;
 }

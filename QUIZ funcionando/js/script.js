@@ -106,7 +106,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
     document.getElementById("stair").style.display = "block";
     document.getElementById("welding-knowledge").style.transform = "rotate(22deg)";
     //document.getElementById("stair").style.backgroundSize = "100% 100%";
-    document.getElementById("welder").style.display = "none";
+    document.getElementById("welder").style.display = "block";
     document.getElementById("darth-vader").style.display = "none";
 
     // Animação dos nomes dos níveis
@@ -133,6 +133,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
             label[i].innerHTML = " " + questionLevel[aux].answers[i] + "<br />";
             // Anexação da label à divisão "quiz-answers"
             auxanswers.appendChild(label[i]);
+
         }
     
     // Início da contagem de tempo
@@ -197,8 +198,15 @@ function quizStart(eletrodoRevestido, language, subjects) {
         // Verifica se a respota é incorreta
         else if (radio[questionLevel[aux].correctAnswer].checked == false) {
             radioOFF();                                             // Desativa os radio buttons
+            //as três linhas abaixo mostram a resposta correta em forma de alerta, boa sorte pra fazer diferente!
+            const resposta = parseInt([questionLevel[aux].correctAnswer]);
+            const respostanoformatobom = resposta + 1; 
+            alert("A resposta correta é " +  respostanoformatobom + "°");
             quizFinish(false, eletrodoRevestido);                   // Finaliza o quiz com derrota por resposta incorreta
             document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
+            
+            //alert(correctAnswer);
+            //console.log(correctAnswer);
             insertScore();
             
         } // algo errado aqui
@@ -282,6 +290,23 @@ function quizStart(eletrodoRevestido, language, subjects) {
             radio[i].disabled = true;
         }
     }
+}
+
+function insertScore() {
+    method = "post";
+
+    var form = document.getElementById("optionForm");
+    form.setAttribute("method", method);
+    form.setAttribute("action", "insertScore.php");
+
+    var hiddenField = document.createElement("input");
+    hiddenField.setAttribute("type", "hidden");
+    hiddenField.setAttribute("name", "score");
+    hiddenField.setAttribute("value", questionNumber);
+
+    form.appendChild(hiddenField);
+
+    form.submit();
 }
 
   //questionNumber armazena o nível da pergunta

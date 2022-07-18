@@ -4,12 +4,12 @@
 ////-------------------------------------------------////
 /////////////////////////////////////////////////////////
 
-var weldertop = 326,                                        // Posicionamento vertical do soldador
-    welderleft = 840,                                       // Posicionamento horizontal do soldador
+var weldertop = 275,                                        // Posicionamento vertical do soldador
+    welderleft = 930,                                       // Posicionamento horizontal do soldador
     welderwidth = 45;                                       // Largura do soldador (na saída)
-    /*vadertop = 330,                                         // Posicionamento vertical do Darth Vader
+    /*vadertop = 330,                                       // Posicionamento vertical do Darth Vader
     vaderleft = 808,                                        // Posicionamento horizontal do Darth Vader
-    vaderheight = 77; */                                      // Altura do Darth Vader
+    vaderheight = 77; */                                    // Altura do Darth Vader
 
 //////////////////////////////
 // MOVIMENTAÇÃO DO SOLDADOR //
@@ -21,12 +21,12 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
 
     if (x == 1) {                                           // Verifica se é derrota, para ajustar o sentido do soldador
         // Ajustes da posição do soldador
-        posW.style.backgroundImage = "url('img/welder2.png')";
-        posW.style.width = "45px";
-        welderleft += 19;
+        // virar o personagem para sair e ajeitar a posição de saida
+        //document.getElementById("welder").style.display = "none";
+        /*welderleft += 19;
         posW.style.left = welderleft + "px";
 
-        speedW = 10;
+        speedW = 10;*/
     }
     else {
         speedW = 60;
@@ -36,9 +36,72 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
 
     function frameWelder() {
         if ((pos == 30 && x == - 1) || welderleft >= 1100) {
+            if(questionNumber== 2){ 
+            posW.style.backgroundImage = "url('img/nivel2.png')"; }/*troca de personagens após acertar uma questão*/
+            if(questionNumber== 3) {
+            posW.style.backgroundImage = "url('img/nivel3.png')";    
+            }
+            if(questionNumber== 4) {
+            posW.style.backgroundImage = "url('img/nivel4.png')";    
+            }
+            if(questionNumber== 5) {
+            posW.style.backgroundImage = "url('img/nivel5.png')";    
+            }
+            if(questionNumber== 6) {
+            posW.style.backgroundImage = "url('img/nivel6.png')";    
+            }
+            if(questionNumber== 7) {
+            posW.style.backgroundImage = "url('img/nivel7.png')";    
+            }
+            if(questionNumber== 8) {
+            posW.style.backgroundImage = "url('img/nivel8.png')";    
+            }
+            if(questionNumber== 9) {
+            posW.style.backgroundImage = "url('img/nivel9.png')";    
+            }
+            if(questionNumber== 10) {
+            posW.style.backgroundImage = "url('img/nivel10.png')";    
+            }
+            if(questionNumber== 11) {
+            posW.style.backgroundImage = "url('img/nivel11.png')";    
+            }
+            if(questionNumber== 12) {
+            posW.style.backgroundImage = "url('img/nivel12.png')";    
+            }
+            if(questionNumber== 13) {
+            posW.style.backgroundImage = "url('img/nivel13.png')";    
+            }
+            if(questionNumber== 14) {
+            posW.style.backgroundImage = "url('img/nivel14.png')";    
+            }
+            if(questionNumber== 15) {
+            posW.style.backgroundImage = "url('img/nivel15.png')";    
+            }
+            if(questionNumber== 16) {
+            posW.style.backgroundImage = "url('img/nivel16.png')";    
+            }
+            if(questionNumber== 17) {
+            posW.style.backgroundImage = "url('img/nivel17.png')";    
+            }
+            if(questionNumber== 18) {
+            posW.style.backgroundImage = "url('img/nivel18.png')";    
+            }
+            if(questionNumber== 19) {
+            posW.style.backgroundImage = "url('img/nivel19.png')";    
+            }
+            if(questionNumber== 20) {
+            posW.style.backgroundImage = "url('img/nivel20.png')";    
+            }
             clearInterval(slowMotionW);
         }
-        else {
+        if(x == 1) { // colocar o fede out e/ou o som do balão estourando
+            document.getElementById("welder").style.display = "none";
+        }
+        else { // isso que faz descer?
+            //welderwidth = 15;
+            //await delay(5);
+            
+            //document.getElementById("welder").style.display = "none";
             pos++;
             welderleft += x * 35 / 30;
             posW.style.left = welderleft + "px";
