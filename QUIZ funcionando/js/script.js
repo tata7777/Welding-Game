@@ -2,6 +2,27 @@
     document.getElementById("recomecar").style.display = "none";
     document.getElementById("sair").style.display = "none";
 
+//Bloqueia a nuvem na segunda página
+document.getElementById("nuvem1").style.display = "none";
+document.getElementById("nuvem2").style.display = "none";
+document.getElementById("nuvem3").style.display = "none";
+document.getElementById("nuvem4").style.display = "none";
+document.getElementById("nuvem5").style.display = "none";
+document.getElementById("nuvem6").style.display = "none";
+document.getElementById("nuvem7").style.display = "none";
+document.getElementById("nuvem8").style.display = "none";
+document.getElementById("nuvem9").style.display = "none";
+document.getElementById("nuvem10").style.display = "none";
+document.getElementById("nuvem11").style.display = "none";
+document.getElementById("nuvem12").style.display = "none";
+document.getElementById("nuvem13").style.display = "none";
+document.getElementById("nuvem14").style.display = "none";
+document.getElementById("nuvem15").style.display = "none";
+document.getElementById("nuvem16").style.display = "none";
+document.getElementById("nuvem17").style.display = "none";
+document.getElementById("nuvem18").style.display = "none";
+document.getElementById("nuvem19").style.display = "none";
+document.getElementById("nuvem20").style.display = "none";
 
 function start(){
     var tipo =  document.getElementsByName('type'); //jogo com ou sem limite de tempo
@@ -104,10 +125,33 @@ function quizStart(eletrodoRevestido, language, subjects) {
     //document.getElementById("story-image").style.backgroundImage = "url('img/stairway.png')"; //story-image com problemas - escada n aparece
     //document.getElementById("story-image").style.backgroundSize = "cover";   
     document.getElementById("stair").style.display = "block";
+    document.getElementById("nuvem1").style.display = "none";
     document.getElementById("welding-knowledge").style.transform = "rotate(22deg)";
     //document.getElementById("stair").style.backgroundSize = "100% 100%";
     document.getElementById("welder").style.display = "block";
     document.getElementById("darth-vader").style.display = "none";
+
+    //aparecimento da nuvem
+    document.getElementById("nuvem1").style.display = "block";
+    document.getElementById("nuvem2").style.display = "block";
+    document.getElementById("nuvem3").style.display = "block";
+    document.getElementById("nuvem4").style.display = "block";
+    document.getElementById("nuvem5").style.display = "block";
+    document.getElementById("nuvem6").style.display = "block";
+    document.getElementById("nuvem7").style.display = "block";
+    document.getElementById("nuvem8").style.display = "block";
+    document.getElementById("nuvem9").style.display = "block";
+    document.getElementById("nuvem10").style.display = "block";
+    document.getElementById("nuvem11").style.display = "block";
+    document.getElementById("nuvem12").style.display = "block";
+    document.getElementById("nuvem13").style.display = "block";
+    document.getElementById("nuvem14").style.display = "block";
+    document.getElementById("nuvem15").style.display = "block";
+    document.getElementById("nuvem16").style.display = "block";
+    document.getElementById("nuvem17").style.display = "block";
+    document.getElementById("nuvem18").style.display = "block";
+    document.getElementById("nuvem19").style.display = "block";
+    document.getElementById("nuvem20").style.display = "block";
 
     // Animação dos nomes dos níveis
     document.getElementById("levels").style.display = "block";
@@ -201,12 +245,9 @@ function quizStart(eletrodoRevestido, language, subjects) {
             //as três linhas abaixo mostram a resposta correta em forma de alerta, boa sorte pra fazer diferente!
             const resposta = parseInt([questionLevel[aux].correctAnswer]);
             const respostanoformatobom = resposta + 1; 
-            alert("A resposta correta é " +  respostanoformatobom + "°");
+            alert("Errou,a resposta correta era " +  respostanoformatobom + "°");//fazer a versão em ingles
             quizFinish(false, eletrodoRevestido);                   // Finaliza o quiz com derrota por resposta incorreta
             document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
-            
-            //alert(correctAnswer);
-            //console.log(correctAnswer);
             insertScore();
             
         } // algo errado aqui

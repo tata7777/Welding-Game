@@ -630,7 +630,167 @@ a:hover{
     text-align: center;
     padding: auto;
 } 
+/*Nuvem*/
 
+#nuvem1 img {
+  width:10%;
+  position:absolute;
+  left: 60%;
+  top: 25%;
+  z-index: 20;
+  }
+
+#nuvem2 img {
+    width:10%;
+    position:absolute;
+    left: 56%;
+    top: 21%;
+    z-index: 19;
+    }
+
+#nuvem3 img {
+    width:7%;
+    position:absolute;
+    left: 53%;
+    top: 25%;
+    z-index: 18;
+    }
+
+#nuvem4 img {
+      width:15%;
+      position:absolute;
+      left: 47%;
+      top: 23%;
+      z-index: 17; 
+      }
+
+#nuvem5 img {
+      width:13%;
+      position:absolute;
+      left: 46%;
+      top: 13%;
+      z-index: 16; 
+      }
+
+#nuvem6 img {
+      width:12%;
+      position:absolute;
+      left: 43%;
+      top: 9%;
+      z-index: 15; 
+      }
+      
+#nuvem7 img {
+  width:14%;
+  position:absolute;
+  left: 43%;
+  top: 7%;
+  z-index: 14; 
+  }
+  
+#nuvem8 img {
+  width:20%;
+  position:absolute;
+  left: 35%;
+  top: 9%;
+  z-index: 13; 
+  }
+  
+#nuvem9 img {
+  width:15%;
+  position:absolute;
+  left: 35%;
+  top: 6%;
+  z-index: 12; 
+  }
+  
+#nuvem10 img {
+  width:15%;
+  position:absolute;
+  left: 35%;
+  top: 13%;
+  z-index: 11; 
+  }
+  
+#nuvem11 img {
+  width:10%;
+  position:absolute;
+  left: 35%;
+  top: 13%;
+  z-index: 10; 
+  }
+  
+#nuvem12 img {
+  width:10%;
+  position:absolute;
+  left: 33%;
+  top: 4%;
+  z-index: 9; 
+  }
+  
+#nuvem13 img {
+  width:10%;
+  position:absolute;
+  left: 32%;
+  top: 3%;
+  z-index: 8; 
+  }
+  
+#nuvem14 img {
+  width:13%;
+  position:absolute;
+  left: 25%;
+  top: 2%;
+  z-index: 7; 
+  }
+  
+#nuvem15 img {
+  width:13%;
+  position:absolute;
+  left: 21%;
+  top: 1%;
+  z-index: 6; 
+  }
+  
+#nuvem16 img {
+  width:10%;
+  position:absolute;
+  left: 22%;
+  top: 1%;
+  z-index: 5; 
+  }
+  
+#nuvem17 img {
+  width:10%;
+  position:absolute;
+  left: 18%;
+  top: 1%;
+  z-index: 4; 
+  }
+  
+#nuvem18 img {
+  width:13%;
+  position:absolute;
+  left: 14%;
+  top: 1%;
+  z-index: 1; 
+  }
+  
+#nuvem19 img {
+  width:11%;
+  position:absolute;
+  left: 14%;
+  top: 0%;
+  z-index: 2; 
+  }
+  
+#nuvem20 img {
+  width:10%;
+  position:absolute;
+  left: 14%;
+  top: 0%;
+  z-index: 1; 
+  }
 
 @media(max-width:500px){
   #firstImage {

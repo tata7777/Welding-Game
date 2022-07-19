@@ -29,6 +29,7 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
         speedW = 10;*/
     }
     else {
+        document.getElementById("nuvem20").style.display = "none";
         speedW = 60;
     }
 // lembrar de tirar o dather welder
@@ -37,61 +38,81 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
     function frameWelder() {
         if ((pos == 30 && x == - 1) || welderleft >= 1100) {
             if(questionNumber== 2){ 
-            posW.style.backgroundImage = "url('img/nivel2.png')"; }/*troca de personagens após acertar uma questão*/
+            posW.style.backgroundImage = "url('img/nivel2.png')"; /*troca de personagens após acertar uma questão*/
+            document.getElementById("nuvem1").style.display = "none";
+        }
             if(questionNumber== 3) {
             posW.style.backgroundImage = "url('img/nivel3.png')";    
-            }
+            document.getElementById("nuvem2").style.display = "none";
+        }
             if(questionNumber== 4) {
             posW.style.backgroundImage = "url('img/nivel4.png')";    
-            }
+            document.getElementById("nuvem3").style.display = "none";
+        }
             if(questionNumber== 5) {
             posW.style.backgroundImage = "url('img/nivel5.png')";    
-            }
+            document.getElementById("nuvem4").style.display = "none";
+        }
             if(questionNumber== 6) {
             posW.style.backgroundImage = "url('img/nivel6.png')";    
-            }
+            document.getElementById("nuvem5").style.display = "none";
+        }
             if(questionNumber== 7) {
             posW.style.backgroundImage = "url('img/nivel7.png')";    
+            document.getElementById("nuvem6").style.display = "none";
             }
             if(questionNumber== 8) {
-            posW.style.backgroundImage = "url('img/nivel8.png')";    
+            posW.style.backgroundImage = "url('img/nivel8.png')";  
+            document.getElementById("nuvem7").style.display = "none";  
             }
             if(questionNumber== 9) {
-            posW.style.backgroundImage = "url('img/nivel9.png')";    
+            posW.style.backgroundImage = "url('img/nivel9.png')";  
+            document.getElementById("nuvem8").style.display = "none";  
             }
             if(questionNumber== 10) {
-            posW.style.backgroundImage = "url('img/nivel10.png')";    
+            posW.style.backgroundImage = "url('img/nivel10.png')";   
+            document.getElementById("nuvem9").style.display = "none"; 
             }
             if(questionNumber== 11) {
             posW.style.backgroundImage = "url('img/nivel11.png')";    
+            document.getElementById("nuvem10").style.display = "none";
             }
             if(questionNumber== 12) {
-            posW.style.backgroundImage = "url('img/nivel12.png')";    
+            posW.style.backgroundImage = "url('img/nivel12.png')";   
+            document.getElementById("nuvem11").style.display = "none"; 
             }
             if(questionNumber== 13) {
             posW.style.backgroundImage = "url('img/nivel13.png')";    
-            }
+            document.getElementById("nuvem12").style.display = "none";
+        }
             if(questionNumber== 14) {
             posW.style.backgroundImage = "url('img/nivel14.png')";    
-            }
+            document.getElementById("nuvem13").style.display = "none";
+        }
             if(questionNumber== 15) {
             posW.style.backgroundImage = "url('img/nivel15.png')";    
-            }
+            document.getElementById("nuvem14").style.display = "none";
+        }
             if(questionNumber== 16) {
             posW.style.backgroundImage = "url('img/nivel16.png')";    
-            }
+            document.getElementById("nuvem15").style.display = "none";
+        }
             if(questionNumber== 17) {
             posW.style.backgroundImage = "url('img/nivel17.png')";    
-            }
+            document.getElementById("nuvem16").style.display = "none";
+        }
             if(questionNumber== 18) {
             posW.style.backgroundImage = "url('img/nivel18.png')";    
-            }
+            document.getElementById("nuvem17").style.display = "none";
+        }
             if(questionNumber== 19) {
             posW.style.backgroundImage = "url('img/nivel19.png')";    
-            }
+            document.getElementById("nuvem18").style.display = "none";
+        }
             if(questionNumber== 20) {
             posW.style.backgroundImage = "url('img/nivel20.png')";    
-            }
+            document.getElementById("nuvem19").style.display = "none";
+        }
             clearInterval(slowMotionW);
         }
         if(x == 1) { // colocar o fede out e/ou o som do balão estourando

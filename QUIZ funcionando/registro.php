@@ -2,9 +2,9 @@
 
     if(isset($_POST['submit']))
     {
-    include_once('config.php');
+    //include_once('config.php');
 
-    //include_once('configteresa.php');
+    include_once('configteresa.php');
 
     $name = $_POST['name'];
     $password = $_POST['password'];

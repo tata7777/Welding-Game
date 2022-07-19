@@ -193,7 +193,6 @@
 
     
         <input id="recomecar" type="button" value="RESTART" onclick="recomecar()"/>
-
         
         <input id="sair" type="button" value="END" onclick="sair()"/>
         
@@ -264,6 +263,89 @@
             
         </div>
 
+        
+        <!-- Nuvem -->
+        <div id="nuvem">
+            <div id="nuvem1">
+                        <img src="../QUIZ funcionando/img/nuvem1.png" >
+            </div>
+            
+            <div id="nuvem2">
+                        <img src="../QUIZ funcionando/img/nuvem2.png" >
+            </div>
+            
+            <div id="nuvem3">
+                        <img src="../QUIZ funcionando/img/nuvem3.png" >
+            </div>
+            
+            <div id="nuvem4">
+                        <img src="../QUIZ funcionando/img/nuvem4.png" >
+            </div>
+            
+            <div id="nuvem5">
+                        <img src="../QUIZ funcionando/img/nuvem5.png" >
+            </div>
+            
+            <div id="nuvem6">
+                        <img src="../QUIZ funcionando/img/nuvem6.png" >
+            </div>
+            
+            <div id="nuvem7">
+                        <img src="../QUIZ funcionando/img/nuvem7.png" >
+            </div>
+            
+            <div id="nuvem8">
+                        <img src="../QUIZ funcionando/img/nuvem8.png" >
+            </div>
+            
+            <div id="nuvem9">
+                        <img src="../QUIZ funcionando/img/nuvem9.png" >
+            </div>
+            
+            <div id="nuvem10">
+                        <img src="../QUIZ funcionando/img/nuvem10.png" >
+            </div>
+
+            <div id="nuvem11">
+                        <img src="../QUIZ funcionando/img/nuvem11.png" >
+            </div>
+            
+            <div id="nuvem12">
+                        <img src="../QUIZ funcionando/img/nuvem12.png" >
+            </div>
+            
+            <div id="nuvem13">
+                        <img src="../QUIZ funcionando/img/nuvem13.png" >
+            </div>
+            
+            <div id="nuvem14">
+                        <img src="../QUIZ funcionando/img/nuvem14.png" >
+            </div>
+            
+            <div id="nuvem15">
+                        <img src="../QUIZ funcionando/img/nuvem15.png" >
+            </div>
+            
+            <div id="nuvem16">
+                        <img src="../QUIZ funcionando/img/nuvem16.png" >
+            </div>
+            
+            <div id="nuvem17">
+                        <img src="../QUIZ funcionando/img/nuvem17.png" >
+            </div>
+            
+            <div id="nuvem18">
+                        <img src="../QUIZ funcionando/img/nuvem18.png" >
+            </div>
+            
+            <div id="nuvem19">
+                        <img src="../QUIZ funcionando/img/nuvem19.png" >
+            </div>
+            
+            <div id="nuvem20">
+                        <img src="../QUIZ funcionando/img/nuvem20.png" >
+            </div>
+</div>
             <!-- CARREGAMENTO DOS SCRIPTS -->
         <script src="js/script.js"></script>
         <script src="js/time_move.js"></script>

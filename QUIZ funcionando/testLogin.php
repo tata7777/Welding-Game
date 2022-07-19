@@ -5,8 +5,8 @@
     if(isset($_POST['submit']) && !empty($_POST['name']) && !empty($_POST['password']))
     {
         //Acessa
-        include_once('config.php');
-        //include_once('configteresa.php');
+        //include_once('config.php');
+        include_once('configteresa.php');
         $name = $_POST['name'];
         $password = $_POST['password'];
 
