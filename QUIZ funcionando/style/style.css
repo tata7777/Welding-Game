@@ -407,6 +407,7 @@ a:hover{
     background-image: url(../img/nivel1.png);
     background-size: cover;
     display: none;
+    z-index: 21;
 }
 
 #welder-speech {

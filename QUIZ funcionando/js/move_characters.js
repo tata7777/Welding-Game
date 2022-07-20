@@ -40,10 +40,14 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
             if(questionNumber== 2){ 
             posW.style.backgroundImage = "url('img/nivel2.png')"; /*troca de personagens após acertar uma questão*/
             document.getElementById("nuvem1").style.display = "none";
+            //width: 117px;
+            //height: 126px;
         }
             if(questionNumber== 3) {
             posW.style.backgroundImage = "url('img/nivel3.png')";    
             document.getElementById("nuvem2").style.display = "none";
+            posW.style.width="107px";
+            posW.style.height="131px";
         }
             if(questionNumber== 4) {
             posW.style.backgroundImage = "url('img/nivel4.png')";    
@@ -56,22 +60,30 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
             if(questionNumber== 6) {
             posW.style.backgroundImage = "url('img/nivel6.png')";    
             document.getElementById("nuvem5").style.display = "none";
+            posW.style.width="96px";
+            posW.style.height="127px";
         }
             if(questionNumber== 7) {
             posW.style.backgroundImage = "url('img/nivel7.png')";    
             document.getElementById("nuvem6").style.display = "none";
+            posW.style.width="90px";
+            posW.style.height="127px";
             }
             if(questionNumber== 8) {
             posW.style.backgroundImage = "url('img/nivel8.png')";  
-            document.getElementById("nuvem7").style.display = "none";  
+            document.getElementById("nuvem7").style.display = "none";
+            posW.style.width="96px";
+            posW.style.height="127px";
             }
             if(questionNumber== 9) {
             posW.style.backgroundImage = "url('img/nivel9.png')";  
-            document.getElementById("nuvem8").style.display = "none";  
+            document.getElementById("nuvem8").style.display = "none"; 
             }
             if(questionNumber== 10) {
             posW.style.backgroundImage = "url('img/nivel10.png')";   
             document.getElementById("nuvem9").style.display = "none"; 
+            posW.style.width="101px";
+            posW.style.height="124px";
             }
             if(questionNumber== 11) {
             posW.style.backgroundImage = "url('img/nivel11.png')";    
@@ -84,34 +96,49 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
             if(questionNumber== 13) {
             posW.style.backgroundImage = "url('img/nivel13.png')";    
             document.getElementById("nuvem12").style.display = "none";
+            posW.style.width="106px";
+            posW.style.height="134px";
         }
             if(questionNumber== 14) {
             posW.style.backgroundImage = "url('img/nivel14.png')";    
             document.getElementById("nuvem13").style.display = "none";
+            posW.style.width="107px";
+            posW.style.height="131px";
         }
             if(questionNumber== 15) {
             posW.style.backgroundImage = "url('img/nivel15.png')";    
             document.getElementById("nuvem14").style.display = "none";
+            posW.style.width="103px";
+            posW.style.height="129px";
         }
             if(questionNumber== 16) {
-            posW.style.backgroundImage = "url('img/nivel16.png')";    
+            posW.style.backgroundImage = "url('img/nivel16.png')";            
             document.getElementById("nuvem15").style.display = "none";
+            posW.style.width="107px";
+            posW.style.height="121px";
         }
             if(questionNumber== 17) {
             posW.style.backgroundImage = "url('img/nivel17.png')";    
             document.getElementById("nuvem16").style.display = "none";
+            posW.style.width="97px";
+            posW.style.height="123px";
         }
             if(questionNumber== 18) {
             posW.style.backgroundImage = "url('img/nivel18.png')";    
             document.getElementById("nuvem17").style.display = "none";
+            
         }
             if(questionNumber== 19) {
             posW.style.backgroundImage = "url('img/nivel19.png')";    
             document.getElementById("nuvem18").style.display = "none";
+            posW.style.width="90px";
+ 
         }
             if(questionNumber== 20) {
             posW.style.backgroundImage = "url('img/nivel20.png')";    
             document.getElementById("nuvem19").style.display = "none";
+            posW.style.width="107px";
+            posW.style.height="131px";
         }
             clearInterval(slowMotionW);
         }
