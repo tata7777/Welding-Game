@@ -76,12 +76,17 @@
               </div>
               <div class="text">
              <!-- <label for="click" class="fas fa-check"></label> -->
-              <p>INSTRUCTIONS<br><br>The game contains questions about welding in different difficulty levels, accessed progressively
-                as the player gets the quiz questions right. There are a total of 20 questions, with 4 alternatives of
-                answer each, but only one of them is correct. Any wrong answer ends the game.<br><br>Choose an alternative, and press ENTER to confirm the answer.<br><br>TIME 60s (ER: COATED ELECTRODE): Player has 60 seconds to respond
-                each question. If the time runs out, the game is ended, characterizing the player's defeat.<br><br>
-                UNLIMITED TIME (TIG): The time available to answer each question is unlimited.
-                Ideal game mode for studying.</p>
+              <p>INSTRUCTIONS<br><br>
+                    Dear Welding Enthusiast,<br>
+                    You are welcome to assess your welding knowledge by answering this quiz!<br>
+                    The quiz structure is based on the IIW-IAB welding personnel qualification system consisting of four modules: Welding Processes, Materials, Welding Design and Fabrication. You can choose one of four modules or any combination of them. <br>
+                    The quiz is composed by multiple-choice questions grouped in 20 difficulty levels. There are 3000 questions in this quiz. Each question has only one correct answer. In order to confirm the correct answer choice, you have to click on “Enter”. <br>
+                    You can choose the “Timer” option (60 s to answer the question) or “No Timer” option.<br>
+                    In this first version of the quiz, there are only two languages available: English and Portuguese (Brazil). <br>
+                    The functions “Last week winner” and “Your victories” are not activated yet. Furthermore, the score is not functional too. <br>
+                    The quiz was developed in the Federal University of Uberlandia (https://ufu.br), Faculty of Mechanical Engineering, Welding Group (Laprosolda).
+
+            </p>
                </div>
               <div class="line"></div>
               <label for="click" class="close-btn">Close</label>
@@ -99,7 +104,7 @@
               </div>
              <!-- <label for="click" class="fas fa-check"></label> -->
              <div class="text-feed">
-                 <p>If you have any problem, question or sugestion, feel free to contact us in:<br><br>welding.game@gmail.com.</p>
+                 <p>If you have any problem, question or sugestion, feel free to contact us in:<br><br>weldingame@gmail.com.</p>
             </div>
               <div class="line2"></div>
               <label for="click2" class="close-btn2">Close</label>

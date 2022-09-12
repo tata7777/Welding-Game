@@ -399,12 +399,12 @@ a:hover{
 }
 
 #welder {
-    width: 117px;
-    height: 126px;
+    width: 67px;
+    height: 123px;
     position: absolute;
-    left: 930px;/*67%*/
-    top: 275px; /*44%*/
-    background-image: url(../img/nivel1.png);
+    left: 970px;/*67%*/
+    top: 285px; /*44%*/
+    background-image: url(../img/nivel0.png);
     background-size: cover;
     display: none;
     z-index: 21;
@@ -637,7 +637,7 @@ a:hover{
   width:10%;
   position:absolute;
   left: 60%;
-  top: 25%;
+  top: 27%;
   z-index: 20;
   }
 
@@ -645,12 +645,12 @@ a:hover{
     width:10%;
     position:absolute;
     left: 56%;
-    top: 21%;
+    top: 25%;
     z-index: 19;
     }
 
 #nuvem3 img {
-    width:7%;
+    width:9%;
     position:absolute;
     left: 53%;
     top: 25%;
@@ -658,7 +658,7 @@ a:hover{
     }
 
 #nuvem4 img {
-      width:15%;
+      width:12%;
       position:absolute;
       left: 47%;
       top: 23%;
@@ -666,47 +666,47 @@ a:hover{
       }
 
 #nuvem5 img {
-      width:13%;
+      width:12%;
       position:absolute;
       left: 46%;
-      top: 13%;
+      top: 14%;
       z-index: 16; 
       }
 
 #nuvem6 img {
-      width:12%;
+      width:10%;
       position:absolute;
-      left: 43%;
-      top: 9%;
+      left: 45%;
+      top: 15%;
       z-index: 15; 
       }
       
 #nuvem7 img {
-  width:14%;
+  width:12%;
   position:absolute;
   left: 43%;
-  top: 7%;
+  top: 9%;
   z-index: 14; 
   }
   
 #nuvem8 img {
-  width:20%;
+  width:10%;
   position:absolute;
-  left: 35%;
-  top: 9%;
+  left: 38%;
+  top: 17%;
   z-index: 13; 
   }
   
 #nuvem9 img {
   width:15%;
   position:absolute;
-  left: 35%;
-  top: 6%;
+  left: 32%;
+  top: 9%;
   z-index: 12; 
   }
   
 #nuvem10 img {
-  width:15%;
+  width:10%;
   position:absolute;
   left: 35%;
   top: 13%;
@@ -714,7 +714,7 @@ a:hover{
   }
   
 #nuvem11 img {
-  width:10%;
+  width:11%;
   position:absolute;
   left: 35%;
   top: 13%;
@@ -722,25 +722,25 @@ a:hover{
   }
   
 #nuvem12 img {
-  width:10%;
+  width:15%;
   position:absolute;
-  left: 33%;
-  top: 4%;
+  left: 30%;
+  top: 0%;
   z-index: 9; 
   }
   
 #nuvem13 img {
-  width:10%;
+  width:13%;
   position:absolute;
-  left: 32%;
-  top: 3%;
+  left: 27%;
+  top: 5%;
   z-index: 8; 
   }
   
 #nuvem14 img {
-  width:13%;
+  width:20%;
   position:absolute;
-  left: 25%;
+  left: 20%;
   top: 2%;
   z-index: 7; 
   }
@@ -749,20 +749,20 @@ a:hover{
   width:13%;
   position:absolute;
   left: 21%;
-  top: 1%;
+  top: 3%;
   z-index: 6; 
   }
   
 #nuvem16 img {
-  width:10%;
+  width:15%;
   position:absolute;
-  left: 22%;
+  left: 20%;
   top: 1%;
   z-index: 5; 
   }
   
 #nuvem17 img {
-  width:10%;
+  width:12%;
   position:absolute;
   left: 18%;
   top: 1%;
@@ -770,15 +770,15 @@ a:hover{
   }
   
 #nuvem18 img {
-  width:13%;
+  width:14%;
   position:absolute;
   left: 14%;
   top: 1%;
-  z-index: 1; 
+  z-index: 3; 
   }
   
 #nuvem19 img {
-  width:11%;
+  width:10%;
   position:absolute;
   left: 14%;
   top: 0%;

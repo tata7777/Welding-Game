@@ -33,6 +33,13 @@
             text-shadow: 0.1em 0.1em #333
         }
 
+        #parabens{
+            text-align:center;
+            font-family: 'Rouge Script', cursive;
+            color: rgb(228, 85, 85);
+        }
+
+
         #secondImage img {
             width:85%;
             position:absolute;
@@ -183,6 +190,10 @@
            <div id="welding-knowledge">
                     <img src="../QUIZ funcionando/img/welding-knowledge.png" >
                 </div>
+
+                <div id="parabens">
+                <h1>Congratulations!</h1>
+            </div>
         </div>
 
         <!-- Animação do tempo restante para responder a pergunta -->
@@ -195,13 +206,15 @@
             <div id="quiz-questions">
             </div>
 
+        
+
             <!-- Região das respostas -->
             <div id="quiz-answers">
             </div>
 
-            <div id="credits2">
-                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza
-            </div>
+            <!-- <div id="credits2">
+                Kauê Oliveira Drigo, Dr Vladimir Ponomarov, Felipe Chagas Rodrigues de Souza, Ana Teresa Taveira Bachur, Tassio de Farias Gomes
+            </div>-->
         </div>
 
         <!-- Animação na ponta da tocha/eletrodo -->
@@ -335,6 +348,7 @@
             <div id="nuvem20">
                         <img src="../QUIZ funcionando/img/nuvem20.png" >
             </div>
+
 </div>
 
         

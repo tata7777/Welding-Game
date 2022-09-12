@@ -7,6 +7,7 @@
 var weldertop = 275,                                        // Posicionamento vertical do soldador
     welderleft = 930,                                       // Posicionamento horizontal do soldador
     welderwidth = 45;                                       // Largura do soldador (na saída)
+var ganhou = 0;
     /*vadertop = 330,                                       // Posicionamento vertical do Darth Vader
     vaderleft = 808,                                        // Posicionamento horizontal do Darth Vader
     vaderheight = 77; */                                    // Altura do Darth Vader
@@ -29,7 +30,14 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
         speedW = 10;*/
     }
     else {
+        if(questionNumber== 20){
+        posW.style.backgroundImage = "url('img/nivel20.png')";    
+        posW.style.width="107px";
+        posW.style.height="131px";
         document.getElementById("nuvem20").style.display = "none";
+        document.getElementById("parabens").style.display = "block";
+        ganhou = 1;
+    }
         speedW = 60;
     }
 // lembrar de tirar o dather welder
@@ -38,118 +46,130 @@ function moveWelder(x) {                                    // x == 1 DERROTA; x
     function frameWelder() {
         if ((pos == 30 && x == - 1) || welderleft >= 1100) {
             if(questionNumber== 2){ 
-            posW.style.backgroundImage = "url('img/nivel2.png')"; /*troca de personagens após acertar uma questão*/
+            posW.style.backgroundImage = "url('img/nivel1.png')"; /*troca de personagens após acertar uma questão*/
             document.getElementById("nuvem1").style.display = "none";
+            posW.style.width="117px";
+            posW.style.height="126px";
             //width: 117px;
             //height: 126px;
         }
-            if(questionNumber== 3) {
-            posW.style.backgroundImage = "url('img/nivel3.png')";    
+            if(questionNumber== 3){ 
+            posW.style.backgroundImage = "url('img/nivel2.png')"; /*troca de personagens após acertar uma questão*/
             document.getElementById("nuvem2").style.display = "none";
+            posW.style.width="117px";
+            posW.style.height="126px";
+            //width: 117px;
+            //height: 126px;
+        }
+            if(questionNumber== 4) {
+            posW.style.backgroundImage = "url('img/nivel3.png')";    
+            document.getElementById("nuvem3").style.display = "none";
             posW.style.width="107px";
             posW.style.height="131px";
         }
-            if(questionNumber== 4) {
-            posW.style.backgroundImage = "url('img/nivel4.png')";    
-            document.getElementById("nuvem3").style.display = "none";
-        }
             if(questionNumber== 5) {
-            posW.style.backgroundImage = "url('img/nivel5.png')";    
+            posW.style.backgroundImage = "url('img/nivel4.png')";    
             document.getElementById("nuvem4").style.display = "none";
         }
             if(questionNumber== 6) {
-            posW.style.backgroundImage = "url('img/nivel6.png')";    
+            posW.style.backgroundImage = "url('img/nivel5.png')";    
             document.getElementById("nuvem5").style.display = "none";
+        }
+            if(questionNumber== 7) {
+            posW.style.backgroundImage = "url('img/nivel6.png')";    
+            document.getElementById("nuvem6").style.display = "none";
             posW.style.width="96px";
             posW.style.height="127px";
         }
-            if(questionNumber== 7) {
-            posW.style.backgroundImage = "url('img/nivel7.png')";    
-            document.getElementById("nuvem6").style.display = "none";
-            posW.style.width="90px";
-            posW.style.height="127px";
-            }
             if(questionNumber== 8) {
-            posW.style.backgroundImage = "url('img/nivel8.png')";  
+            posW.style.backgroundImage = "url('img/nivel7.png')";    
             document.getElementById("nuvem7").style.display = "none";
-            posW.style.width="96px";
+            posW.style.width="90px";
             posW.style.height="127px";
             }
             if(questionNumber== 9) {
-            posW.style.backgroundImage = "url('img/nivel9.png')";  
-            document.getElementById("nuvem8").style.display = "none"; 
+            posW.style.backgroundImage = "url('img/nivel8.png')";  
+            document.getElementById("nuvem8").style.display = "none";
+            posW.style.width="96px";
+            posW.style.height="127px";
             }
             if(questionNumber== 10) {
-            posW.style.backgroundImage = "url('img/nivel10.png')";   
+            posW.style.backgroundImage = "url('img/nivel9.png')";  
             document.getElementById("nuvem9").style.display = "none"; 
+            }
+            if(questionNumber== 11) {
+            posW.style.backgroundImage = "url('img/nivel10.png')";   
+            document.getElementById("nuvem10").style.display = "none"; 
             posW.style.width="101px";
             posW.style.height="124px";
             }
-            if(questionNumber== 11) {
-            posW.style.backgroundImage = "url('img/nivel11.png')";    
-            document.getElementById("nuvem10").style.display = "none";
-            }
             if(questionNumber== 12) {
-            posW.style.backgroundImage = "url('img/nivel12.png')";   
-            document.getElementById("nuvem11").style.display = "none"; 
+            posW.style.backgroundImage = "url('img/nivel11.png')";    
+            document.getElementById("nuvem11").style.display = "none";
             }
             if(questionNumber== 13) {
+            posW.style.backgroundImage = "url('img/nivel12.png')";   
+            document.getElementById("nuvem12").style.display = "none"; 
+            }
+            if(questionNumber== 14) {
             posW.style.backgroundImage = "url('img/nivel13.png')";    
-            document.getElementById("nuvem12").style.display = "none";
+            document.getElementById("nuvem13").style.display = "none";
             posW.style.width="106px";
             posW.style.height="134px";
         }
-            if(questionNumber== 14) {
+            if(questionNumber== 15) {
             posW.style.backgroundImage = "url('img/nivel14.png')";    
-            document.getElementById("nuvem13").style.display = "none";
+            document.getElementById("nuvem14").style.display = "none";
             posW.style.width="107px";
             posW.style.height="131px";
         }
-            if(questionNumber== 15) {
+            if(questionNumber== 16) {
             posW.style.backgroundImage = "url('img/nivel15.png')";    
-            document.getElementById("nuvem14").style.display = "none";
+            document.getElementById("nuvem15").style.display = "none";
             posW.style.width="103px";
             posW.style.height="129px";
         }
-            if(questionNumber== 16) {
+            if(questionNumber== 17) {
             posW.style.backgroundImage = "url('img/nivel16.png')";            
-            document.getElementById("nuvem15").style.display = "none";
+            document.getElementById("nuvem16").style.display = "none";
             posW.style.width="107px";
             posW.style.height="121px";
         }
-            if(questionNumber== 17) {
+            if(questionNumber== 18) {
             posW.style.backgroundImage = "url('img/nivel17.png')";    
-            document.getElementById("nuvem16").style.display = "none";
+            document.getElementById("nuvem17").style.display = "none";
             posW.style.width="97px";
             posW.style.height="123px";
         }
-            if(questionNumber== 18) {
+            if(questionNumber== 19) {
             posW.style.backgroundImage = "url('img/nivel18.png')";    
-            document.getElementById("nuvem17").style.display = "none";
+            document.getElementById("nuvem18").style.display = "none";
             
         }
-            if(questionNumber== 19) {
-            posW.style.backgroundImage = "url('img/nivel19.png')";    
-            document.getElementById("nuvem18").style.display = "none";
-            posW.style.width="90px";
- 
-        }
             if(questionNumber== 20) {
-            posW.style.backgroundImage = "url('img/nivel20.png')";    
+            posW.style.backgroundImage = "url('img/nivel19.png')";    
             document.getElementById("nuvem19").style.display = "none";
-            posW.style.width="107px";
-            posW.style.height="131px";
+            posW.style.width="90px";
+  //o ultimo carinha tá voltando não sei porque, adicionar o left and top para acertar
+        }
+            if(ganhou == 1){  
+            posW.style.backgroundImage = "url('img/nivel20.png')";
+            
         }
             clearInterval(slowMotionW);
         }
         if(x == 1) { // colocar o fede out e/ou o som do balão estourando
+             
             document.getElementById("welder").style.display = "none";
+            
+            
         }
         else { // isso que faz descer?
             //welderwidth = 15;
             //await delay(5);
             
             //document.getElementById("welder").style.display = "none";
+            
             pos++;
             welderleft += x * 35 / 30;
             posW.style.left = welderleft + "px";

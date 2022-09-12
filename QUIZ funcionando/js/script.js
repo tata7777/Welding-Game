@@ -1,6 +1,7 @@
 ﻿//Bloqueia os botões de recomeçar e sair
     document.getElementById("recomecar").style.display = "none";
     document.getElementById("sair").style.display = "none";
+    document.getElementById("parabens").style.display = "none";
     
 //Bloqueia a nuvem na segunda página
 document.getElementById("nuvem1").style.display = "none";
@@ -247,7 +248,9 @@ function quizStart(eletrodoRevestido, language, subjects) {
             const respostanoformatobom = resposta + 1; 
             //alert("Errou,a resposta correta era " +  respostanoformatobom + "°");//fazer a versão em ingles
             quizFinish(false, eletrodoRevestido);                   // Finaliza o quiz com derrota por resposta incorreta
+            
             document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
+            
             insertScore();*/
             
         } // algo errado aqui

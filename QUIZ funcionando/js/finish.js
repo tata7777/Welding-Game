@@ -15,9 +15,9 @@ function quizFinish(victory, timeON) {
 
     if (victory == true) {                  // Vitória do jogador
         moveWelder(-1);                     // O soldador avança o último degrau
-        dvSpeech(true);                     // Darth Vader sai de cena
         document.getElementById("recomecar").style.display = "block"; //aparece o botão para voltar para a segunda página
         document.getElementById("sair").style.display = "block"; //aparece o botão para voltar para a página inicial
+        dvSpeech(true);                     // Darth Vader sai de cena
     }
     else {                                  // Derrota do jogador
         moveWelder(1);                      // O soldador desce a escada e sai de cena
