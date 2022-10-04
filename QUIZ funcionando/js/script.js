@@ -242,7 +242,7 @@ function quizStart(eletrodoRevestido, language, subjects) {
         }
         // Verifica se a respota é incorreta
         else if (radio[questionLevel[aux].correctAnswer].checked == false) {
-            /*radioOFF();                                             // Desativa os radio buttons
+            radioOFF();                                             // Desativa os radio buttons
             //as três linhas abaixo mostram a resposta correta em forma de alerta, boa sorte pra fazer diferente!
             const resposta = parseInt([questionLevel[aux].correctAnswer]);
             const respostanoformatobom = resposta + 1; 
@@ -251,9 +251,9 @@ function quizStart(eletrodoRevestido, language, subjects) {
             
             document.removeEventListener("keypress", botao, false); // Remove a função da tecla "enter"
             
-            insertScore();*/
+            insertScore();
             
-        } // algo errado aqui
+        } 
 
         // Caso em que a resposta é correta, e a pergunta é a última do quiz
         else {

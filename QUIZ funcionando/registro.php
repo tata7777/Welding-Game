@@ -507,7 +507,34 @@
           <div class="line2"></div>
           <label for="click2" class="close-btn2">Close</label>
         </div> 
-      </div>
+        </div>
+            <!-- botao About Us -->
+            <div class="center3">
+            <input type="checkbox" id="click3">
+            <label for="click3" class="click-me3">About Us</label>
+            <div class="content3">
+              <div class="header3">
+                <h2>About Us</h2>
+                <label for="click3" class="fas fa-times"></label>
+              </div>
+              <div class="text-about-us">
+             <!-- <label for="click" class="fas fa-check"></label> -->
+              <p> The quiz was developed in the Federal University of Uberlandia (https://ufu.br), Faculty of Mechanical Engineering, Welding Group (Laprosolda).<br>
+                The list of developers and their contribution:<br>
+                Vladimir Ponomarov (Brazil): General coordination, question developer (2008 – present)<br>
+                Ana Teresa Taveira Bachur (Brazil): Present layout, new structure, login, database (2021 – 2022)<br>
+                Tássio de Farias Gomes (Brazil): Present layout, new structure, login, database (2021 – 2022)<br>
+                Ron Nickel (Canada): Question developer (2022)<br>
+                Felipe Chagas R. de Souza (Brazil): Quiz first functional version improvement (2019)<br>
+                Kauê Oliveira Drigo (Brazil):	First functional version of the quiz (2018)<br>
+                Ruslan Didkivskyi (Ukraine): Very first draft version (2009)<br>
+
+            </p>
+               </div>
+              <div class="line3"></div>
+              <label for="click3" class="close-btn3">Close</label>
+            </div> 
+          </div>
 
 
 </body>

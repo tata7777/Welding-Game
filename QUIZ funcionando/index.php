@@ -49,6 +49,10 @@
     <div id="folhaLouro">
         <img src="../QUIZ funcionando/img/folha-de-louro.png" >
     </div>
+
+    <div id="vitorias">
+        <img src="../QUIZ funcionando/img/vitorias.png" >
+    </div>
     
 
     <div id="todosjuntos">
@@ -83,10 +87,8 @@
                     The quiz is composed by multiple-choice questions grouped in 20 difficulty levels. There are 3000 questions in this quiz. Each question has only one correct answer. In order to confirm the correct answer choice, you have to click on “Enter”. <br>
                     You can choose the “Timer” option (60 s to answer the question) or “No Timer” option.<br>
                     In this first version of the quiz, there are only two languages available: English and Portuguese (Brazil). <br>
-                    The functions “Last week winner” and “Your victories” are not activated yet. Furthermore, the score is not functional too. <br>
-                    The quiz was developed in the Federal University of Uberlandia (https://ufu.br), Faculty of Mechanical Engineering, Welding Group (Laprosolda).
-
-            </p>
+                    The functions “Last week winner” and “Your victories” are not activated yet. Furthermore, the score is not functional neither. <br>
+                    </p>
                </div>
               <div class="line"></div>
               <label for="click" class="close-btn">Close</label>
@@ -104,14 +106,42 @@
               </div>
              <!-- <label for="click" class="fas fa-check"></label> -->
              <div class="text-feed">
-                 <p>If you have any problem, question or sugestion, feel free to contact us in:<br><br>weldingame@gmail.com.</p>
+                 <p> Your comments and suggestions are very welcome:<br><br>weldingame@gmail.com.</p>
             </div>
               <div class="line2"></div>
               <label for="click2" class="close-btn2">Close</label>
             </div> 
           </div>
         
-        
+        <!-- botao About Us -->
+        <div class="center3">
+            <input type="checkbox" id="click3">
+            <label for="click3" class="click-me3">About Us</label>
+            <div class="content3">
+              <div class="header3">
+                <h2>About Us</h2>
+                <label for="click3" class="fas fa-times"></label>
+              </div>
+              <div class="text-about-us">
+             <!-- <label for="click" class="fas fa-check"></label> -->
+              <p> The quiz was developed in the Federal University of Uberlandia (https://ufu.br), Faculty of Mechanical Engineering, Welding Group (Laprosolda).<br>
+                The list of developers and their contribution:<br>
+                Vladimir Ponomarov (Brazil): General coordination, question developer (2008 – present)<br>
+                Ana Teresa Taveira Bachur (Brazil): Present layout, new structure, login, database (2021 – 2022)<br>
+                Tássio de Farias Gomes (Brazil): Present layout, new structure, login, database (2021 – 2022)<br>
+                Ron Nickel (Canada): Question developer (2022)<br>
+                Felipe Chagas R. de Souza (Brazil): Quiz first functional version improvement (2019)<br>
+                Kauê Oliveira Drigo (Brazil):	First functional version of the quiz (2018)<br>
+                Ruslan Didkivskyi (Ukraine): Very first draft version (2009)<br>
+
+            </p>
+               </div>
+              <div class="line3"></div>
+              <label for="click3" class="close-btn3">Close</label>
+            </div> 
+          </div>
+
+
         <!-- Tempo restante para responder a pergunta, se houver -->
         <div id="time">
         </div>

@@ -41,7 +41,7 @@
             width:85%;
             position:absolute;
             left: 10%;
-            top: 22%;
+            top: 27%;
             }
         
         #baloes img {
@@ -49,6 +49,7 @@
             position: absolute;
             left: 41%;
             top: 18%;  
+            
         }
         #subject{
             font-size: max(10px, 1.1vw);
