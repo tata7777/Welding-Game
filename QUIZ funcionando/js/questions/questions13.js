@@ -1,617 +1,1161 @@
-﻿const quizQuestions13 = [
-    {
-        question: "A descontinuidade conhecida por desalinhamento ao término da soldagem é:",
-        answers: [
-            "Quando linhas verticais do chanfro não são paralelas",
-            "Um erro de montagem da junta",
-            "Uma deformação angular da junta após soldagem",
-            "O uso errado das peças de tamanho diferente"
-        ],
-        correctAnswer: "1"
+﻿const quizQuestions13 = [{
+    question:"Um cordão de topo muito estreito e profundo produzido por processo SAW irá aumentar o risco de:",
+    answers: ["mordedura;",
+    "trinca longitudinal dentro do cordão, mesmo que com acabamento com pequena convexidade;",
+    "redução a resistência a tração no sentido da menor espessura;",
+    "mal acabamento do cordão."],
+    correctAnswer:"1",
+    subject:"0"
     },
     {
-        question: "Para a inspeção visual de difícil acesso, utiliza-se:",
-        answers: [
-            "O microscópio",
-            "Radar eletrônico",
-            "A lupa",
-            "O espelho"
-        ],
-        correctAnswer: "3"
+    question:"Sobre as técnicas especiais do processo SAW, é correto dizer:",
+    answers: ["A técnica de revestimento usando uma fita metálica é geralmente realizada para aumentar a penetração e a diluição.",
+    "Na soldagem Tandem, ambos os dois fios são conectados a apenas uma fonte de energia e alimentados simultaneamente pela mesma unidade de alimentação.",
+    "O Narrow Gap (chanfro estreito) é uma técnica de baixa taxa de deposição que é usada para soldar espessuras finas.",
+    "A maior dificuldade na técnica de soldagem multi-eletrodos reside na instabilidade dos arcos causada pela ação mutua do sopro magnético."],
+    correctAnswer:"3",
+    subject:"0"
     },
     {
-        question: "A utilização de eletrodo revestido úmido pode causar:",
-        answers: [
-            "Mordedura interna",
-            "Porosidade",
-            "Reforço excessivo",
-            "Sobreposição"
-        ],
-        correctAnswer: "1"
+    question:"Por que a afiação da ponta do eletrodo na soldagem TIG é diferente quando se usa corrente CC ou CA (a ponta do eletrodo está arredondada no último caso)?",
+    answers: ["Não tem sentido físico, apenas para diferenciar eletrodos para CC e para CA.",
+    "Para evitar um superaquecimento da ponta do eletrodo e sua degradação, quando estiver usando AC.",
+    "Para ter uma melhor penetração na CA quando comparado à CC.",
+    "Para facilitar a abertura do arco quando usando CA."],
+    correctAnswer:"1",
+    subject:"0"
     },
     {
-        question: "A diferença entre descontinuidade e defeito é:",
-        answers: [
-            "O defeito é uma imperfeição grande e descontinuidade é uma imperfeição pequena",
-            "A descontinuidade é sempre um defeito",
-            "Uma descontinuidade é sempre inaceitável, enquanto que o defeito pode não afetar o serviço da peça ou"
-                + " componente, dependendo da aplicação",
-            "O defeito é uma descontinuidade que pode comprometer o serviço da peça, enquanto que uma descontinuidade"
-                + " é uma falha que pode ou não comprometer o serviço da peça, dependendo da aplicação"
-        ],
-        correctAnswer: "3"
+    question:"Qual deverá ser a preocupação ao usar 100% CO2 para a soldagem MIG/MAG do aço inoxidável com o teor de carbono muito baixo?",
+    answers: ["Este gás de proteção gera uma quantidade excessiva de oxigênio e hidrogênio e, portanto, reduz os elementos de liga.",
+    "Este gás de proteção promove a formação de ozônio.",
+    "Este gás de proteção reduz a tensão superficial do metal da gota e, portanto, aumenta os respingos.",
+    "Este gás de proteção promove a transferência de carbono para o metal de solda."],
+    correctAnswer:"3",
+    subject:"0"
     },
     {
-        question: "As inclusões em juntas soldadas podem ser:",
-        answers: [
-            "Metálicas",
-            "Escórias",
-            "Não metálicas",
-            "Todas as alternativas são corretas"
-        ],
-        correctAnswer: "3"
+    question:"Qual destes não é um parâmetro básico do processo de soldagem a ponto por resistência?",
+    answers: ["Corrente de soldagem.",
+    "Força de compressão (de soldagem).",
+    "Tempo de forjamento.",
+    "Tempo de soldagem."],
+    correctAnswer:"1",
+    subject:"0"
     },
     {
-        question: "O ensaio por ultra-som é utilizado para detectar:",
-        answers: [
-            "Trincas internas em uma junta soldada",
-            "Porosidades internas em junta soldada",
-            "Inclusões internas em peças fundidas",
-            "Todas as alternativas são corretas"
-        ],
-        correctAnswer: "3"
+    question:"Em relação à classificação dos processos de soldagem em processos “por fusão” e “por pressão”, assinale a alternativa correta:",
+    answers: ["Os processos “Por Pressão” também precisam de calor para haver a difusão/caldeamento dos metais e garantir a união.",
+    "Para haver soldagem, é sempre necessário haver uma energia térmica imposta, exceto pelos processos classificados como “Por Pressão”.",
+    "\"A pressão, consequentemente o atrito, é a força motriz para gerar o calor para realizar as soldagens dos processos classificados como \"\"Por Pressão\"\".\"",
+    "Todos os processos de soldagem classificados como “Por Fusão” usam o arco como a fonte de calor."],
+    correctAnswer:"0",
+    subject:"0"
     },
     {
-        question: "A inspeção por partículas magnéticas é aplicável em materiais:",
-        answers: [
-            "Não magnéticos",
-            "Plásticos",
-            "Inoxidáveis austeníticos",
-            "Ferromagnéticos (magnetizável)"
-        ],
-        correctAnswer: "3"
+    question:"Em relação à classificação dos processos de soldagem em processos “por fusão” e “por pressão”, assinale a alternativa correta:",
+    answers: ["\"Nos processos de soldagem \"\"Por Fusão\"\", o caldeamento/difusão entre os metais se dá no estado líquido.\"",
+    "Para haver soldagem, é sempre necessário haver uma energia térmica imposta, exceto pelos processos classificados como “Por Pressão”.",
+    "\"A pressão, consequentemente o atrito, é a força motriz para gerar o calor para realizar as soldagens dos processos classificados como \"\"Por Pressão\"\".\"",
+    "Todos os processos de soldagem classificados como “Por Fusão” usam o arco como a fonte de calor."],
+    correctAnswer:"0",
+    subject:"0"
     },
     {
-        question: "No ensaio de gamografia, os isótopos artificiais mais utilizados são:",
-        answers: [
-            "Irídio e césio",
-            "Urânio e isótopo alfa",
-            "Isótopo beta e urânio",
-            "Raios-X e raio gama"
-        ],
-        correctAnswer: "0"
+    question:"Em relação à classificação dos processos de soldagem em processos “por fusão” e “por pressão”, assinale a alternativa correta:",
+    answers: ["Nos processos classificados como “por pressão” o fenômeno de difusão possui grande importância.",
+    "Para haver soldagem, é sempre necessário haver uma energia térmica imposta, exceto pelos processos classificados como “Por Pressão”.",
+    "\"A pressão, consequentemente o atrito, é a força motriz para gerar o calor para realizar as soldagens dos processos classificados como \"\"Por Pressão\"\".\"",
+    "Todos os processos de soldagem classificados como “Por Fusão” usam o arco como a fonte de calor."],
+    correctAnswer:"0",
+    subject:"0"
     },
     {
-        question: "Os tipos de radiação eletromagnética utilizados  na radiografia industrial são:",
-        answers: [
-            "Ultravioleta e infravermelho",
-            "Microondas e raio beta",
-            "Raios alfa e raio infravermelho",
-            "Raios-X e raio gama"
-        ],
-        correctAnswer: "3"
+    question:"É uma vantagem da soldagem (por fusão) em relação à brasagem:",
+    answers: ["Maior resistência sob elevadas temperaturas de atuação (a temperatura máxima de atuação para a solda é a mesma como para o metal de base).",
+    "Capacidade de preservar revestimentos no metal de base (sem queima).",
+    "Simples para a união de grandes áreas.",
+    "Menores: tempo de operação, consumo de energia, modificação da estrutura do metal, tensão de resfriamento e deformação (menores problemas de tensões residuais)."],
+    correctAnswer:"0",
+    subject:"0"
     },
     {
-        question: "O tratamento térmico de pós-aquecimento em uma junta soldada de aços",
-        answers: [
-            "visa permitir a difusão de O2 para o meio externo, diminuindo o teor de O2 residual",
-            "visa permitir a difusão de H2 para o meio externo, diminuindo o teor de H2 residual",
-            "é aplicado em temperaturas entre 200 a 300 °C por períodos nunca superiores a 10 min para evitar deformação"
-                + " plástica",
-            "permite a dissolução de inclusões da ZAC, prevenindo trincas de ligação"
-        ],
-        correctAnswer: "1"
+    question:"O processo de endireitamento (desempenamento) de chapa por chama se baseia em:",
+    answers: ["alongamento do lado mais curto.",
+    "encolhimento do lado mais longo.",
+    "expansão local do material.",
+    "transformações estruturais do material."],
+    correctAnswer:"1",
+    subject:"0"
     },
     {
-        question: "Não é um princípio  da norma ISO 9001 (Sistema de Gestão da Qualidade, Requisitos):",
-        answers: [
-            "Foco no cliente",
-            "Abordagem de Processo",
-            "Melhoria Contínua",
-            "Manter o mesmo nível da qualidade já alcançada"
-        ],
-        correctAnswer: "3"
-    }
-    ,{
-        question:"Em relação aos aços comuns ao carbono com até 0,20% de C, é correto afirmar que:",
-        answers : [ 
-        "a aplicação de pós-aquecimento é desnecessária, devido ao baixo carbono equivalente;",
-        "a fácil formação de martensita na ZAC reduz enormemente a soldabilidade dos mesmos;",
-        "velocidade de resfriamento muito alta favorece a formação de ledeburita na região de grãos grosseiros;",
-        "o pré-aquecimento torna-se obrigatório para garantir a expulsão de hidrogênio antes de resfriar até a temperatura ambiente."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Em relação ao pós-aquecimento em uma junta soldada de aços para permitir a difusão de H2 para o meio externo, diminuindo o teor de H2 residual, é correto dizer:",
-        answers : [ 
-        "É aplicado às temperaturas entre 100 a 150 °C por períodos de até 2 horas;",
-        "É aplicado às temperaturas entre 150 a 200 °C por períodos de até 1 hora;",
-        "É aplicado em temperaturas entre 200 a 300 °C por períodos nunca superiores a 10 min para evitar deformação plástica;",
-        "É aplicado às temperaturas entre 200 a 300 °C por períodos de 2 até 6 horas, ou até mais."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Em relação às reações que ocorrem na poça de fusão durante a soldagem de um aço carbono, pode-se afirmar que: ",
-        answers : [ 
-        "Na soldagem MAG com proteção de CO2 puro, o uso de arames com teores de Si e Mn muito baixos previne a formação de porosidade (evita a formação de óxidos);",
-        "Escórias básicas favorecem a obtenção de menores teores de oxigênio no metal depositado;",
-        "O hidrogênio absorvido na poça de fusão não escapa totalmente do metal líquido antes e durante a sua solidificação, podendo gerar porosidade em soldas de aço ao carbono;",
-        "Escórias ácidas favorecem a obtenção de menores teores de O2, Si, Mn, P e S no metal depositado."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Em relação às reações que ocorrem na poça de fusão durante a soldagem de um aço carbono, pode-se afirmar que: ",
-        answers : [ 
-        "Na soldagem MAG com proteção de CO2 puro, o uso de arames com teores de Si e Mn muito baixos previne a formação de porosidade (evita a formação de óxidos);",
-        "Escórias ácidas favorecem a maiores teores de óxidos no metal depositado;",
-        "O hidrogênio absorvido na poça de fusão não escapa totalmente do metal líquido antes e durante a sua solidificação, podendo gerar porosidade em soldas de aço ao carbono;",
-        "Escórias ácidas favorecem a obtenção de menores teores de O2, Si, Mn, P e S no metal depositado."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Um material é considerado sendo de baixa soldabilidade:",
-        answers : [ 
-        "Quando o material distorce de forma exagerada durante a soldagem;",
-        "Quando o soldador precisa de conhecimentos profundos sobre o material em questão;",
-        "Quando, em adição aos procedimentos comuns de soldagem, outras ações são necessárias, como pré-aquecimento, tratamento térmico, controle do aporte térmico, etc.;",
-        "Quando o resultado da soldagem não é previsível."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Caso duas peças da mesma classe de aço, mas de diferentes origens e desconhecidos tratamentos tiverem valores de dureza próximos, isto pode significar que:",
-        answers : [ 
-        "ambas as peças apresentam exatamente a mesma microestrutura;",
-        "ambas possuem certamente a mesma tenacidade;",
-        "garantidamente ambas foram produzidas pelo mesmo fabricante.",
-        "ambas as peças têm grande probabilidade de apresentar a mesma resistência média à tração;"
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Qual das seguintes ligas NÃO É uma liga de alumínio tratada termicamente?",
-        answers : [ 
-        "EN AW-Al Si10Mg.",
-        "EN AW-Al Cu2,5Mg.",
-        "EN AW-AlSi1MgMn.",
-        "EN AW-AlMg3Mn."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Qual das seguintes ligas NÃO É uma liga de alumínio tratada termicamente?",
-        answers : [ 
-        "EN AW-Al Si10Mg.",
-        "EN AW-Al Cu2,5Mg.",
-        "EN AW-AlSi1MgMn.",
-        "EN AW-AlMg4,5Mn0,7."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Quão alta é a tensão na ponta do entalhe durante o ensaio de implante? ",
-        answers : [ 
-        "Mais alto de que a tensão de escoamento.",
-        "Igual à tensão de escoamento.",
-        "75% da tensão de escoamento.",
-        "Igual ao limite de resistência."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Qual é a afirmação correta no que diz respeito ao teste de dureza?",
-        answers : [ 
-        "HV aplica-se à junta soldada.",
-        "HB aplica-se ao metal duro.",
-        "As amostras de teste HV não necessitam de polimento.",
-        "O método HRC não usa penetradores com a esfera de aço."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Qual é a afirmação correta no que diz respeito ao teste de dureza?",
-        answers : [ 
-        "O diamante é usado para penetrar no teste HRC.",
-        "HB aplica-se ao metal duro.",
-        "As amostras de teste HV não necessitam de polimento.",
-        "O método HRC não usa penetradores com a esfera de aço."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Um dos testes para a avaliação de características do aço Cr-Mo em altas temperaturas é denominado:",
-        answers : [ 
-        "teste de dureza;",
-        "teste de ruptura por fluência;",
-        "teste de fadiga;",
-        "teste de impacto Charpy."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Trincas a quente em aços não ligados ocorrem principalmente:",
-        answers : [ 
-        "na zona afetada pelo calor (ZAC);",
-        "na linha de fusão;",
-        "no metal de solda;",
-        "no metal de base."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Em relação a técnicas para evitar trincas de hidrogênio em juntas de aços, é correto:",
-        answers : [ 
-        "Usar preaquecimento para reduzir a dureza da microestrutura da ZAC grosseira;",
-        "Usar consumíveis de baixo teor de oxigênio;",
-        "Usar pós-aquecimento após 48 horas da realização da soldagem;",
-        "Usar consumíveis de aço inoxidável ferrítico para fazer o cordão."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Em relação a técnicas para evitar trincas de H2 em juntas de aços, é correto:",
-        answers : [ 
-        "Usar preaquecimento para reduzir a dureza da microestrutura da ZAC grosseira;",
-        "Usar tratamento térmico de alívio de tensões após 48 horas da realização da soldagem;",
-        "Usar pós-aquecimento (> 200 °C) após 48 horas da realização da soldagem;",
-        "Usar consumíveis de aço inoxidável ferrítico para fazer o cordão."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Em relação a técnicas para evitar trincas de hidrogênio em juntas de aços, é correto:",
-        answers : [ 
-        "Usar preaquecimento para reduzir a dureza da microestrutura da ZAC grosseira;",
-        "Usar preaquecimento para permitir a difusão de H2 para o meio externo, diminuindo o teor de H2 residual;",
-        "Usar pós-aquecimento após 48 horas da realização da soldagem;",
-        "Usar consumíveis de aço inoxidável ferrítico para fazer o cordão."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Em relação a técnicas para evitar trincas de H2 no metal fundido de juntas de aços, é correto:",
-        answers : [ 
-        "Usar consumíveis de aço inoxidável austenítico para fazer cordões;",
-        "Usar tratamento térmico de alívio de tensões após 48 horas da realização da soldagem;",
-        "Usar preaquecimento para permitir a difusão de H2 para o meio externo, diminuindo o teor de H2 residual;",
-        "Usar consumíveis de aço inoxidável ferrítico para fazer o cordão."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Em relação a técnicas para evitar trincas de hidrogênio em juntas de aços, é correto:",
-        answers : [ 
-        "Usar pós-aquecimento (> 200 °C) imediatamente após a realização da soldagem;",
-        "Usar consumíveis de baixo teor de oxigênio;",
-        "Usar pós-aquecimento (> 200 °C) após 48 horas da realização da soldagem;",
-        "Usar consumíveis de aço inoxidável ferrítico para fazer o cordão."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"É um dos fatores que favorecem a geração de trincas por hidrogênio em juntas de aços:",
-        answers : [ 
-        "alto nível de restrição dos componentes da junta;",
-        "uso de consumíveis de aço inoxidável austenítico para fazer cordões;",
-        "uso de pós-aquecimento imediatamente após a realização da soldagem;",
-        "uso de preaquecimento."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"É um dos fatores que favorecem a geração de trincas por hidrogênio em juntas de aços:",
-        answers : [ 
-        "uso de chapas grossas (acima de 20 mm) como um dos fatores de restrição da junta;",
-        "uso de consumíveis de aço inoxidável austenítico para fazer cordões;",
-        "uso de pós-aquecimento imediatamente após a realização da soldagem;",
-        "uso de preaquecimento."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Qual é a principal vantagem dos aços revestidos (cladeados)?",
-        answers : [ 
-        "A estrutura fica mais leve.",
-        "Eles são mais finos, portanto, menos consumíveis de soldagem serão necessários.",
-        "Eles são caracterizados por uma boa soldabilidade.",
-        "Baixo custo."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Que tipo de teste de dureza usa um penetrador de diamante em forma de cone?",
-        answers : [ 
-        "Rockwell A, C e D.",
-        "Rockwell B e E.",
-        "Rockwell F e G.",
-        "Rockwell H e K."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Qual é a diferença entre os testes Charpy e Izod?",
-        answers : [ 
-        "O teste Charpy mede a tenacidade de material, enquanto o teste Izod mede a resistência ao impacto de material.",
-        "O Izod segura a amostra no vertical com o entalhe voltado para o pêndulo, enquanto o Charpy segura a amostra no horizontal com o entalhe voltado para o pêndulo.",
-        "O Charpy segura a amostra no vertical com o entalhe voltado para o pêndulo, enquanto o Izod segura a amostra no horizontal com o entalhe voltado para o pêndulo.",
-        "No teste Charpy, a amostra é posicionada no vertical e presa pela extremidade inferior, enquanto no teste Izod a amostra é presa por ambas as extremidades."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Em uma solda multipasse, qual passe exibirá grãos colunares grossos?",
-        answers : [ 
-        "Passe de raiz.",
-        "Passe quente.",
-        "Passe de enchimento.",
-        "Passe de acabamento."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Inclusões não metálicas em soldas de topo de aços ao carbono são consideradas imperfeições. Que outras imperfeições elas podem originar?",
-        answers : [ 
-        "Falta de fusão e falta de penetração.",
-        "Trincas e falta de fusão.",
-        "Porosidade e falta de fusão.",
-        "Porosidade e trincas."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Sobre o pré-aquecimento da junta de aços inoxidáveis austeníticos é correto dizer:",
-        answers : [ 
-        "deve ser feito à temperatura não superior a 100 °C;",
-        "deve ser feito à temperatura não superior a 200 °C;",
-        "deve ser feito à temperatura calculada com base no carbono equivalente e na espessura da chapa;",
-        "a junta de aços inoxidáveis austeníticos, usualmente, não precisa ser pré-aquecida."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Como deve ser evitada a fissuração a quente na soldagem de aços inoxidáveis austeníticos?",
-        answers : [ 
-        "Aplicando pré-aquecimento.",
-        "Aplicando baixo aporte de calor.",
-        "Aplicando tratamento térmico pós-soldagem.",
-        "Mantendo a temperatura interpasse acima de 200 °C."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"O que determina o Número de Ferrita (FN)?",
-        answers : [ 
-        "A quantidade de ferrita em aços inoxidáveis ferríticos.",
-        "A quantidade de ferrita em aços inoxidáveis austeníticos.",
-        "A quantidade de ferrita em aços inoxidáveis martensíticos.",
-        "A quantidade de ferrita em aços de alta resistência tratados termomecanicamente."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"O que determina o Número de Ferrita (FN)?",
-        answers : [ 
-        "A quantidade de ferrita em aços inoxidáveis ferríticos.",
-        "A quantidade de ferrita em aços inoxidáveis duplex.",
-        "A quantidade de ferrita em aços inoxidáveis martensíticos.",
-        "A quantidade de ferrita em aços de alta resistência tratados termomecanicamente."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Por que os testes de dobramento são usados nos procedimentos de aprovação de soldadores?",
-        answers : [ 
-        "Porque revelam apenas defeitos de solda (falta de fusões, porosidade, trincas) e não mostram outras imperfeições de solda insignificantes.",
-        "Porque os testes de dobramento (livres e guiados) são os únicos que podem quantificar as propriedades mecânicas de metal.",
-        "Pois os testes de dobramento revelam muitas descontinuidades internas, como falta de fusão, porosidade, trincas, que podem ser induzidas pelo soldador.",
-        "Porque é o único teste destrutivo prescrito para aprovações de soldadores."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Por que os testes de dobramento são usados para aprovação de especificações de procedimento de soldagem?",
-        answers : [ 
-        "Porque revelam apenas defeitos de solda (falta de fusão, porosidade, trincas) e não apresentam outras imperfeições de solda insignificantes.",
-        "Porque os testes de dobramento (livres e guiados) são os únicos que podem quantificar as propriedades mecânicas de metal.",
-        "Porque a deformação por tração causa rachaduras e rupturas da amostra se sua zona afetada pelo calor (ZAC) for dura e quebradiça (como resultado de procedimento de soldagem incorreto).",
-        "Porque é o único teste destrutivo prescrito para aprovação de especificações de procedimento de soldagem."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"O que é o tempo t8/5?",
-        answers : [ 
-        "Tempo de transformação da austenita na faixa entre 800 °C e 500 °C.",
-        "Tempo de transformação isotérmica entre 800 °C e 500 °C.",
-        "Tempo de aquecimento entre 500 °C e 800 °C.",
-        "Tempo de resfriamento entre 800 °C e 500 °C."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Em que temperatura começa o crescimento e grãos na zona afetada pelo calor de uma junta soldada de aço carbono?",
-        answers : [ 
-        "Acima da temperatura de transformação de martensita.",
-        "Acima de 723 ºC.",
-        "Acima de 1100 °C (crescimento do grão de austeníta).",
-        "Acima da temperatura Ac1 (crescimento de grão de ferríta)."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Trincas de reaquecimento:",
-        answers : [ 
-        "sempre ocorrem no metal de solda e na ZAC de qualquer tipo de aços Cr-Mo;",
-        "não dependem do nível de tensões residuais;",
-        "sempre se desenvolvem como uma fissuração intergranular;",
-        "sempre se desenvolvem do lado de dentro do grão devido ao aumento dos micro-vazios."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Quais fatores aumentarão a susceptibilidade à fissuração a frio?",
-        answers : [ 
-        "Uma junta soldada com alto nível de tensões residuais, com alto teor de hidrogênio difusível e uma microestrutura final dura.",
-        "Uma junta soldada com alto nível de tensões de compressão, com alto teor de hidrogênio difusível e uma microestrutura final dura.",
-        "Aços que possuem carbono equivalente maior que 0,25, com espessura menor que 10 mm, soldados sem pré-aquecimento.",
-        "Aços que possuem um teor de carbono equivalente muito baixo (<0,15), para serem soldados em temperatura ambiente inferior a 25 ºC, sem pré-aquecimento."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Quais fatores aumentarão a susceptibilidade à fissuração a frio?",
-        answers : [ 
-        "Aços que possuem carbono equivalente maior que 0,45, com espessura maior que 10 mm, soldados sem pré-aquecimento.",
-        "Uma junta soldada com alto nível de tensões de compressão, com alto teor de hidrogênio difusível e uma microestrutura final dura.",
-        "Aços que possuem carbono equivalente maior que 0,25, com espessura menor que 10 mm, soldados sem pré-aquecimento.",
-        "Aços que possuem um teor de carbono equivalente muito baixo (<0,15), para serem soldados em temperatura ambiente inferior a 25 ºC, sem pré-aquecimento."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Quais fatores aumentarão a susceptibilidade à fissuração a frio?",
-        answers : [ 
-        "Aços que possuem um teor de carbono equivalente muito baixo (<0,15), para serem soldados em temperatura ambiente inferior a 5 ºC, sem pré-aquecimento.",
-        "Uma junta soldada com alto nível de tensões de compressão, com alto teor de hidrogênio difusível e uma microestrutura final dura.",
-        "Aços que possuem carbono equivalente maior que 0,25, com espessura menor que 10 mm, soldados sem pré-aquecimento.",
-        "Aços que possuem um teor de carbono equivalente muito baixo (<0,15), para serem soldados em temperatura ambiente inferior a 25 ºC, sem pré-aquecimento."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"É um problema típico da soldagem overlay (revestimento pela soldagem) de aços galvanizados:",
-        answers : [ 
-        "Fragilização pela presença de Zn líquido;",
-        "Trincas a frio;",
-        "Decoesão lamelar (devido a uma forte contração na direção Z);",
-        "Necessidade de usar o processos de soldagem TIG (GTAW) com a polaridade eletrodo positivo, para reduzir a contaminação do eletrodo de tungstênio pelo zinco."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"O que significa a fluência em metais?",
-        answers : [ 
-        "A fluência é um tipo de deformação plástica que ocorre lentamente em tensões abaixo da tensão de escoamento de um metal, em temperaturas elevadas.",
-        "A fluência é um tipo de deformação elástica que ocorre lentamente em tensões abaixo da tensão de escoamento de um metal, em temperaturas elevadas.",
-        "A fluência é um tipo de deformação plástica que ocorre repentinamente na presença de altas tensões acompanhadas por temperaturas elevadas.",
-        "A fluência é um tipo de deformação elástica que ocorre repentinamente na presença de altas tensões acompanhadas por temperaturas elevadas."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"O que significa a fluência em metais?",
-        answers : [ 
-        "A fluência é um tipo de deformação elástica que ocorre lentamente em tensões abaixo da tensão de escoamento de um metal, em temperaturas elevadas.",
-        "A fluência é um tipo de deformação plástica que ocorre repentinamente na presença de altas tensões acompanhadas por temperaturas elevadas.",
-        "A fluência é um tipo de deformação elástica que ocorre repentinamente na presença de altas tensões acompanhadas por temperaturas elevadas.",
-        "A fluência é resultado de um comportamento visco-plástico dos metais a altas temperaturas, sob carregamento e ao longo do tempo."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Qual parâmetro da etapa resfriamento durante o ciclo térmico de soldagem será utilizado para estimar a dureza na ZAC de aço de alta resistência e baixa liga?",
-        answers : [ 
-        "Tempo de resfriamento de 800 °C a 500 °C de temperatura.",
-        "Taxa de resfriamento na temperatura da transformação A3.",
-        "Tempo de resfriamento de 600 °C a 200 °C de temperatura.",
-        "Taxa de resfriamento a uma temperatura de 540 °C."
-        ],
-        correctAnswer:"0",
-        subject:"1"},
-        {
-        question:"Quando soldando Ni e suas ligas, deve-se:",
-        answers : [ 
-        "Pré-aquecer a 150 ºC antes da soldagem;",
-        "Desgraxar e limpar a região da junta antes da soldagem;",
-        "Manter a temperatura de inter-passe mínima de 250 ºC;",
-        "Utilizar tratamento térmico após soldagem."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Quando soldando o níquel puro pelo TIG, qual das seguintes medidas poderia minimizar a porosidade? ",
-        answers : [ 
-        "Usar um gás de proteção inerte com 2 - 3% de adição do nitrogênio.",
-        "Utilizar ângulos de chanfro mais estreitos (40 – 60 graus).",
-        "Antes da soldagem, verificar se as placas estão absolutamente limpas.",
-        "Aplicar o pré-aquecimento com um monitoramento cuidadoso."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"Quando soldando o níquel puro pelo TIG, qual das seguintes medidas poderia minimizar a porosidade? ",
-        answers : [ 
-        "Usar um gás de proteção inerte com 2 - 3% de adição do nitrogênio.",
-        "Utilizar ângulos de chanfro mais estreitos (40 – 60 graus).",
-        "Selecionar cuidadosamente as técnicas de soldagem e o gás de proteção.",
-        "Aplicar o pré-aquecimento com um monitoramento cuidadoso."
-        ],
-        correctAnswer:"2",
-        subject:"1"},
-        {
-        question:"O enxofre é o principal elemento responsável por trincas a quente do aço pois:",
-        answers : [ 
-        "o enxofre tem um ponto de fusão muito baixo (apenas 115 °C) , logo se evapora prontamente abrindo trincas;",
-        "o enxofre e sulfetos de ferro (FeS) têm pontos de fusão inferiores ao do ferro, logo formam bolsões de material líquido nos contornos de grãos, originando assim trincas na presença de tensões tratívas de contração;",
-        "o sulfeto de ferro (FeS) tem um ponto de fusão alto (1195 °C), logo não umecta os contornos de grãos de metal provocando a separação e assim iniciando trincas;",
-        "o enxofre e sulfetos de ferro (FeS) têm pontos de fusão baixos, logo formam bolsões de material líquido nos contornos de grãos, aumentando assim a pressão local e separando os grãos originando trincas."
-        ],
-        correctAnswer:"1",
-        subject:"1"},
-        {
-        question:"Ao soldar aço inoxidável austenítico:",
-        answers : [ 
-        "o resfriamento deve ser rápido;",
-        "a temperatura de pré-aquecimento tem de ser suficientemente elevada;",
-        "o pós-aquecimento de alívio de tensões deve ser feito sempre;",
-        "o pré-aquecimento não é necessário, independentemente da espessura do componente."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Ao soldar aço inoxidável austenítico:",
-        answers : [ 
-        "o resfriamento deve ser rápido;",
-        "a temperatura de pré-aquecimento tem de ser suficientemente elevada;",
-        "o pós-aquecimento de alívio de tensões deve ser feito sempre;",
-        "a temperatura de interpasse deve ser inferior a 180 °C, para evitar sensitização."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Ao soldar aço inoxidável austenítico:",
-        answers : [ 
-        "o resfriamento deve ser rápido;",
-        "a temperatura de pré-aquecimento tem de ser suficientemente elevada;",
-        "o pós-aquecimento de alívio de tensões deve ser feito sempre;",
-        "usar baixa energia de soldagem (problemas de distorção e não são endurecíveis)."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Ao soldar aço inoxidável austenítico:",
-        answers : [ 
-        "o resfriamento deve ser rápido;",
-        "a temperatura de pré-aquecimento tem de ser suficientemente elevada;",
-        "o pós-aquecimento de alívio de tensões deve ser feito sempre;",
-        "usar o metal de adição de baixo carbono ou estabilizado por Ti e/ou Nb (sensitização)."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        {
-        question:"Ao soldar aço inoxidável austenítico:",
-        answers : [ 
-        "o resfriamento deve ser rápido;",
-        "a temperatura de pré-aquecimento tem de ser suficientemente elevada;",
-        "o pós-aquecimento de alívio de tensões deve ser feito sempre;",
-        "usar o metal de adição da mesma ou da quase mesma liga."
-        ],
-        correctAnswer:"3",
-        subject:"1"},
-        
-        
-];
+    question:"O processo de endireitamento (desempenamento) de chapa por chama se baseia em:",
+    answers: ["alongamento do lado mais curto.",
+    "expansão local do material.",
+    "contração local do material.",
+    "transformações estruturais do material."],
+    correctAnswer:"2",
+    subject:"0"
+    },
+    {
+    question:"Por que a aplicação do fluxo é necessária na brasagem?",
+    answers: ["Para reduzir a temperatura na área ativa de brasagem.",
+    "Para aumentar a penetração.",
+    "Para proteger a superfície contra a oxidação na etapa antes da operação de brasagem começar.",
+    "Para proteger a superfície contra a oxidação durante a operação de brasagem."],
+    correctAnswer:"3",
+    subject:"0"
+    },
+    {
+    question:"Por que a aplicação do fluxo é necessária na brasagem?",
+    answers: ["Para remover película de óxidos da superfície.",
+    "Para reduzir a temperatura na área ativa de brasagem.",
+    "Para aumentar a penetração.",
+    "Para proteger a superfície contra a oxidação na etapa antes da operação de brasagem começar."],
+    correctAnswer:"0",
+    subject:"0"
+    },
+    {
+    question:"Por que a aplicação do fluxo é necessária na brasagem?",
+    answers: ["Para reduzir a temperatura na área ativa de brasagem.",
+    "Para aumentar a penetração.",
+    "Para proporcionar o molhamento (pelo metal de adição) do material a ser soldado.",
+    "Para proteger a superfície contra a oxidação na etapa antes da operação de brasagem começar."],
+    correctAnswer:"2",
+    subject:"0"
+    },
+    {
+    question:"O código de cor dourado em um eletrodo de tungstênio designa:",
+    answers: ["eletrodo de tungstênio puro;",
+    "eletrodo de tungstênio lantanado a 1,5%;",
+    "eletrodo de tungstênio toriado a 1%;",
+    "eletrodo de tungstênio lantanado a 2%."],
+    correctAnswer:"1",
+    subject:"0"
+    },
+    {
+    question:"O código de cor cinza em um eletrodo de tungstênio designa:",
+    answers: ["eletrodo de tungstênio ceriado a 2%;",
+    "eletrodo de tungstênio zirconado;",
+    "eletrodo de tungstênio toriado a 1%;",
+    "eletrodo de tungstênio lantanado a 2%."],
+    correctAnswer:"0",
+    subject:"0"
+    },
+    {
+    question:"Uma faixa vermelha em um eletrodo de tungstênio designa:",
+    answers: ["eletrodo de tungstênio puro;",
+    "eletrodo de tungstênio zirconado;",
+    "eletrodo de tungstênio toriado a 1%;",
+    "eletrodo de tungstênio toriado a 2%;"],
+    correctAnswer:"3",
+    subject:"0"
+    },
+    {
+    question:"Tendo em vista a forma de aplicação dos processos de soldagem, é correto afirmar:",
+    answers: ["O método de aplicação mais comum do processo de soldagem TIG é dito como robotizado.",
+    "O método de aplicação mais comum do processo soldagem por arco submerso é dito mecanizado.",
+    "Um robô realiza soldagem semi-automática e não automática, pois a trajetória é traçada por programação manual de um operador de robô.",
+    "Soldagem semi-automática é aquela em que a movimentação da tocha é feita por um sistema motorizado e o metal de adição é alimentado pelo soldador."],
+    correctAnswer:"1",
+    subject:"0"
+    },
+    {
+    question:"Tendo em vista a forma de aplicação dos processos de soldagem, é correto afirmar:",
+    answers: ["O método de aplicação mais comum do processo de soldagem TIG é dito como robotizado.",
+    "Um robô realiza soldagem semi-automática e não automática, pois a trajetória é traçada por programação manual de um operador de robô.",
+    "O método de aplicação mais comum do processo de soldagem com eletrodo tubular é dito semi-automático.",
+    "Soldagem semi-automática é aquela em que a movimentação da tocha é feita por um sistema motorizado e o metal de adição é alimentado pelo soldador."],
+    correctAnswer:"2",
+    subject:"0"
+    },
+    {
+    question:"Em relação ao corte com eletrodo de grafite (arco-grafite), pode-se afirmar que:",
+    answers: ["O processo pode ser usado em aços e em alguns metais não-ferrosos.",
+    "O processo utiliza um jato de gás inerte para remoção do metal fundido.",
+    "O acabamento da goivagem do processo arco grafite é melhor de que no caso da goivagem por plasma.",
+    "No corte de aços, a polaridade recomendada é de corrente contínua eletrodo negativo. "],
+    correctAnswer:"0",
+    subject:"0"
+    },
+    {
+    question:"Assinale a alternativa correta em relação à soldagem a gás.",
+    answers: ["Uma chama redutora ou carburante produzirá carboneto de ferro, causando uma mudança química no aço e no ferro fundido. Logo esse tipo de chama não é usado em metais que absorvem carbono.",
+    "É um processo de baixo aporte de calor, mas torna-se de altíssima concentração de calor caso se aproxime o cone da chama ao metal que se quer fundir.",
+    "Quanto mais oxigênio na mistura gasosa, mais fácil soldar materiais reativos, pois a reação M + O2 é exotérmica.",
+    "A combustão do gás combustível (por exemplo, acetileno) se dá unicamente com o oxigênio da atmosfera."],
+    correctAnswer:"0",
+    subject:"0"
+    },
+    {
+    question:"Assinale a alternativa correta em relação à soldagem a gás.",
+    answers: ["Uma chama oxidante é mais quente do que uma chama neutra e é frequentemente usada para soldar cobre e zinco.",
+    "É um processo de baixo aporte de calor, mas torna-se de altíssima concentração de calor caso se aproxime o cone da chama ao metal que se quer fundir.",
+    "Quanto mais oxigênio na mistura gasosa, mais fácil soldar materiais reativos, pois a reação M + O2 é exotérmica.",
+    "A combustão do gás combustível (por exemplo, acetileno) se dá unicamente com o oxigênio da atmosfera."],
+    correctAnswer:"0",
+    subject:"0"
+    },
+    {
+    question:"Assinale a alternativa correta sobre as microestruturas dos aços ao carbono:",
+    answers: ["A ferrita é uma solução do carbono no ferro gama (estrutura CCC).",
+    "A austenita é a solução sólida intersticial de carbono no ferro gama (estrutura CFC).",
+    "A austenita é uma solução sólida intersticial de ferro gama contendo carbono no contorno de grãos (estrutura HC).",
+    "A martensita é a solução sólida intersticial de carbono no ferro gama (estrutura CFC)."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"Assinale a alternativa correta sobre as microestruturas dos aços ao carbono:",
+    answers: ["A ferrita é uma solução do carbono no ferro gama (estrutura CCC).",
+    "A austenita é uma solução sólida intersticial de ferro gama contendo carbono no contorno de grãos (estrutura HC).",
+    "A ferrita é a solução sólida do carbono no ferro alfa e no ferro delta (estrutura CCC).",
+    "A martensita é a solução sólida intersticial de carbono no ferro gama (estrutura CFC)."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"A presença de perlita nos aços carbono é característica:",
+    answers: ["somente de aços com 0,76% C, independente da velocidade de resfriamento adotada.",
+    "de aços com menos do que 0,76% C, mas somente quando submetidos a resfriamentos rápidos.",
+    "de aços com 0,76% C, mas somente quando submetidos a resfriamentos rápidos.",
+    "de aços com qualquer quantidade de carbono, mas normalmente quando submetidos a resfriamentos lentos ou moderadamente lentos."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Em relação às trincas por reaquecimento, é correto afirmar:",
+    answers: ["Podem acontecer durante tratamentos térmicos de alívio de tensão e/ou trabalho prolongado em altas temperaturas.",
+    "São evitadas por preaquecimento, pelo fato de impedir difusão de hidrogênio para a ZAC.",
+    "Acontecem preferencialmente na ZAC, somente em aços laminados e com esforços no sentido da espessura da chapa.",
+    "São evitadas se o cordão de solda for de aço inoxidável, mesmo que aplicando tratamento térmico."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Em relação às trincas por reaquecimento, é correto afirmar:",
+    answers: ["Elas estão relacionadas à precipitação de carbonetos na ZAC de grãos grosseiros durante o tratamento térmico de alívio de tensão.",
+    "São evitadas por preaquecimento, pelo fato de impedir difusão de hidrogênio para a ZAC.",
+    "Acontecem preferencialmente na ZAC, somente em aços laminados e com esforços no sentido da espessura da chapa.",
+    "São evitadas se o cordão de solda for de aço inoxidável, mesmo que aplicando tratamento térmico."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Qual ferro fundido irá dobrar antes de quebrar?",
+    answers: ["Nodular.",
+    "Branco.",
+    "Cinzento.",
+    "Cinzento maleável."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O níquel, quando adicionado aos aços inoxidáveis,",
+    answers: ["Aumenta a ductilidade, mas diminuir os valores de impacto.",
+    "Aumenta os valores de impacto, mas diminui a resistência à fadiga.",
+    "Aumenta a resistência à corrosão, mas reduz a condutividade térmica.",
+    "Aumenta a resistência à fadiga e aumenta a condutividade elétrica."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Um aço recozido com 0,2% de carbono tem uma microestrutura composta por seguintes constituintes:",
+    answers: ["Martensita, ferrita acicular e bainita;",
+    "Ferrita e perlita;",
+    "Ferrita e martensita;",
+    "Microestrutura parcialmente bainítica."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"O ferro fundido branco serve como a matéria prima para fazer:",
+    answers: ["Ferro fundido maleável.",
+    "aço de baixo carbono.",
+    "ferro forjado.",
+    "ferro dúctil."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O ferro fundido maleável é produzido a partir de:",
+    answers: ["Ferro fundido cinzento;",
+    "Ferro gusa e sucata de aço;",
+    "Ferro fundido branco;",
+    "Aço de alto carbono."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Misturas de gás argônio + hidrogênio são adequadas para GTAW/TIG de qual material de base?",
+    answers: ["Aços inoxidáveis austeníticos.",
+    "Aços de carbono de alta resistência.",
+    "Aços de baixa liga.",
+    "Alumínio."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Misturas de gás argônio + hidrogênio são adequadas para GTAW/TIG de qual material de base?",
+    answers: ["Aços de carbono de alta resistência.",
+    "Ligas à base de níquel.",
+    "Aços de baixa liga.",
+    "Alumínio."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"A soldagem multi-passe com cordões estreitos de peças de aço ao carbono, que não sofrem nenhum tipo de restrição, irá:",
+    answers: ["Resultar em uma estrutura de grãos mais finas que a solda de passe único.",
+    "Causar menos distorção do que a solda de passe único.",
+    "Produzir maior tensão residual do que a solda de passe único.",
+    "assegurar maior ductilidade do que a solda de passe único."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O cobre exibe como uma propriedade química: ",
+    answers: ["elevada solubilidade de muitos elementos;",
+    "a impossibilidade de reação com o nitrogênio, hidrogênio e halogênios;",
+    "alta solubilidade de oxigênio;",
+    "baixa resistência a corrosão em relação a muitos fluidos corrosivos."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O cobre exibe como uma propriedade química: ",
+    answers: ["\"uma solubilidade de oxigênio muito baixa (próximo a \"\"zero\"\");\"",
+    "a impossibilidade de reação com o nitrogênio, hidrogênio e halogênios;",
+    "alta solubilidade de oxigênio;",
+    "baixa resistência a corrosão em relação a muitos fluidos corrosivos."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O cobre exibe como uma propriedade química: ",
+    answers: ["a impossibilidade de reação com o nitrogênio, hidrogênio e carbono;",
+    "alta solubilidade de oxigênio;",
+    "baixa solubilidade de muitos elementos em cobre;",
+    "baixa resistência a corrosão em relação a muitos fluidos corrosivos."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O cobre exibe como uma propriedade química: ",
+    answers: ["boa resistência a corrosão em relação a muitos fluidos corrosivos;",
+    "a impossibilidade de reação com o nitrogênio, hidrogênio e halogênios;",
+    "alta solubilidade de oxigênio;",
+    "baixa solubilidade de muitos elementos em cobre."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"O cobre exibe como uma propriedade química: ",
+    answers: ["baixa afinidade pelo oxigênio (reage muito lentamente com o oxigênio atmosférico);",
+    "a impossibilidade de reação com o nitrogênio, hidrogênio e halogênios;",
+    "baixa solubilidade de muitos elementos em cobre;",
+    "baixa resistência a corrosão em relação a muitos fluidos corrosivos."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Componentes soldados que operarem em temperaturas criogênicas podem ser construídos, dependendo do nível da mais baixa temperatura, de:",
+    answers: ["aços baixa liga resistentes à fluência;",
+    "aços martensíticos modificados ao Cr (9 e 12%);",
+    "aços carbono estruturais, com teor de carbono maior do que 0,2%;",
+    "aços austeníticos CrNi."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Componentes soldados que operarem em temperaturas criogênicas podem ser construídos, dependendo do nível da mais baixa temperatura, de:",
+    answers: ["aços baixa liga resistentes à fluência;",
+    "aços martensíticos modificados ao Cr (9 e 12%);",
+    "aços carbono estruturais, com teor de carbono maior do que 0,2%;",
+    "aços duplex e superduplex."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Componentes soldados que operarem em temperaturas criogênicas podem ser construídos, dependendo do nível da mais baixa temperatura, de:",
+    answers: ["aços baixa liga resistentes à fluência;",
+    "aços martensíticos modificados ao Cr (9 e 12%);",
+    "aços carbono estruturais, com teor de carbono maior do que 0,2%;",
+    "aços 3 e 9% ao Ni."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Componentes soldados que operarem em temperaturas criogênicas podem ser construídos, dependendo do nível da mais baixa temperatura, de:",
+    answers: ["aços baixa liga resistentes à fluência;",
+    "aços martensíticos modificados ao Cr (9 e 12%);",
+    "aços carbono estruturais, com teor de carbono maior do que 0,2%;",
+    "aços estruturais baixa-liga baixo-carbono."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Sob alta ampliação, o grafite em ferro fundido nodular é visto como:",
+    answers: ["esferas arredondadas;",
+    "flocos arredondados;",
+    "flocos alongados;",
+    "formas retangulares."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A soldabilidade de uma junta dissimilar entre aço carbono e aço inoxidável é dependente:",
+    answers: ["das composições dos metais de base;",
+    "do teor de carbono nos metais de base;",
+    "da diferença nas temperaturas de fusão destes aços;",
+    "das características magnéticas dos mesmos (sopro magnético!)."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A soldabilidade de uma junta dissimilar entre aço carbono e aço inoxidável é dependente:",
+    answers: ["da composição do metal de adição;",
+    "do teor de carbono nos metais de base;",
+    "da diferença nas temperaturas de fusão destes aços;",
+    "das características magnéticas dos mesmos (sopro magnético!)."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A soldabilidade de uma junta dissimilar entre aço carbono e aço inoxidável é dependente:",
+    answers: ["da diluição;",
+    "do teor de carbono nos metais de base;",
+    "da diferença nas temperaturas de fusão destes aços;",
+    "das características magnéticas dos mesmos (sopro magnético!)."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Em relação aos aços com granulometria refinada, assinale a alternativa correta: ",
+    answers: ["Na soldagem de aços com granulometria refinada, ocorre uma região de crescimento de grão na ZAC devido ao ciclo térmico. Este crescimento de grão é irreversível.",
+    "Todo aço de granulação fina tem ZAC martensitica, devido a maior temperabilidade de um material de grãos finos;",
+    "O tratamento térmico para refino de grão é feito pela austenização e resfriamento rápido (água ou óleo), para evitar crescimento de grãos;",
+    "A adição de elementos de liga refina a estrutura de grãos do aço uma vez que favorece a nucleação heterogênea."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Em relação aos aços com granulometria refinada, assinale a alternativa correta: ",
+    answers: ["Na soldagem de aços com granulometria refinada, ocorre uma região de crescimento de grão na ZAC devido ao ciclo térmico. Este crescimento de grão é irreversível.",
+    "Todo aço de granulação fina tem ZAC martensitica, devido a maior temperabilidade de um material de grãos finos;",
+    "O tratamento térmico para refino de grão é feito pela austenização e resfriamento rápido (água ou óleo), para evitar crescimento de grãos;",
+    "O refino de grão aumenta a resistência do material, pois diminui o caminho médio percorrido pelas discordâncias."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Em relação aos aços com granulometria refinada, assinale a alternativa correta: ",
+    answers: ["Na soldagem de aços com granulometria refinada, ocorre uma região de crescimento de grão na ZAC devido ao ciclo térmico. Este crescimento de grão é irreversível.",
+    "Todo aço de granulação fina tem ZAC martensitica, devido a maior temperabilidade de um material de grãos finos;",
+    "O tratamento térmico para refino de grão é feito pela austenização e resfriamento rápido (água ou óleo), para evitar crescimento de grãos;",
+    "Pode-se refinar o grão de um aço através de encruamento seguido de tratamento térmico de recristalização."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual dos seguintes elementos favorece à formação da austenita?",
+    answers: ["Cromo.",
+    "Molibdênio.",
+    "Silício.",
+    "Manganês."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual dos seguintes elementos favorece à formação da austenita?",
+    answers: ["Cromo.",
+    "Molibdênio.",
+    "Silício.",
+    "Níquel."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual dos seguintes elementos favorece à formação da austenita?",
+    answers: ["Alumínio.",
+    "Titânio.",
+    "Vanádio.",
+    "Cobalto."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual dos seguintes elementos favorece à formação da austenita?",
+    answers: ["Alumínio.",
+    "Titânio.",
+    "Vanádio.",
+    "Carbono."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual dos seguintes elementos favorece à formação da austenita?",
+    answers: ["Cromo.",
+    "Zircônio.",
+    "Nióbio.",
+    "Nitrogênio."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Qual é o fator que favorece ao crescimento dos grãos nas ZACs de juntas soldadas de aço?",
+    answers: ["A troca da corrente contínua pela corrente alternada.",
+    "A presença do H2 difusível.",
+    "A estrutura ferrítica do metal base.",
+    "O aumento de número de passes. "],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"A adição do vanádio como o micro-ligante do metal de solda assegura um efeito positivo:",
+    answers: ["possibilitando a formação da estrutura refinada;",
+    "reduzindo a temperatura de transição dúctil-frágil;",
+    "aumentando a resistência à corrosão;",
+    "melhorando a conformabilidade a frio."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A proteção contra o desgaste é conseguida por:",
+    answers: ["proteção catódica;",
+    "galvanização;",
+    "pintura;",
+    "revestimento."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"A proteção contra o desgaste é conseguida por:",
+    answers: ["proteção catódica;",
+    "galvanização;",
+    "pintura;",
+    "nitretação. "],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Ferritização (transformação de fase austenítica em ferrítica) na ZAC é típica para os aços:",
+    answers: ["austeníticos;",
+    "ferríticos;",
+    "duplex;",
+    "martencíticos."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Qual é o único método de aumento da resistência que simultaneamente aumenta a resistência mecânica e a dureza?",
+    answers: ["Endurecimento de solução sólida.",
+    "Endurecimento por precipitação.",
+    "Trabalho a frio.",
+    "Refino de grãos."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"A corrosão intergranular em um aço inoxidável austenítico é mais provável em:",
+    answers: ["uma junta soldada resfriada lentamente;",
+    "uma junta soldada resfriada rapidamente;",
+    "um aço inoxidável de baixo carbono (< 0,02%);",
+    "aços inoxidáveis com adições de Ti e Nb."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A corrosão intergranular em um aço inoxidável austenítico é mais provável em:",
+    answers: ["um aço inoxidável de alto carbono;",
+    "uma junta soldada resfriada rapidamente;",
+    "um aço inoxidável de baixo carbono (< 0,02%);",
+    "aços inoxidáveis com adições de Ti e Nb."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"A corrosão intergranular em um aço inoxidável austenítico é menos provável em:",
+    answers: ["aço inoxidável com alto teor de cromo (por exemplo, grau 310 / 310S);",
+    "uma junta soldada resfriada lentamente;",
+    "um aço inoxidável de alto carbono;",
+    "aços inoxidáveis sem adições de Ti e Nb."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Juntas soldadas de aço Cr-Ni austenítico são propensas a:",
+    answers: ["formação de trincas a frio;",
+    "formação de trincas a frio, se não aplicar o pré-aquecimento;",
+    "formação de trincas a quente;",
+    "formação de trincas lamelares."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Juntas soldadas de aço Cr-Ni austenítico são propensas a:",
+    answers: ["formação de trincas a frio;",
+    "formação de trincas a frio, se não aplicar o pré-aquecimento;",
+    "precipitação da fase delta;",
+    "formação de trincas lamelares."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Dentre os prejuízos gerados pela baixa temperatura nos aços, pode-se apontar:",
+    answers: ["Redução da dureza;",
+    "Redução da resistência à fluência;",
+    "\"Redução da temperatura de transição \"\"dúctil - frágil\"\";\"",
+    "Redução de tensão de escoamento."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Dentre os prejuízos gerados pela baixa temperatura nos aços, pode-se apontar:",
+    answers: ["Redução da dureza;",
+    "Redução da resistência à fluência;",
+    "\"Redução da temperatura de transição \"\"dúctil - frágil\"\";\"",
+    "Redução da tenacidade."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Dentre os prejuízos gerados pela baixa temperatura nos aços, pode-se apontar:",
+    answers: ["Redução da dureza;",
+    "Redução da resistência à fluência;",
+    "\"Redução da temperatura de transição \"\"dúctil - frágil\"\";\"",
+    "Redução da ductilidade."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"Dentre os prejuízos gerados pela baixa temperatura nos aços, pode-se apontar:",
+    answers: ["Redução da dureza;",
+    "Redução da resistência à fluência;",
+    "\"Redução da temperatura de transição \"\"dúctil - frágil\"\";\"",
+    "Redução da tensão de ruptura."],
+    correctAnswer:"3",
+    subject:"1"
+    },
+    {
+    question:"A que tipo de corrosão o alumínio e suas ligas soldáveis são sensíveis?",
+    answers: ["Corrosão seletiva.",
+    "Corrosão intergranular.",
+    "Corrosão localizada.",
+    "Corrosão por atrito."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"Quais elementos são responsáveis pela temperabilidade em aços inoxidáveis martensíticos?",
+    answers: ["Molibdênio e vanádio.",
+    "Cromo e carbono.",
+    "Molibdênio e carbono.",
+    "Cromo e vanádio."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"Qual das seguintes ligas à base de níquel contém cobre?",
+    answers: ["Incoloy.",
+    "Monel.",
+    "Inconel.",
+    "Hastelloy B."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"\"O grupo de ligas denominadas \"\"Hastelloys\"\" contém:\"",
+    answers: ["níquel e cobre;",
+    "níquel e nióbio;",
+    "níquel e molibdênio;",
+    "níquel e titânio."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"Quais propriedades serão melhoradas com a adição de níquel ao aço ou ligas?",
+    answers: ["Dureza.",
+    "Resistência à fissuração a quente.",
+    "Estabilização da microestrutura ferrítica.",
+    "Redução do coeficiente de expansão térmica."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Quais propriedades serão melhoradas com a adição de níquel ao aço ou ligas?",
+    answers: ["Propriedades de impacto (a temperatura de transição dúctil-para-frágil diminui).",
+    "Resistência à fissuração a quente.",
+    "Estabilização da microestrutura ferrítica.",
+    "Redução do coeficiente de expansão térmica."],
+    correctAnswer:"0",
+    subject:"1"
+    },
+    {
+    question:"Qual das alternativas a seguir é amplamente usada para turbinas a gás?",
+    answers: ["Ligas Incoloy.",
+    "Ligas Nicromo.",
+    "Ligas Nimonic.",
+    "Ligas Hastelloy."],
+    correctAnswer:"2",
+    subject:"1"
+    },
+    {
+    question:"A fratura frágil em componentes de aço estrutural é favorecida por:",
+    answers: ["maior espessura;",
+    "carregamento mais lento;",
+    "menor tamanho de grão;",
+    "maior temperatura."],
+    correctAnswer:"0",
+    subject:"2"
+    },
+    {
+    question:"A fratura frágil em componentes de aço estrutural é favorecida por:",
+    answers: ["menor temperatura;",
+    "carregamento mais lento;",
+    "menor tamanho de grão;",
+    "maior temperatura."],
+    correctAnswer:"0",
+    subject:"2"
+    },
+    {
+    question:"Com relação à fratura em juntas soldadas é correto afirmar que:",
+    answers: ["a alta temperatura de serviço facilita a fratura frágil em juntas soldadas;",
+    "as tensões residuais de uma solda tendem a ter um papel importante na nucleação e propagação de trincas na fratura frágil;",
+    "A fratura frágil em juntas soldadas de aço estrutural se propaga pelo componente com menor espessura.",
+    "A fratura frágil em juntas soldadas de aço estrutural se propaga pelo componente com maior espessura."],
+    correctAnswer:"1",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de baixo ciclo.",
+    answers: ["Deformações predominantemente elásticas. ",
+    "Baixa frequência de ciclos. ",
+    "Tensões elevadas (da ordem da tensão do limite de resistência).",
+    "Tensões elevadas (da ordem da tensão de escoamento)."],
+    correctAnswer:"3",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de baixo ciclo.",
+    answers: ["Deformações predominantemente elásticas. ",
+    "Baixa frequência de ciclos. ",
+    "Tensões elevadas (da ordem da tensão do limite de resistência).",
+    "Pequeno número de ciclos."],
+    correctAnswer:"3",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de baixo ciclo.",
+    answers: ["Deformações predominantemente elásticas. ",
+    "Baixa frequência de ciclos. ",
+    "Tensões elevadas (da ordem da tensão do limite de resistência).",
+    "Deformações predominantemente plásticas. "],
+    correctAnswer:"3",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de alto ciclo.",
+    answers: ["Deformações predominantemente plásticas. ",
+    "Alta frequência de ciclos. ",
+    "Tensões baixas (inferiores à tensão limite de escoamento).",
+    "Tensões elevadas (da ordem da tensão do limite de resistência)."],
+    correctAnswer:"2",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de alto ciclo.",
+    answers: ["Deformações predominantemente plásticas. ",
+    "Alta frequência de ciclos. ",
+    "Grande número de ciclos de carga (acima de 1000 ciclos).",
+    "Tensões elevadas (da ordem da tensão do limite de resistência)."],
+    correctAnswer:"2",
+    subject:"2"
+    },
+    {
+    question:"Assinale uma das condições que caracterizam o regime de fadiga de alto ciclo.",
+    answers: ["Deformações predominantemente plásticas. ",
+    "Alta frequência de ciclos. ",
+    "Deformações predominantemente elásticas. ",
+    "Tensões elevadas (da ordem da tensão do limite de resistência)."],
+    correctAnswer:"2",
+    subject:"2"
+    },
+    {
+    question:"A área efetiva de um cordão filete:",
+    answers: ["Pode ser calculada multiplicando-se 0,707 pela perna do filete e pelo comprimento do cordão, podendo este último ser reduzido subtraindo-se os comprimentos inicial e final do cordão;",
+    "Pode ser calculada multiplicando-se a perna do filete + penetração pelo seu comprimento, podendo este último ser reduzido subtraindo-se os comprimentos inicial e final do cordão;",
+    "Pode ser calculada multiplicando-se a perna do filete + penetração pelo comprimento do filete;",
+    "Deve ser calculada conforme a norma internacional ISO 5817."],
+    correctAnswer:"0",
+    subject:"2"
+    },
+    {
+    question:"As vigas fabricadas a partir de seções vazadas fechadas podem ter as seguintes vantagens sobre as vigas feitas com seções abertas:",
+    answers: ["Maior facilidade de unir montantes nas cordas de uma treliça;",
+    "Maior resistência à flexão e à torção;",
+    "Elas são mais compactas;",
+    "A área submetida à ação nociva do meio ambiente (corrosão) é menor (apenas a área externa da viga)."],
+    correctAnswer:"1",
+    subject:"2"
+    },
+    {
+    question:"Sobre o momento de inércia de uma seção transversal é correto dizer:",
+    answers: ["O momento de inércia depende da massa unitária da seção transversal de um perfil (maior é a massa, maior será o momento de inércia);",
+    "O momento de inércia é maior para os materiais com a densidade menor;",
+    "\"A seção transversal \"\"gira\"\" com uma maior facilidade em torno do eixo com um maior momento de inércia;\"",
+    "O momento de inércia representa a resistência de uma seção transversal em girar em torno de um eixo."],
+    correctAnswer:"3",
+    subject:"2"
+    },
+    {
+    question:"Com relação ao projeto e fabricação, escolha dentre as seguintes recomendações aquela que melhora a resistência à fadiga:",
+    answers: ["Adicionar membros secundários, tais como suportes, elementos de fixação, etc., para reforçar a estrutura;",
+    "Projetar a configuração das juntas com baixo fator de concentração de tensão;",
+    "Utilizar os processos de soldagem autógena (sem metal de adição);",
+    "Usar juntas soldadas com cobre-junta."],
+    correctAnswer:"1",
+    subject:"2"
+    },
+    {
+    question:"Com relação ao projeto e fabricação, escolha dentre as seguintes recomendações aquela que melhora a resistência à fadiga:",
+    answers: ["Adicionar membros secundários, tais como suportes, elementos de fixação, etc., para reforçar a estrutura;",
+    "Tomar medidas para evitar a interseção de cordões de soldas;",
+    "Utilizar os processos de soldagem autógena (sem metal de adição);",
+    "Usar juntas soldadas com cobre-junta."],
+    correctAnswer:"1",
+    subject:"2"
+    },
+    {
+    question:"Qual destas descontinuidades é considerada a mais crítica caso carregamento dinâmico ocorra em serviço?",
+    answers: ["Qualquer tipo e tamanho de poros.",
+    "Qualquer tamanho de reforço.",
+    "Qualquer tipo e tamanho de trinca.",
+    "Qualquer tamanho de inclusão sólida. "],
+    correctAnswer:"2",
+    subject:"2"
+    },
+    {
+    question:"Qual destas descontinuidades é considerada a menos crítica caso carregamento dinâmico ocorra em serviço?",
+    answers: ["Falta de fusão com parede lateral.",
+    "Trinca de solidificação no eixo da solda.",
+    "Porosidade espalhada.",
+    "Trinca lamelar."],
+    correctAnswer:"2",
+    subject:"2"
+    },
+    {
+    question:"Uma das responsabilidades do Inspetor antes da soldagem é:",
+    answers: ["Revisar todos os desenhos e normas aplicáveis.",
+    "Conferir valores dos parâmetros de soldagem.",
+    "Selecionar os trechos da solda para testes de END a fazer.",
+    "Revisar os desenhos técnicos e sugerir o melhor processo de soldagem a ser usado."],
+    correctAnswer:"0",
+    subject:"3"
+    },
+    {
+    question:"As qualificações do inspetor de soldagem são definidas em:",
+    answers: ["ISO 9712;",
+    "ISO 14732;",
+    "IIW IAB-252 Guideline.",
+    "IIW IAB-041 Guideline."],
+    correctAnswer:"3",
+    subject:"3"
+    },
+    {
+    question:"O pessoal de END e seus níveis de qualificação/certificação são tratados em:",
+    answers: ["ISO 9712;",
+    "ISO 14732;",
+    "ISO 15607;",
+    "ISO 9606."],
+    correctAnswer:"0",
+    subject:"3"
+    },
+    {
+    question:"Qual das seguintes afirmativas é correta para um ensaio radiográfico?",
+    answers: ["Uma redução na espessura produzirá uma imagem mais clara no filme.",
+    "Uma descontinuidade de baixa densidade produzirá uma imagem mais clara no filme.",
+    "Uma descontinuidade de alta densidade produzirá uma imagem mais clara no filme.",
+    "A clareza da imagem no filme depende principalmente da distância (profundidade) e não da densidade da descontinuidade."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual das seguintes afirmativas é correta para um ensaio radiográfico?",
+    answers: ["Uma redução na espessura produzirá uma imagem mais clara no filme.",
+    "Uma descontinuidade de baixa densidade produzirá uma imagem mais clara no filme.",
+    "As inclusões de tungstênio aparecem como pontos brancas brilhantes no filme.",
+    "A clareza da imagem no filme depende principalmente da distância (profundidade) e não da densidade da descontinuidade."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual das seguintes afirmativas é correta para um ensaio radiográfico?",
+    answers: ["Uma redução na espessura produzirá uma imagem mais clara no filme.",
+    "Uma descontinuidade de baixa densidade produzirá uma imagem mais clara no filme.",
+    "A maioria dos defeitos de solda aparecem escuros contra um fundo mais claro no filme.",
+    "A clareza da imagem no filme depende principalmente da distância (profundidade) e não da densidade da descontinuidade."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Em qual das opções abaixo os Níveis da Qualidade para imperfeições da Norma ISO 5817 estão organizados em ordem crescente de requisitos da qualidade?",
+    answers: ["A, B e C.",
+    "C, B e A.",
+    "B, C e D.",
+    "D, C e B."],
+    correctAnswer:"3",
+    subject:"3"
+    },
+    {
+    question:"Que carga e diâmetro da esfera usa o teste de dureza Brinell ao ensaiar o aço?",
+    answers: ["Esfera de 5 mm e carga de 3000 kg.",
+    "Esfera de 10 mm e carga de 3000 kg.",
+    "Esfera de 15 mm e carga de 3000 kg.",
+    "Esfera de 15 mm e carga de 4000 kg."],
+    correctAnswer:"1",
+    subject:"1"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Executar, controlar ou monitorar uma operação de soldagem.",
+    "Supervisionar as atividades do inspetor de nível IWI-B.",
+    "Capaz de rever os requisitos do contrato de construção de soldagem.",
+    "Especificar, desenvolver, avaliar, validar e gerenciar as instruções do trabalho."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Realizar a organização de operações de soldagem.",
+    "Desenvolver e fornecer instruções ao inspetor de nível IWI-B.",
+    "Capaz de realizar revisão técnica da construção da soldagem.",
+    "Auxiliar os engenheiros de soldagem em suas tarefas diárias."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Monitorar e implementar o plano de fabricação.",
+    "Desenvolver, comentar e revisar Planos de Controle de Qualidade baseados em padrões de produtos, códigos, especificações, desenhos e requisitos regulatórios.",
+    "Especificar, supervisionar e gerenciar o pessoal de soldagem e as necessidades de pessoal e competências / habilidades relacionadas.",
+    "Auxiliar os engenheiros de soldagem em suas tarefas diárias."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Monitorar e implementar o plano de fabricação.",
+    "Desenvolver, comentar e revisar Planos de Inspeção e Testes com base em padrões, códigos, especificações, desenhos e requisitos regulamentares do produto.",
+    "Especificar, supervisionar e gerenciar o pessoal de soldagem e as necessidades de pessoal e competências / habilidades relacionadas.",
+    "Supervisionar a implementação e monitorar as atividades de subcontratação."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Executar, controlar ou monitorar uma operação de soldagem.",
+    "Supervisionar testes de qualificação de procedimento incluindo testes de amostras.",
+    "Calcular os parâmetros geométricos da soldagem.",
+    "Entender e supervisionar o uso adequado dos equipamentos e meios necessários para a construção."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Realizar a organização de operações de soldagem.",
+    "Verificar a conformidade das qualificações e aprovações do soldador com os padrões, códigos e especificações aplicáveis para aplicações convencionais.",
+    "Calcular os parâmetros geométricos da soldagem.",
+    "Supervisionar a implementação e monitorar as atividades de subcontratação."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Realizar a organização de operações de soldagem.",
+    "Verifique a conformidade dos WQPRs e WPSs com os padrões, códigos e especificações aplicáveis às aplicações convencionais.",
+    "Especificar, desenvolver, validar e gerenciar o plano de manufatura.",
+    "Supervisionar a implementação e monitorar as atividades de subcontratação."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Monitorar e implementar o plano de fabricação.",
+    "Verificar a conformidade dos certificados de matérias-primas e consumíveis com as normas, códigos e especificações aplicáveis.",
+    "Especificar, supervisionar e gerenciar o pessoal de soldagem e as necessidades de pessoal e competências / habilidades relacionadas.",
+    "Auxiliar os engenheiros de soldagem em suas tarefas diárias."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Executar, controlar ou monitorar uma operação de soldagem.",
+    "Verificar a conformidade das especificações PWHT com os padrões, códigos e especificações aplicáveis.",
+    "Entender e implementar instruções de trabalho.",
+    "Entender, implementar, supervisionar e monitorar tratamentos térmicos."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Realizar a organização de operações de soldagem.",
+    "Tomar decisões sobre a aceitação de documentos de qualidade relacionados à fabricação de soldagem (por exemplo, NDT, teste de material, testes de produção, etc.).",
+    "Calcular os parâmetros geométricos da soldagem.",
+    "Compreender e implementar os Procedimentos de Soldagem necessários para a construção."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Monitorar e implementar o plano de fabricação.",
+    "Tomar decisões com base em documentos de qualidade (por exemplo, END, teste de material, testes de produção, etc.) de acordo com os requisitos definidos para a construção.",
+    "Especificar, supervisionar e gerenciar o pessoal de soldagem e as necessidades de pessoal e competências / habilidades relacionadas.",
+    "Implementar, monitorar e controlar ações corretivas para resolver não-conformidades de construção soldadas."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Executar, controlar ou monitorar uma operação de soldagem.",
+    "Verificar a adequação da qualidade dos filmes radiográficos.",
+    "Especificar, desenvolver, avaliar, validar e gerenciar os Procedimentos de Soldagem necessários para a construção.",
+    "Entender e supervisionar o uso adequado dos equipamentos e meios necessários para a construção."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Realizar a organização de operações de soldagem.",
+    "Identificar e verificar as técnicas relevantes de END para uma construção soldada.",
+    "Calcular os parâmetros geométricos da soldagem.",
+    "Supervisionar a implementação e monitorar as atividades de subcontratação."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Como inspetor de soldagem do nível IWI-S, você deve ser capaz de:",
+    answers: ["Monitorar e implementar o plano de fabricação.",
+    "Relatar sobre qualquer uma das ações da IWI-S.",
+    "Supervisionar e monitorar o pessoal de soldagem e as necessidades de pessoal e competências / habilidades relacionadas.",
+    "Auxiliar os engenheiros de soldagem em suas tarefas diárias."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Qual dispositivo é usado na radiografia para avaliar a qualidade de imagem?",
+    answers: ["Exponômetro.",
+    "Dosímetro.",
+    "Régua de chumbo.",
+    "Penetrômetro."],
+    correctAnswer:"3",
+    subject:"3"
+    },
+    {
+    question:"O processo pelo qual a indicação ultrassônica está relacionada à distância física (real) em um bloco de padrão é referido como:",
+    answers: ["Aferição.",
+    "Calibração.",
+    "Verificação.",
+    "Certificação."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"Qual descontinuidade da solda aparece como uma região clara em uma radiografia?",
+    answers: ["Porosidade.",
+    "Inclusão de tungstênio.",
+    "Penetração incompleta.",
+    "Fusão incompleta."],
+    correctAnswer:"1",
+    subject:"3"
+    },
+    {
+    question:"No ensaio de gamagrafia, os isótopos artificiais mais utilizados são:",
+    answers: ["Irídio e césio;",
+    "Urânio e isótopo alfa;",
+    "Isótopo beta e urânio",
+    "Raios-X e raio gama"],
+    correctAnswer:"0",
+    subject:"3"
+    },
+    {
+    question:"Qual orientação de uma descontinuidade planar fornece a melhor indicação em uma radiografia?",
+    answers: ["Uma orientação perpendicular à direção de radiação.",
+    "Uma orientação oblíqua à direção de radiação, pois assim será possível avaliar todas as dimensões da descontinuidade;",
+    "Uma orientação paralela à direção da radiação.",
+    "A orientação de descontinuidades não tem nenhuma influência na detactibilidade delas pela radiografia, pois a radiação se espalha em todas as direções."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das vantagens do uso da inspeção por Raios-X em comparação com a por Raios Gama?",
+    answers: ["Os equipamentos da inspeção por raios-X são geralmente mais portáteis.",
+    "É mais fácil controlar a exposição com o uso da máquina de raios-X do que com os radioisótopos.",
+    "Nos dias de hoje os tubos de raios-X são bem pequenos em tamanho, o que permite levá-los facilmente aos materiais a serem ensaiados.",
+    "As máquinas de raios-X não apresentam problemas de decaimento radioativo, diferentemente de radioisótopos usados na gamagrafia."],
+    correctAnswer:"3",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das vantagens do uso da inspeção por Raios-X em comparação com a por Raios Gama?",
+    answers: ["Os equipamentos da inspeção por raios-X são geralmente mais portáteis.",
+    "É mais fácil controlar a exposição com o uso da máquina de raios-X do que com os radioisótopos.",
+    "Nos dias de hoje os tubos de raios-X são bem pequenos em tamanho, o que permite levá-los facilmente aos materiais a serem ensaiados.",
+    "A proteção contra radiação é mais fácil (basta desligar o equipamento da rede elétrica para cessar imediatamente a produção de radiação)."],
+    correctAnswer:"3",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das do uso da inspeção por Raios Gama (gamagrafia) em comparação com Raios-X?",
+    answers: ["A proteção contra radiação é mais fácil (basta sempre guardar o isótopo por dentro da caixa de blindagem).",
+    "A energia da radiação de cada isótopo é diferente, por isso é muito fácil adequar a fonte de raios gama para dadas condições substituindo um isótopo por outro.",
+    "A gamagrafia pode ser empregada em todas as atividades industriais onde se emprega os raios-X e ainda mais, pode ser empregada em lugares de difícil acesso. ",
+    "Os raios gama são muito menos perigosos para a saúde humana do que os raios-X."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das vantagens do uso da inspeção por Raios Gama (gamagrafia) em comparação com Raios-X?",
+    answers: ["A proteção contra radiação é mais fácil (basta sempre guardar o isótopo por dentro da caixa de blindagem).",
+    "A energia da radiação de cada isótopo é diferente, por isso é muito fácil adequar a fonte de raios gama para dadas condições substituindo um isótopo por outro.",
+    "As fontes radioativas e equipamentos auxiliares (blindagem e irradiadores) são bem mais baratos em relação aos aparelhos de raios-X.",
+    "Os raios gama são muito menos perigosos para a saúde humana do que os raios-X."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das vantagens do uso da inspeção por Raios Gama (gamagrafia) em comparação com Raios-X?",
+    answers: ["A proteção contra radiação é mais fácil (basta sempre guardar o isótopo por dentro da caixa de blindagem).",
+    "A energia da radiação de cada isótopo é diferente, por isso é muito fácil adequar a fonte de raios gama para dadas condições substituindo um isótopo por outro.",
+    "Devido a sua complexidade, a máquina de raios-X exige, na maioria dos casos, que os materiais sejam levados a ela, ao passo que um isótopo pode ser facilmente levado aos materiais a serem ensaiados.",
+    "Os raios gama são muito menos perigosos para a saúde humana do que os raios-X."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Qual é uma das vantagens do uso da inspeção por Raios Gama (gamagrafia) em comparação com Raios-X?",
+    answers: ["A proteção contra radiação é mais fácil (basta sempre guardar o isótopo por dentro da caixa de blindagem).",
+    "A energia da radiação de cada isótopo é diferente, por isso é muito fácil adequar a fonte de raios gama para dadas condições substituindo um isótopo por outro.",
+    "As principais vantagens do uso de isótopos sobre os raios-X são: maior portabilidade, não há necessidade de uma fonte de energia, menor custo inicial do equipamento.",
+    "Os raios gama são muito menos perigosos para a saúde humana do que os raios-X."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Termômetros de contato são instrumentos de medição de temperatura em soldagem numa faixa típica de:",
+    answers: ["50 – 500 °C;",
+    "100 – 800 °C;",
+    "200 – 1200 °C;",
+    "200 – 1500 °C."],
+    correctAnswer:"2",
+    subject:"3"
+    },
+    {
+    question:"Como se chamam os dispositivos usados na radiografia para avaliar a qualidade de imagem?",
+    answers: ["Exponômetros.",
+    "Dosímetros.",
+    "Réguas de chumbo.",
+    "Indicadores da Qualidade de Imagem."],
+    correctAnswer:"3",
+    subject:"3"}]
+    ;

@@ -41,10 +41,10 @@
 
 
         #secondImage img {
-            width:85%;
+            width:86%;
             position:absolute;
             left: 10%;
-            top: 22%;
+            top: 29%;
             }
         
         #baloes img {
@@ -53,6 +53,7 @@
             left: 39%;
             top: 18%;  
         }
+        
         #subject{
             font-size: max(10px, 1.1vw);
             top: 50%;

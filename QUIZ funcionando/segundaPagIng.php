@@ -38,10 +38,10 @@
             color: rgb(228, 85, 85);
         }
         #secondImage img {
-            width:85%;
+            width:86%;
             position:absolute;
             left: 10%;
-            top: 27%;
+            top: 28%;
             }
         
         #baloes img {
